@@ -1,0 +1,18 @@
+Topic: CD015786
+Version: base
+Title: Lymphadenectomy or sentinel node biopsy for the management of endometrial cancer: a network meta-analysis
+Year: 2023
+
+Date: 2023-09-12
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To evaluate the effectiveness and safety of lymphadenectomy and sentinel node biopsy for the
+management of women with endometrial cancer, comparing different head-to-head comparisons in a
+network meta-analysis, thereby allowing ranking of alternative treatment strategies.
+
+Query:
+1. Sentinel Lymph Node Biopsy/ 2. Sentinel Lymph Node/ 3. exp Lymph Node Excision/ 4. ((sentinel or lymph or node*) adj5 (excision* or dissection* or surg* or removal or clearance)).ti,ab,kw. 5. lymphadenectom*.ti,ab,kw. 6. Lymph Nodes/ 7. 1 or 2 or 3 or 4 or 5 or 6 8. exp Uterine Neoplasms/ 9. ((endometr* or uter*) adj5 (neoplas* or carcinom* or adenocarcinom* or malignan* or cancer* or tumor* or tumour*)).ti,ab,kw. 10. 8 or 9 11. randomized controlled trial.pt. 12. controlled clinical trial.pt. 13. randomized.ab. 14. randomly.ab. 15. trial.ab. 16. groups.ab. 17. 11 or 12 or 13 or 14 or 15 or 16 18. exp animals/ not humans.sh. 19. 17 not 18 20. 7 and 10 and 19
+
+QueryOrbit:
+(("Sentinel Lymph Node Biopsy"[Mesh] OR "Sentinel Lymph Node"[Mesh] OR "Lymph Node Excision"[Mesh] OR "Lymph Nodes"[Mesh] OR ((sentinel[tiab] OR lymph[tiab] OR node*[tiab]) AND (excision*[tiab] OR dissection*[tiab] OR surg*[tiab] OR removal[tiab] OR clearance[tiab])) OR lymphadenectom*[tiab]) AND ("Uterine Neoplasms"[Mesh] OR ((endometr*[tiab] OR uter*[tiab]) AND (neoplas*[tiab] OR carcinom*[tiab] OR adenocarcinom*[tiab] OR malignan*[tiab] OR cancer*[tiab] OR tumor*[tiab] OR tumour*[tiab]))) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

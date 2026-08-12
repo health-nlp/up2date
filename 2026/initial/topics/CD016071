@@ -1,0 +1,24 @@
+Topic: CD016071
+Version: base
+Title: Parallel use of low-complexity automated nucleic acid amplification tests on respiratory samples and stool with or without lateral flow lipoarabinomannan assays to detect pulmonary tuberculosis disease in children
+Year: 2024
+
+Date: 2024-05-13
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (diagnostic). The objectives are as follows: To
+compare the diagnostic accuracy of the parallel use of low-complexity automated nucleic acid
+amplification tests on respiratory and stool specimens in children and lateral flow urine
+lipoarabinomannan amongst children with HIV versus each assay alone for detecting pulmonary
+tuberculosis. Secondary objectives To compare the diagnostic accuracy of low-complexity automated
+nucleic acid amplification tests on respiratory and stool specimens in combination versus each
+sample type alone. To investigate the following sources of heterogeneity: clinical setting, signs
+and symptoms of pulmonary tuberculosis disease, screening positivity by chest X-ray abnormalities,
+age group, specimen type; and also amongst children with HIV: CD4 cell-count or percent category,
+advanced HIV disease, and serious illness
+
+Query:
+1 Mycobacterium tuberculosis/ 2 *Tuberculosis/ 3 Tuberculosis, Pulmonary/ 4 multidrug resistant tuberculosis.mp. or Tuberculosis, Multidrug-Resistant/ 5 extensively drug resistant tuberculosis.mp. or Extensively Drug-Resistant Tuberculosis/ 6 (tuberculosis or TB).ti,ab. 7 1 or 2 or 3 or 4 or 5 or 6 8 Xpert*.ti. or Xpert*.ab. 9 (GeneXpert* or cepheid).ti. or (GeneXpert* or cepheid).ab. 10 (Truenat* or Molbio or TruRif).mp. 11 (STANDARD M10 or 1 or IRON-qPCR or BIONEER).mp. 12 TB-LAMP*.mp. 13 Loop-Mediated Isothermal Amplification.mp. 14 (LAMP or LOOPAMP).mp. 15 NAAT*.mp. 16 Nucleic Acid Amplification Techniques/ 17 "nucleic acid amplification".tw. 18 Diagnostic Tests, Routine/ or RDT*.mp. 19 rapid diagnos*.ti,ab. 20 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 21 7 and 20 22 (LAM or lipoarabinomannan or alerelam or "determine tb lam" or "lf-lam" or "TB LAM").mp. 23 (child or children* or childhood or infan* or newborn or neonat* or toddler* or adolescen*).mp. 24 exp Child/ or exp Infant/ or Adolescent/ or exp Pediatrics/ 25 21 or 22 26 23 or 24 27 25 and 26 28 limit 27 to yr="2010 -Current"
+
+QueryOrbit:
+((("Mycobacterium tuberculosis"[Mesh] OR "Tuberculosis"[Majr] OR "Tuberculosis, Pulmonary"[Mesh] OR "multidrug resistant tuberculosis"[tw] OR "Tuberculosis, Multidrug-Resistant"[Mesh] OR "extensively drug resistant tuberculosis"[tw] OR "Extensively Drug-Resistant Tuberculosis"[Mesh] OR tuberculosis[tiab] OR TB[tiab]) AND (Xpert*[tiab] OR GeneXpert*[tiab] OR cepheid[tiab] OR Truenat*[tw] OR Molbio[tw] OR TruRif[tw] OR "STANDARD M10"[tw] OR "IRON-qPCR"[tw] OR BIONEER[tw] OR TB-LAMP*[tw] OR "Loop-Mediated Isothermal Amplification"[tw] OR LAMP[tw] OR LOOPAMP[tw] OR NAAT*[tw] OR "Nucleic Acid Amplification Techniques"[Mesh] OR "nucleic acid amplification"[tw] OR "Diagnostic Tests, Routine"[Mesh] OR RDT*[tw] OR (rapid[tiab] AND diagnos*[tiab]))) OR (LAM[tw] OR lipoarabinomannan[tw] OR alerelam[tw] OR "determine tb lam"[tw] OR "lf-lam"[tw] OR "TB LAM"[tw])) AND (child[tw] OR children*[tw] OR childhood[tw] OR infan*[tw] OR newborn[tw] OR neonat*[tw] OR toddler*[tw] OR adolescen*[tw] OR "Child"[Mesh] OR "Infant"[Mesh] OR "Adolescent"[Mesh] OR "Pediatrics"[Mesh]) AND 2024[dp]

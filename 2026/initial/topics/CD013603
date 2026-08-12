@@ -1,0 +1,73 @@
+Topic: CD013603
+Version: pub2
+Title: Healthcare workers' perceptions and experiences of primary healthcare integration: a scoping review of qualitative evidence
+Year: 2023
+
+Date: 2023-07-11
+
+Abstract:
+Background Primary healthcare (PHC) integration has been promoted globally as a tool for health
+sector reform and universal health coverage (UHC), especially in low-resource settings. However, for
+a range of reasons, implementation and impact remain variable. PHC integration, at its simplest, can
+be considered a way of delivering PHC services together that sometimes have been delivered as a
+series of separate or 'vertical' health programmes. Healthcare workers are known to shape the
+success of implementing reform interventions. Understanding healthcare worker perceptions and
+experiences of PHC integration can therefore provide insights into the role healthcare workers play
+in shaping implementation efforts and the impact of PHC integration. However, the heterogeneity of
+the evidence base complicates our understanding of their role in shaping the implementation,
+delivery, and impact of PHC integration, and the role of contextual factors influencing their
+responses. Objectives To map the qualitative literature on healthcare workers' perceptions and
+experiences of PHC integration to characterise the evidence base, with a view to better inform
+future syntheses on the topic. Search methods We used standard, extensive Cochrane search methods.
+The latest search date was 28 July 2020. We did not search for grey literature due to the many
+published records identified. Selection criteria We included studies with qualitative and mixed
+methods designs that reported on healthcare worker perceptions and experiences of PHC integration
+from any country. We excluded settings other than PHC and community-based health care, participants
+other than healthcare workers, and interventions broader than healthcare services. We used
+translation support from colleagues and Google Translate software to screen non-English records.
+Where translation was not feasible we categorised these records as studies awaiting classification.
+Data collection and analysis For data extraction, we used a customised data extraction form
+containing items developed using inductive and deductive approaches. We performed independent
+extraction in duplicate for a sample on 10% of studies allowed for sufficient agreement to be
+reached between review authors. We analysed extracted data quantitatively by counting the number of
+studies per indicator and converting these into proportions with additional qualitative descriptive
+information. Indicators included descriptions of study methods, country setting, intervention type,
+scope and strategies, implementing healthcare workers, and client target population. Main results
+The review included 184 studies for analysis based on 191 included papers. Most studies were
+published in the last 12 years, with a sharp increase in the last five years. Studies mostly
+employed methods with cross-sectional qualitative design (mainly interviews and focus group
+discussions), and few used longitudinal or ethnographic (or both) designs. Studies covered 37
+countries, with close to an even split in the proportions of high-income countries (HICs) and low-
+and middle-income countries (LMICs). There were gaps in the geographical spread for both HICs and
+LMICs and some countries were more dominant, such as the USA for HICs, South Africa for
+middle-income countries, and Uganda for low-income countries. Methods were mainly cross-sectional
+observational studies with few longitudinal studies. A minority of studies used an analytical
+conceptual model to guide the design, implementation, and evaluation of the integration study. The
+main finding was the various levels of diversity found in the evidence base on PHC integration
+studies that examined healthcare workers' perceptions and experiences. The review identified six
+different configurations of health service streams that were being integrated and these were
+categorised as: mental and behavioural health; HIV, tuberculosis (TB) and sexual reproductive
+health; maternal, women, and child health; non-communicable diseases; and two broader categories,
+namely general PHC services, and allied and specialised services. Within the health streams, the
+review mapped the scope of the interventions as full or partial integration. The review mapped the
+use of three different integration strategies and categorised these as horizontal integration,
+service expansion, and service linkage strategies. The wide range of healthcare workers who
+participated in the implementation of integration interventions was mapped and these included
+policymakers, senior managers, middle and frontline managers, clinicians, allied healthcare
+professionals, lay healthcare workers, and health system support staff. We mapped the range of
+client target populations. Authors' conclusions This scoping review provides a systematic,
+descriptive overview of the heterogeneity in qualitative literature on healthcare workers'
+perceptions and experience of PHC integration, pointing to diversity with regard to country
+settings; study types; client populations; healthcare worker populations; and intervention focus,
+scope, and strategies. It would be important for researchers and decision-makers to understand how
+the diversity in PHC integration intervention design, implementation, and context may influence how
+healthcare workers shape PHC integration impact. The classification of studies on the various
+dimensions (e.g. integration focus, scope, strategy, and type of healthcare workers and client
+populations) can help researchers to navigate the way the literature varies and for specifying
+potential questions for future qualitative evidence syntheses.
+
+Query:
+1. "Delivery of Health Care, Integrated"/ 2. ((integrat* or coordinat* or co ordinat*) and (care or healthcare or primary health or service*)).ti. 3. ((integrat* or coordinat* or co ordinat*) adj1 (care or healthcare or primary health)).ab,kf. 4. ((integrat* or coordinat* or co ordinat*) adj3 service*).ab,kf. 5. or/1-4 6. Qualitative Research/ 7. Interviews as Topic/ 8. (qualitative or interview* or themes or mixed method?).ti,ab,kf. 9. or/6-8 10. 5 and 9
+
+QueryOrbit:
+(("Delivery of Health Care, Integrated"[Mesh] OR ((integrat*[ti] OR coordinat*[ti] OR "co ordinate"[ti] OR "co ordinated"[ti] OR "co ordination"[ti]) AND (care[ti] OR healthcare[ti] OR "primary health"[ti] OR service*[ti])) OR ((integrat*[tiab] OR coordinat*[tiab] OR "co ordinate"[tiab] OR "co ordinated"[tiab] OR "co ordination"[tiab]) AND (care[tiab] OR healthcare[tiab] OR "primary health"[tiab] OR service*[tiab]))) AND ("Qualitative Research"[Mesh] OR "Interviews as Topic"[Mesh] OR qualitative[tiab] OR interview*[tiab] OR themes[tiab] OR "mixed method"[tiab] OR "mixed methods"[tiab])) AND 1800:2023[dp]

@@ -1,0 +1,25 @@
+Topic: CD015806
+Version: base
+Title: TB-LAMP (loop-mediated isothermal amplification) for diagnosing pulmonary tuberculosis in children
+Year: 2023
+
+Date: 2023-09-07
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (diagnostic). The objectives are as follows: To
+determine the diagnostic accuracy of tuberculosis loop-mediated isothermal amplification (TB-LAMP)
+for the detection of pulmonary tuberculosis in children with presumptive pulmonary tuberculosis.
+Secondary objectives To compare the diagnostic accuracy of TB-LAMP and Xpert MTB/RIF Ultra for the
+detection of pulmonary tuberculosis in children with presumptive pulmonary tuberculosis. To compare
+the diagnostic accuracy of TB-LAMP and smear microscopy for detecting pulmonary tuberculosis in
+children when TB-LAMP is considered as a replacement test for smear microscopy. To determine the
+diagnostic accuracy of TB-LAMP for the detection of pulmonary tuberculosis if used as an add-on test
+amongst sputum smear-negative children. To investigate potential sources of heterogeneity in the
+diagnostic accuracy of TB-LAMP due to factors such as smear status, age, gender, HIV status,
+setting, and tuberculosis burden.
+
+Query:
+1 Tuberculosis, Pulmonary/ or Mycobacterium Tuberculosis/ 2 tuberculosis, multidrug-resistant/ or extensively drug-resistant tuberculosis/ 3 ((tuberculosis adj3 (lung or pulmonary)) or (tuberculosis adj3 respiratory)).ti,ab,kw. 4 (tuberculosis adj3 (drug resistan* or multidrug resistan* or mdr or xdr)).ti,ab,kw. 5 1 or 2 or 3 or 4 6 exp Animals/ 7 exp humans/ 8 6 and 7 9 6 not 8 10 5 not 9 11 TB-LAMP*.mp. 12 Loop-Mediated Isothermal Amplification.mp. 13 LAMP.mp. 14 LOOPAMP*.mp. 15 (cartridge adj3 test*).ti,ab,kw. 16 (Molbio or Truenat or Cepheid or Xpert* or Bioneer or Hain or Genexpert*).ti,ab,kw. 17 exp Reagent Kits, Diagnostic/ 18 (rapid adj3 (detect* or test* or diagnos*)).ti,ab,kw. 19 (smear microscopy or index test*).ti,ab,kw. 20 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 21 10 and 20 22 limit 21 to yr="2006 -Current"
+
+QueryOrbit:
+2023[dp] AND ((("Tuberculosis, Pulmonary"[Mesh:NoExp] OR "Mycobacterium tuberculosis"[Mesh:NoExp] OR "Tuberculosis, Multidrug-Resistant"[Mesh:NoExp] OR "Extensively Drug-Resistant Tuberculosis"[Mesh:NoExp] OR (tuberculosis[tiab] AND (lung[tiab] OR pulmonary[tiab] OR respiratory[tiab])) OR (tuberculosis[tiab] AND ((drug[tiab] AND resistan*[tiab]) OR (multidrug[tiab] AND resistan*[tiab]) OR mdr[tiab] OR xdr[tiab]))) NOT (animals[Mesh] NOT humans[Mesh])) AND ("TB-LAMP"[tw] OR "Loop-Mediated Isothermal Amplification"[tw] OR LAMP[tw] OR LOOPAMP*[tw] OR (cartridge[tiab] AND test*[tiab]) OR Molbio[tiab] OR Truenat[tiab] OR Cepheid[tiab] OR Xpert*[tiab] OR Bioneer[tiab] OR Hain[tiab] OR Genexpert*[tiab] OR "Reagent Kits, Diagnostic"[Mesh] OR (rapid[tiab] AND (detect*[tiab] OR test*[tiab] OR diagnos*[tiab])) OR "smear microscopy"[tiab] OR "index test"[tiab] OR "index tests"[tiab]))
