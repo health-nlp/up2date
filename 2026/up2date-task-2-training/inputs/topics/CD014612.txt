@@ -1,0 +1,17 @@
+Topic: CD014612
+Version: base
+Title: Closure of mesenteric defects for prevention of internal hernia after Roux-en-Y gastric bypass in bariatric surgery
+Year: 2023
+
+Date: 2023-05-09
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To assess the efficacy and safety of defect closure for prevention of internal hernia after Roux-en
+Y gastric bypass (RYGB) in bariatric surgery.
+
+Query:
+1. exp Gastric Bypass/ 2. ((gastric or gastro* or stomach) adj5 bypass).tw,kw. 3. (roux-en-y or RYGB).tw,kw. 4. gastrojejunostom*.tw,kw. 5. bariatric surgery/ 6. (bariatric and (surger* or procedure* or technique*)).tw,kw. 7. or/1-6 8. mesenter*.tw,kw. 9. exp Hernia/ 10. (Internal adj3 hernia*).tw,kw. 11. or/8-11 12. 7 and 12 13. (Closure* or close*).tw,kw. 14. 13 and 14
+
+QueryOrbit:
+(("Gastric Bypass"[Mesh] OR "Bariatric Surgery"[Mesh] OR ((gastric[tiab] OR gastro*[tiab] OR stomach[tiab]) AND bypass[tiab]) OR roux-en-y[tiab] OR RYGB[tiab] OR gastrojejunostom*[tiab] OR (bariatric[tiab] AND (surger*[tiab] OR procedure*[tiab] OR technique*[tiab]))) AND (mesenter*[tiab] OR Hernia[Mesh] OR (internal[tiab] AND hernia*[tiab])) AND (closure*[tiab] OR close*[tiab])) AND 1800:2023[dp]

@@ -1,0 +1,18 @@
+Topic: CD015746
+Version: base
+Title: Typhoid conjugate vaccines for preventing typhoid fever (enteric fever)
+Year: 2023
+
+Date: 2023-06-14
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To assess the efficacy and safety of typhoid conjugate vaccines compared to no vaccine, placebo,
+typhoid-inactive agents (vaccines for another disease), or other typhoid vaccines for preventing
+morbidity and mortality associated with typhoid fever infection in adults and children.
+
+Query:
+1 Typhoid Fever/ 2 salmonella paratyphi a/ or salmonella paratyphi b/ or salmonella paratyphi c/ or salmonella typhi/ 3 Typhoid fever.tw. 4 paratyphoid fever.tw. 5 Paratyphoid Fever/ 6 enteric fever.tw. 7 1 or 2 or 3 or 4 or 5 or 6 8 Vaccines, Conjugate/ or Vaccination/ 9 (typhoid* adj4 (toxoid* or vaccin* or immuni* or booster* or revaccin*)).tw. 10 (Vi conjugate or Vi polysaccharide).tw 11 Tetanus Toxoid/ad, ae, pk, pd, tu 12 (Vi-TT or ZYVAC-TCV or Pedatyph or Typbar-TCV R or Vi-TCV or Typhim Vi or Typherix).tw 13 (Vi-CRM197 or TYPHIBEV).tw. 14 Vi-DT.tw. 15 Diphtheria Toxoid/ or diphteria toxoid.tw 16 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 17 7 and 16 18 Typhoid-Paratyphoid Vaccines/ or typhoid* adj2 (vaccin*).tw 19 17 or 18 20 (controlled clinical trial or randomized controlled trial).pt. 21 (randomized or randomised).ab,ti. 22 placebo.ab,ti. 23 dt.fs. 24 randomly.ab,ti. 25 trial.ab,ti. 26 groups.ab,ti. 27 20 or 21 or 22 or 23 or 24 or 25 or 26 28 exp animals/ not humans/ 29 27 not 28 30 19 and 29
+
+QueryOrbit:
+(("Typhoid Fever"[Mesh] OR "Paratyphoid Fever"[Mesh] OR "Salmonella paratyphi A"[Mesh] OR "Salmonella paratyphi B"[Mesh] OR "Salmonella paratyphi C"[Mesh] OR "Salmonella typhi"[Mesh] OR "typhoid fever"[tiab] OR "paratyphoid fever"[tiab] OR "enteric fever"[tiab]) AND ("Vaccines, Conjugate"[Mesh] OR Vaccination[Mesh] OR "Typhoid-Paratyphoid Vaccines"[Mesh] OR ((typhoid*[tiab]) AND (toxoid*[tiab] OR vaccin*[tiab] OR immuni*[tiab] OR booster*[tiab] OR revaccin*[tiab])) OR "Vi conjugate"[tiab] OR "Vi polysaccharide"[tiab] OR "Tetanus Toxoid"[Mesh] OR Vi-TT[tiab] OR ZYVAC-TCV[tiab] OR Pedatyph[tiab] OR Typbar-TCV[tiab] OR "Typbar TCV"[tiab] OR Vi-TCV[tiab] OR "Typhim Vi"[tiab] OR Typherix[tiab] OR Vi-CRM197[tiab] OR TYPHIBEV[tiab] OR Vi-DT[tiab] OR "Diphtheria Toxoid"[Mesh] OR "diphtheria toxoid"[tiab] OR "diphteria toxoid"[tiab] OR (typhoid*[tiab] AND vaccin*[tiab])) AND (controlled clinical trial[pt] OR randomized controlled trial[pt] OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

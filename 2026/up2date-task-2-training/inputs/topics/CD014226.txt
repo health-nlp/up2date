@@ -1,0 +1,18 @@
+Topic: CD014226
+Version: base
+Title: Fenestrated endovascular repair for abdominal aortic aneurysms
+Year: 2023
+
+Date: 2023-07-06
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To evaluate the benefits and harms of complex stent-graft fenestrated endovascular aneurysm repair
+(FEVAR) versus open surgical repair or conservative (non-operative) management for people with
+complex abdominal aortic aneurysms.
+
+Query:
+1. exp Aortic Aneurysm/ 2. exp Aorta, Abdominal/ 3. AAA*.ti,ab. 4. (aneurysm* adj4 (abdom* or thoracoabdom* or thoraco-abdom* or aort*)).ti,ab. 5. (aort* adj3 (ballon* or dilat* or bulg*)).ti,ab. 6. (abdom* adj3 (balloon* or dilat* or bulg*)).ti,ab. 7. (aneurism* adj4 (abdom* or thoracoabdom* or thoraco-abdom* or aort*)).ti,ab. 8. or/1-7 9. FEVAR.ti,ab. 10. F-EVAR.ti,ab. 11. fenestrat*.ti,ab. 12. Blood Vessel Prosthesis/is [Instrumentation] 13. Endovascular Procedures/is [Instrumentation] 14. Blood Vessel Prosthesis Implantation/is [Instrumentation] 15. or/9-14 16. 8 and 15 17. randomized controlled trial.pt. 18. controlled clinical trial.pt. 19. randomized.ab. 20. placebo.ab. 21. drug therapy.fs. 22. randomly.ab. 23. trial.ab. 24. groups.ab. 25. or/17-24 26. exp animals/ not humans.sh. 27. 25 not 26 28. 16 and 27
+
+QueryOrbit:
+(("Aortic Aneurysm"[Mesh] OR "Aorta, Abdominal"[Mesh] OR AAA*[tiab] OR (aneurysm*[tiab] AND (abdom*[tiab] OR thoracoabdom*[tiab] OR thoraco-abdom*[tiab] OR aort*[tiab])) OR (aort*[tiab] AND (balloon*[tiab] OR dilat*[tiab] OR bulg*[tiab])) OR (abdom*[tiab] AND (balloon*[tiab] OR dilat*[tiab] OR bulg*[tiab])) OR (aneurism*[tiab] AND (abdom*[tiab] OR thoracoabdom*[tiab] OR thoraco-abdom*[tiab] OR aort*[tiab]))) AND (FEVAR[tiab] OR F-EVAR[tiab] OR fenestrat*[tiab] OR "Blood Vessel Prosthesis"[Mesh] OR "Endovascular Procedures"[Mesh] OR "Blood Vessel Prosthesis Implantation"[Mesh]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

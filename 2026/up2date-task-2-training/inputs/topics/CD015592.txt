@@ -1,0 +1,66 @@
+Topic: CD015592
+Version: pub2
+Title: Positioning for lumbar puncture in newborn infants
+Year: 2023
+
+Date: 2023-10-23
+
+Abstract:
+Background Lumbar puncture is a common invasive procedure performed in newborns for diagnostic and
+therapeutic purposes. Approximately one in two lumbar punctures fail, resulting in both short- and
+long-term negative consequences for the clinical management of patients. The most common positions
+used to perform lumbar puncture are the lateral decubitus and sitting position, and each can impact
+the success rate and safety of the procedure. However, it is uncertain which position best improves
+patient outcomes. Objectives To assess the benefits and harms of the lateral decubitus, sitting, and
+prone positions for lumbar puncture in newborn infants. Search methods We used standard, extensive
+Cochrane search methods. The latest search date was 24 January 2023. Selection criteria We included
+randomized controlled trials (RCTs) and quasi-RCTs involving newborn infants of postmenstrual age up
+to 46 weeks and 0 days, undergoing lumbar puncture for any indication, comparing different positions
+(i.e. lateral decubitus, sitting, and prone position) during the procedure. Data collection and
+analysis We used standard Cochrane methods. We used the fixed-effect model with risk ratio (RR) and
+risk difference (RD) for dichotomous data and mean difference (MD) and standardized mean difference
+(SMD) for continuous data, with their 95% confidence intervals (CI). Our primary outcomes were
+successful lumbar puncture procedure at the first attempt; total number of lumbar puncture attempts;
+and episodes of bradycardia. We used GRADE to assess the certainty of evidence for each outcome.
+Main results We included five studies with 1476 participants. Compared to sitting position: lateral
+decubitus position may result in little to no difference in successful lumbar puncture procedure at
+the first attempt (RR 0.93, 95% CI 0.85 to 1.02; RD −0.04, 95% CI −0.09 to 0.01; I2 = 70% and 72%
+for RR and RD, respectively; 2 studies, 1249 infants, low-certainty evidence). None of the studies
+reported the total number of lumbar puncture attempts. Lateral decubitus position likely increases
+episodes of bradycardia (RR 1.72, 95% CI 1.08 to 2.76; RD 0.03, 95% CI 0.00 to 0.05; number needed
+to treat for an additional harmful outcome (NNTH) = 33; I2 = not applicable and 69% for RR and RD,
+respectively; 3 studies, 1279 infants, moderate-certainty evidence) and oxygen desaturation (RR
+2.10, 95% CI 1.42 to 3.08; RD 0.06, 95% CI 0.03 to 0.09; NNTH = 17; I2 = not applicable and 96% for
+RR and RD, respectively; 2 studies, 1249 infants, moderate-certainty evidence). The evidence is very
+uncertain regarding the effect of lateral decubitus position on time to perform the lumbar puncture
+(MD 2.00, 95% CI −4.98 to 8.98; I2 = not applicable; 1 study, 20 infants, very low-certainty
+evidence). Lateral decubitus position may result in little to no difference in the number of
+episodes of apnea during the procedure (RR not estimable; RD 0.00, 95% CI −0.03 to 0.03; I2 = not
+applicable and 0% for RR and RD, respectively; 2 studies, 197 infants, low-certainty evidence). No
+studies reported apnea defined as number of infants with one or more episodes during the procedure.
+Compared to prone position: lateral decubitus position may reduce successful lumbar puncture
+procedure at first attempt (RR 0.75, 95% CI 0.63 to 0.90; RD −0.21, 95% CI −0.34 to −0.09; number
+needed to treat for an additional beneficial outcome = 5; I2 = not applicable; 1 study, 171 infants,
+low-certainty evidence). None of the studies reported the total number of lumbar puncture attempts
+or episodes of apnea. Pain intensity during and after the procedure was reported using a
+non-validated pain scale. None of the studies comparing lateral decubitus versus prone position
+reported the other critical outcomes of this review. Authors' conclusions When compared to sitting
+position, lateral decubitus position may result in little to no difference in successful lumbar
+puncture procedure at first attempt. None of the included studies reported the total number of
+lumbar puncture attempts. Furthermore, infants in a lateral decubitus position likely experience
+more episodes of bradycardia and oxygen desaturation, and there may be little to no difference in
+episodes of apnea. The evidence is very uncertain regarding time to perform lumbar puncture. Pain
+intensity during and after the procedure was reported using a pain scale that was not included in
+our prespecified tools for pain assessment due to its high risk of bias. Most study participants
+were term newborns, thereby limiting the applicability of these results to preterm babies. When
+compared to prone position, lateral decubitus position may reduce successful lumbar puncture
+procedure at first attempt. Only one study reported on this comparison and did not evaluate adverse
+effects. Further research exploring harms and benefits and the effect on patients' pain experience
+of different positions during lumbar puncture using validated pain scoring tool may increase the
+level of confidence in our conclusions.
+
+Query:
+#1 ((("infant, newborn"[MeSH Terms]) OR ("intensive care, neonatal"[MeSH Terms])) OR ("intensive care units, neonatal"[MeSH Terms])) OR ("gestational age"[MeSH Terms]) #2 babe[Text Word] OR babes[Text Word] OR baby*[Text Word] OR babies[Text Word] OR gestational age*[Text Word] OR infant*[Text Word] OR infantile[Text Word] OR infancy[Text Word] OR low birth weight[Text Word] OR low birthweight[Text Word] OR neonat*[Text Word] OR neo-nat*[Text Word] OR newborn*[Text Word] OR new born*[Text Word] OR newly born[Text Word] OR premature[Text Word] OR premature[Text Word] OR pre-matures[Text Word] OR prematures[Text Word] OR prematurity[Text Word] OR pre-maturity[Text Word] OR preterm[Text Word] OR preterms[Text Word] OR pre term*[Text Word] OR preemie[Text Word] OR preemies[Text Word] OR premies[Text Word] OR premie[Text Word] OR VLBW[Text Word] OR VLBWI[Text Word] OR VLBW-I[Text Word] OR VLBWs[Text Word] OR LBW[Text Word] OR LBWI[Text Word] OR LBWs[Text Word] OR ELBW[Text Word] OR ELBWI[Text Word] OR ELBWs[Text Word] OR NICU[Text Word] OR NICUs[Text Word] #3 #1 OR #2 #4 spinal puncture"[MeSH Terms] #5 spinal puncture*[Text Word] OR lumbar puncture*[Text Word] OR spinal punction[Text Word] OR lumbar punction[Text Word] OR spinal tap[Text Word] #6 #4 OR #5 #7 position*[Text Word] OR lateral[Text Word] OR decubitus[Text Word] OR sitting[Text Word] OR prone[Text Word] OR upright[Text Word] OR recumbent[Text Word] OR tilt*[Text Word] #8 randomized controlled trial [pt] OR controlled clinical trial [pt] OR randomized [tiab] OR placebo [tiab] OR drug therapy [sh] OR randomly[tiab] OR trial [tiab] OR groups [tiab] #9 quasirandom*[tw] or quasi-random*[tw] or randomi*[tw] or randomly[tw] #10 control*[tw] AND (group[tw] OR groups[tw] OR random[tw] OR trial[tw] OR trials[tw] OR study[tw]) #11 #8 OR #9 OR #10 #12 (animals [mh] NOT humans [mh]) #13 #11 NOT #12 #14 #3 AND #6 AND #7 AND #13
+
+QueryOrbit:
+((infant*[tiab] OR newborn*[tiab] OR neonat*[tiab] OR baby*[tiab] OR babies[tiab] OR "gestational age"[tiab] OR "low birth weight"[tiab] OR "low birthweight"[tiab] OR premature[tiab] OR preterm[tiab] OR VLBW[tiab] OR LBW[tiab] OR ELBW[tiab] OR NICU[tiab] OR "Infant, Newborn"[Mesh]) AND ("lumbar puncture"[tiab] OR "lumbar punctures"[tiab] OR "spinal puncture"[tiab] OR "spinal punctures"[tiab] OR "spinal punction"[tiab] OR "lumbar punction"[tiab] OR "spinal tap"[tiab]) AND (position*[tiab] OR lateral[tiab] OR decubitus[tiab] OR sitting[tiab] OR prone[tiab] OR upright[tiab] OR recumbent[tiab] OR tilt*[tiab]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR randomly[tiab] OR trial[tiab] OR groups[tiab] OR quasirandom*[tiab] OR quasi-random*[tiab] OR randomi*[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

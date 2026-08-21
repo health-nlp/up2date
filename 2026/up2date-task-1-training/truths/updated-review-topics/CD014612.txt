@@ -1,0 +1,67 @@
+Topic: CD014612
+Version: pub2
+Title: Closure of mesenteric defects for prevention of internal hernia after Roux-en-Y gastric bypass in bariatric surgery
+Year: 2025
+
+Date: 2025-04-08
+
+Abstract:
+Rationale Internal hernia is one of the most severe complications observed in people undergoing
+Roux-en-Y gastric bypass (RYGB). There are some who advocate for the closure of defects to prevent
+internal hernias. However, the closure of these defects might be associated with an increased risk
+of small bowel obstruction, resulting from a kink in the anastomosis of the small intestines.
+Currently, there is a lack of robust evidence demonstrating the benefits of defect closure.
+Objectives To assess the benefits and harms of defect closure for prevention of internal hernia
+after Roux-en Y gastric bypass in bariatric surgery. Search methods We searched CENTRAL, MEDLINE,
+and Embase to August 2024. We reviewed the reference lists of included studies and reached out to
+the study authors to obtain any missing data. We also searched PubMed, grey literature in the
+OpenGrey database, Clinical Trials.gov, and the World Health Organization (WHO) International
+Clinical Trials Registry Platform (ICTRP). Eligibility criteria We included randomised controlled
+trials (RCTs) that included people with obesity (defined as a body-mass index (BMI) ≥ 35 kg/m²) who
+underwent laparoscopic or robotic RYGB in bariatric surgery, and compared the closure of defects
+with the non-closure of defects. We excluded quasi-randomised trials, cluster-RCTs, and cross-over
+trials. Outcomes The critical outcomes assessed were the incidence of internal hernia with bowel
+obstruction within 10 years, the incidence of postoperative overall complications within 30 days,
+and the incidence of postoperative mortality within 30 days. The important outcomes included the
+incidence of intraoperative overall complications, length of hospital stay, and the postoperative
+pain resulting from gastric bypass surgery, assessed using a visual analogue scale (VAS) two years
+after surgery. Risk of bias Two review authors independently evaluated the risk of bias for each
+included study using the Cochrane RoB 2 tool. Synthesis methods Two review authors independently
+assessed the methodological quality and extracted data from the included trials. We performed a
+random-effects meta-analysis for data synthesis. We calculated risk ratios (RR) with 95% confidence
+intervals (CI) for dichotomous outcomes, and mean difference (MD) with 95% CIs for continuous
+outcomes. We assessed the certainty of evidence based on the GRADE approach. Included studies We
+identified three RCTs with 3010 participants, which met our inclusion criteria. The closure of
+mesenteric defects used non-absorbable, interrupt closure in one study, and non-absorbable running
+sutures in two studies. Synthesis of results The closure of defects during RYGB may reduce the
+incidence of internal hernia with bowel obstruction within 10 years compared with non-closure (RR
+0.32, 95% CI 0.24 to 0.42; P < 0.00001, I² = 0 %; 3 studies, 3010 participants; low-certainty
+evidence). The closure of defects may result in little to no difference in the incidence of
+postoperative overall complications within 30 days compared to non-closure (RR 1.13, 95% CI 0.87 to
+1.47; P = 0.35, I² = 0 %; 2 studies, 2609 participants; low-certainty evidence). The closure of
+defects may result in little to no difference in the incidence of postoperative mortality within 30
+days compared to non-closure (RR 2.97, 95% CI 0.12 to 72.93; P = 0.50, I² not applicable; 2 studies,
+2908 participants; very low-certainty evidence). The closure of defects may result in little to no
+difference in the incidence of intraoperative overall complications compared to non-closure (RR
+0.87, 95% CI 0.54 to 1.42; P = 0.59, I² not applicable; 1 study, 2507 participants; very
+low‐certainty evidence). Closure defects may lead to the longer length of hospital stay; however,
+the evidence is very uncertain (MD 0.27 days, 95% CI 0.15 to 0.38; P < 0.00001; I² = 93%; 2 studies,
+2609 participants; very low-certainty evidence). Postoperative pain from gastric bypass surgery was
+not assessed because there was not enough information available for analysis. Authors' conclusions
+The closure of defects may be more effective than the non-closure of defects for prevention of
+internal hernia after RYGB. However, the small number of trials limited our confidence in the
+evidence. There is little to no difference between the closure and non-closure of defects in the
+incidence of postoperative overall complications, the incidence of postoperative mortality, and the
+incidence of intraoperative overall complications. The length of hospital stay may be longer for
+those undergoing defect closure than for those who did not have the defects closed. The evidence is
+very uncertain about the incidence of postoperative mortality, the incidence of intraoperative
+overall complications, and the length of hospital stay. Additional evidence based on trials designed
+to be at low risk of bias and with an adequate sample size is imperative. Funding This Cochrane
+review had no dedicated funding. Registration The protocol was registered in the Cochrane Library on
+9 May 2023.
+
+Query:
+1. exp Gastric Bypass/ 2. ((gastric or gastro* or stomach) adj5 bypass).tw,kw. 3. (roux-en-y or RYGB).tw,kw. 4. gastrojejunostom*.tw,kw. 5. bariatric surgery/ 6. (bariatric and (surger* or procedure* or technique*)).tw,kw. 7. or/1-6 8. mesenter*.tw,kw. 9. exp Hernia/ 10. (Internal adj3 hernia*).tw,kw. 11. or/8-10 12. 7 and 11 13. (Closure* or close*).tw,kw. 14. 12 and 13
+
+QueryOrbit:
+(("Gastric Bypass"[Mesh] OR "Bariatric Surgery"[Mesh] OR ((gastric[tiab] OR gastro*[tiab] OR stomach[tiab]) AND bypass[tiab]) OR roux-en-y[tiab] OR RYGB[tiab] OR gastrojejunostom*[tiab] OR (bariatric[tiab] AND (surger*[tiab] OR procedure*[tiab] OR technique*[tiab]))) AND (mesenter*[tiab] OR Hernia[Mesh] OR (internal[tiab] AND hernia*[tiab])) AND (closure*[tiab] OR close*[tiab])) AND 1800:2025[dp]

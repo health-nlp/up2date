@@ -1,0 +1,40 @@
+Topic: CD014226
+Version: pub2
+Title: Fenestrated endovascular repair for abdominal aortic aneurysms
+Year: 2025
+
+Date: 2025-05-28
+
+Abstract:
+Background Abdominal aortic aneurysms (AAAs) are abnormal dilatations of the aorta that most
+commonly affect its infrarenal segment, but can become more difficult to repair when they are close
+to or next to the renal arteries. The optimum treatment for these complex AAAs is unknown. One
+option is fenestrated endovascular aneurysm repair (FEVAR), which involves using fenestrations or
+scallops in the graft to facilitate access to the visceral arteries. Objectives To assess the
+benefits and harms of complex stent-graft fenestrated endovascular aneurysm repair (FEVAR) versus
+open surgical repair (OSR) or conservative (non-operative) management for people with complex AAAs.
+Search methods The Cochrane Vascular Information Specialist searched the Cochrane Vascular
+Specialised Register, CENTRAL, MEDLINE, Embase and CINAHL (Cumulative Index to Nursing and Allied
+Health Literature) databases, the World Health Organization International Clinical Trials Registry
+Platform and ClinicalTrials.gov without language, publication year or publication status
+restrictions (published, unpublished, in press or in progress) on 28 March 2023. Selection criteria
+We considered all randomised controlled trials (RCTs) and quasi-RCTs, comparing treatment of complex
+AAA with FEVAR versus open surgical repair or conservative management in adults undergoing primary
+repair of complex AAA. Data collection and analysis Two review authors independently screened
+studies obtained from the search for potential inclusion in the review, in accordance with the
+Cochrane Handbook for Systematic Review of Interventions. Primary outcomes were all-cause mortality
+(30 days and one year), aneurysm-related mortality at one year and length of hospital stay.
+Secondary outcomes were renal dysfunction at one year, reintervention rate at one year, visceral
+vessel patency at 30 days and one year, participant-reported health-related quality of life at one
+year, adverse events at one year and aneurysm-related mortality at 30 days. Main results We found no
+studies fulfilling the inclusion criteria. Authors' conclusions We did not identify eligible RCTs or
+quasi-RCTs that compared treatment of complex AAAs with FEVAR versus open surgical repair or
+conservative management. This is a difficult area in which to conduct research due to low incidence
+rates and aneurysm heterogeneity. Future studies could consider commissioning agreements mandating
+patient inclusion in studies to make the generation of high-quality evidence in this area feasible.
+
+Query:
+1 exp Aortic Aneurysm/ 2 exp Aorta, Abdominal/ 3 AAA*.ti,ab. 4 (aneurysm* adj4 (abdom* or thoracoabdom* or thoraco-abdom* or aort*)).ti,ab. 5 (aort* adj3 (ballon* or dilat* or bulg*)).ti,ab. 6 (abdom* adj3 (balloon* or dilat* or bulg*)).ti,ab. 7 (aneurism* adj4 (abdom* or thoracoabdom* or thoraco-abdom* or aort*)).ti,ab. 8 or/1-7 9 FEVAR.ti,ab. 10 F-EVAR.ti,ab. 11 fenestrat*.ti,ab. 12 Blood Vessel Prosthesis/is [Instrumentation] 13 Endovascular Procedures/is [Instrumentation] 14 Blood Vessel Prosthesis Implantation/is [Instrumentation] 15 or/9-14 16 8 and 15 17 randomized controlled trial.pt. 18 controlled clinical trial.pt. 19 randomized.ab. 20 placebo.ab. 21 drug therapy.fs. 22 randomly.ab. 23 trial.ab. 24 groups.ab. 25 or/17-24 26 exp animals/ not humans.sh. 27 25 not 26 28 16 and 27
+
+QueryOrbit:
+(("Aortic Aneurysm"[Mesh] OR "Aorta, Abdominal"[Mesh] OR AAA*[tiab] OR (aneurysm*[tiab] AND (abdom*[tiab] OR thoracoabdom*[tiab] OR thoraco-abdom*[tiab] OR aort*[tiab])) OR (aort*[tiab] AND (balloon*[tiab] OR dilat*[tiab] OR bulg*[tiab])) OR (abdom*[tiab] AND (balloon*[tiab] OR dilat*[tiab] OR bulg*[tiab])) OR (aneurism*[tiab] AND (abdom*[tiab] OR thoracoabdom*[tiab] OR thoraco-abdom*[tiab] OR aort*[tiab]))) AND (FEVAR[tiab] OR F-EVAR[tiab] OR fenestrat*[tiab] OR "Blood Vessel Prosthesis"[Mesh] OR "Endovascular Procedures"[Mesh] OR "Blood Vessel Prosthesis Implantation"[Mesh]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2025[dp]

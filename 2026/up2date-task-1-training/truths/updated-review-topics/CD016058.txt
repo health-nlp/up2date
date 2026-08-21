@@ -1,0 +1,87 @@
+Topic: CD016058
+Version: pub2
+Title: Interventions for quitting vaping
+Year: 2025
+
+Date: 2025-01-08
+
+Abstract:
+Rationale There is limited guidance on the best ways to stop using nicotine-containing vapes
+(otherwise known as e-cigarettes) and ensure long-term abstinence, whilst minimising the risk of
+tobacco smoking and other unintended consequences. Treatments could include pharmacological
+interventions, behavioural interventions, or both. Objectives To conduct a living systematic review
+assessing the benefits and harms of interventions to help people stop vaping compared to each other
+or to placebo or no intervention. To also assess how these interventions affect the use of
+combustible tobacco, and whether the effects vary based on participant characteristics. Search
+methods We searched the following databases from 1 January 2004 to 24 April 2024: CENTRAL; MEDLINE;
+Embase; PsycINFO; ClinicalTrials.gov (through CENTRAL); World Health Organization International
+Clinical Trials Registry Platform (through CENTRAL). We also searched the references of eligible
+studies and abstracts from the Society for Research on Nicotine and Tobacco 2024 conference, and
+contacted study authors. Eligibility criteria Randomised controlled trials (RCTs) recruiting people
+of any age using nicotine-containing vapes, regardless of tobacco smoking status. Studies had to
+test an intervention designed to support people to quit vaping, and plan to measure at least one of
+our outcomes. Outcomes Critical outcomes: vaping cessation; change in combustible tobacco use at six
+months or longer; number of participants reporting serious adverse events (SAEs) at one week or
+longer. Risk of bias We used the Cochrane RoB 1 tool to assess bias in the included studies.
+Synthesis methods We followed standard Cochrane methods for screening and data extraction. We
+grouped studies by comparisons and outcomes reported, and calculated individual study and pooled
+effects, as appropriate. We used random-effects Mantel‐Haenszel methods to calculate risk ratios
+(RR) with 95% confidence intervals (CI) for dichotomous outcomes. We used random-effects inverse
+variance methods to calculate mean differences and 95% CI for continuous outcomes. We assessed the
+certainty of the evidence using the GRADE approach. Included studies Nine RCTs, representing 5209
+participants motivated to stop using nicotine-containing vapes at baseline, are included. In six
+studies, participants were abstinent from smoking tobacco cigarettes at baseline, although most
+studies included some participants who had previously smoked. Eight studies included participants
+aged 18 or older, three included only young adults (18 to 24 years), and one included 13- to
+17-year-olds only. We judged three studies at low risk, three at high risk, and three at unclear
+risk of bias. Synthesis of results Pharmacological interventions for quitting nicotine vaping
+Studies assessed combination nicotine replacement therapy (NRT), cytisine, and varenicline as
+pharmacological interventions for quitting vaping in comparison to placebo or no/minimal support
+(control). The point estimate for combination NRT indicated possible benefit, but the CI
+incorporated the possibility of no benefit and a potential benefit of control (very low-certainty
+evidence due to imprecision and risk of bias; RR 2.57, 95% CI 0.29 to 22.93; 1 study, 16
+participants). The one study investigating cytisine did not report vaping cessation rates at six
+months or longer. Varenicline increased vaping cessation rates at six months, but the evidence was
+low certainty due to imprecision (RR 2.00, 95% CI 1.09 to 3.68; 1 study, 140 participants). Zero
+participants reported SAEs in the studies of combination NRT versus no/minimal support (1 study, 508
+participants; low-certainty evidence due to imprecision) and cytisine versus placebo (1 study, 159
+participants; low-certainty evidence due to imprecision). Three studies investigating varenicline
+measured the number of participants reporting SAEs. However, only one study reported an SAE (in the
+intervention arm); therefore, the effect estimate was calculated based on that single study (RR
+2.60, 95% CI 0.11 to 62.16; 95 participants; low-certainty evidence due to imprecision). Behavioural
+interventions for quitting nicotine vaping Studies assessed reducing nicotine concentration and
+vaping behaviour (1 study) and text message-based interventions (3 studies) as behavioural
+interventions for stopping vaping in comparison to no/minimal support (control). In one study, the
+point estimate suggested nicotine/vaping reduction increased vaping cessation compared to minimal
+support at six-month follow-up, but the CI incorporated the possibility of no intervention effect
+and higher cessation rates in the control arm (RR 3.38, 95% CI 0.43 to 26.30; 17 participants; very
+low-certainty due to imprecision and risk of bias). There was low-certainty evidence (downgraded two
+levels due to indirectness) that text message-based interventions may have increased vaping
+cessation rates compared to control in 13- to 24-year-olds (RR 1.32, 95% CI 1.19 to 1.47; I2 = 0%; 2
+studies, 4091 participants). The one study investigating nicotine/vaping behaviour reduction did not
+report on SAEs. One of the studies investigating text message-based interventions did report on
+SAEs; however, zero events were reported in both study arms (508 participants; low-certainty
+evidence due to imprecision). No studies reported change in combustible tobacco smoking at six-month
+follow-up or longer. Authors' conclusions There is low-certainty evidence that text message-based
+interventions designed to help people stop nicotine vaping may help more youth and young adults to
+successfully stop than no/minimal support, and low-certainty evidence that varenicline may also help
+people quit vaping. Data exploring the effectiveness of combination NRT, cytisine, and
+nicotine/vaping behaviour reduction are inconclusive due to risk of bias and imprecision. Most
+studies that measured SAEs reported none; however, more data are needed to draw clear conclusions.
+Of note, data from studies investigating these interventions for quitting smoking have not
+demonstrated serious concerns about SAEs. No studies assessed the change in combustible tobacco
+smoking, including relapse to or uptake of tobacco smoking, at six-month follow-up or longer. It is
+important that future studies measure this so the complete risk profile of relevant interventions
+can be considered. We identified 20 ongoing RCTs. Their incorporation into the evidence base and the
+continued identification of new studies is imperative to inform clinical and policy guidance on the
+best ways to stop vaping. Therefore, we will continue to update this review as a living systematic
+review by running searches monthly and updating the review when relevant new evidence that will
+strengthen or change our conclusions emerges. Funding Cancer Research UK (PRCPJT-Nov22/100012).
+National Institute of Health Research (NIHR206123) Registration Protocol available via DOI:
+10.1002/14651858.CD016058.
+
+Query:
+1. Meta-Analysis as Topic/ 2. (meta analy$ or metaanaly$ or (systematic adj (review$1 or overview$1))).tw. 3. Meta-Analysis/ 4. 1 or 2 or 3 5. (Cochrane or embase or psychlit or psyclit or cinahl or cinhal or science citation index or bids or cancerlit).ab. 6. (reference list$ or bibliograph$ or hand-search$ or relevant journals or manual search$).ab. 7. (selection criteria or data extraction).ab. 8. Review/ 9. 7 and 8 10. Comment/ or Letter/ or Editorial/ 11. animal/ 12. human/ 13. 11 not (11 and 12) 14. 11 or 13 15. 4 or 5 or 6 or 9 16. 15 not 14 17. randomized controlled trial.pt. OR controlled clinical trial.pt. OR randomized.ab. OR placebo.ab. OR clinical trials as topic.sh. OR randomly.ab. OR trial.ti. 18. exp animals/ not human/ 19. 17 not 18 20. Exp case control studies/ OR Exp cohort studies/ OR Case control.tw. OR (cohort adj (study or studies)).tw. OR Cohort analy$.tw. OR (Follow up adj (study or studies)).tw. OR (observational adj (study or studies)).tw. OR Longitudinal.tw. 21. e-cig*.mp. OR ecig*.mp. OR electr* cigar*.mp. OR electronic nicotine.mp. OR (vape or vapes or vaporizer or vapourizer or vaporiser or vapouriser or vaper or vapers or vaping).ti,ab. OR Exp Electronic Nicotine Delivery Systems/ 22. 16 AND 21 23. 19 AND 21 24. 20 AND 21 25. 22 OR 23 OR 24
+
+QueryOrbit:
+((("Meta-Analysis as Topic"[mh] OR "Meta-Analysis"[pt] OR (meta[tw] AND analy*[tw]) OR (systematic[tw] AND (review[tw] OR reviews[tw] OR overview[tw] OR overviews[tw])) OR Cochrane[ab] OR embase[ab] OR psychlit[ab] OR psyclit[ab] OR cinahl[ab] OR cinhal[ab] OR (science[ab] AND citation[ab] AND index[ab]) OR bids[ab] OR cancerlit[ab] OR (reference[ab] AND list*[ab]) OR bibliograph*[ab] OR (hand[ab] AND search*[ab]) OR (relevant[ab] AND journals[ab]) OR (manual[ab] AND search*[ab]) OR ((selection[ab] AND criteria[ab]) AND Review[pt]) OR ((data[ab] AND extraction[ab]) AND Review[pt]) ) NOT animals[mh] ) OR ( ( "Randomized Controlled Trial"[pt] OR "Controlled Clinical Trial"[pt] OR randomized[ab] OR placebo[ab] OR "Clinical Trials as Topic"[mh] OR randomly[ab] OR trial[ti] ) NOT (animals[mh] NOT humans[mh]) ) OR ( "Case-Control Studies"[mh] OR "Cohort Studies"[mh] OR (case[tw] AND control[tw]) OR (cohort[tw] AND (study[tw] OR studies[tw])) OR (cohort[tw] AND analy*[tw]) OR (follow[tw] AND up[tw] AND (study[tw] OR studies[tw])) OR (observational[tw] AND (study[tw] OR studies[tw])) OR longitudinal[tw] ) ) AND ( "e-cigarette"[tw] OR "e-cigarettes"[tw] OR "e-cig"[tw] OR "e-cigs"[tw] OR ecig*[tw] OR (electr*[tw] AND cigar*[tw]) OR (electronic[tw] AND nicotine[tw]) OR vape[tiab] OR vapes[tiab] OR vaporizer[tiab] OR vapourizer[tiab] OR vaporiser[tiab] OR vapouriser[tiab] OR vaper[tiab] OR vapers[tiab] OR vaping[tiab] OR "Electronic Nicotine Delivery Systems"[mh] ) AND 2025[dp]

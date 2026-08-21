@@ -1,0 +1,22 @@
+Topic: CD016070
+Version: base
+Title: Parallel use of low-complexity automated nucleic acid amplification tests and lateral flow urine lipoarabinomannan assays to detect tuberculosis disease in adults and adolescents living with HIV
+Year: 2024
+
+Date: 2024-05-13
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (diagnostic). The objectives are as follows: To
+compare the diagnostic accuracy of parallel use of lateral flow urine lipoarabinomannan on urine and
+low-complexity automated nucleic acid amplification tests on respiratory samples versus each test
+alone for detection of tuberculosis disease in adults and adolescents living with HIV who present
+with presumptive tuberculosis. Secondary objectives To investigate the following sources of
+heterogeneity: clinical setting; signs and symptoms of tuberculosis; screening positivity for
+tuberculosis disease by chest x-ray, C-reactive protein elevation, and molecular World Health
+Organization-recommended rapid diagnostics; seriously ill; advanced HIV; and CD4 cell count.
+
+Query:
+1 Mycobacterium tuberculosis/ 2 *Tuberculosis/ 3 Tuberculosis, Pulmonary/ 4 multidrug resistant tuberculosis.mp. or Tuberculosis, Multidrug-Resistant/ 5 extensively drug resistant tuberculosis.mp. or Extensively Drug-Resistant Tuberculosis/ 6 (tuberculosis or TB).ti,ab. 7 1 or 2 or 3 or 4 or 5 or 6 8 Xpert*.ti. or Xpert*.ab. 9 (GeneXpert* or cepheid).ti. or (GeneXpert* or cepheid).ab. 10 (Truenat* or Molbio or TruRif).mp. 11 (STANDARD M10 or SD Biosensor or IRON-qPCR or BIONEER).mp. 12 TB-LAMP*.mp. 13 Loop-Mediated Isothermal Amplification.mp. 14 (LAMP or LOOPAMP).mp. 15 NAAT*.mp. 16 Nucleic Acid Amplification Techniques/ 17 "nucleic acid amplification".tw. 18 Diagnostic Tests, Routine/ or RDT*.mp. 19 rapid diagnos*.ti,ab. 20 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 21 7 and 20 22 (LAM or lipoarabinomannan or alerelam or "determine tb lam" or "lf-lam" or "TB LAM").mp. 23 21 and 22 24 limit 23 to yr="2010 -Current"
+
+QueryOrbit:
+( "Mycobacterium tuberculosis"[Mesh] OR "Tuberculosis"[Majr] OR "Tuberculosis, Pulmonary"[Mesh] OR "Tuberculosis, Multidrug-Resistant"[Mesh] OR "Extensively Drug-Resistant Tuberculosis"[Mesh] OR "multidrug resistant tuberculosis"[tw] OR "extensively drug resistant tuberculosis"[tw] OR tuberculosis[tiab] OR TB[tiab] ) AND ( Xpert*[tiab] OR GeneXpert*[tiab] OR cepheid[tiab] OR Truenat*[tw] OR Molbio[tw] OR TruRif[tw] OR "STANDARD M10"[tw] OR "SD Biosensor"[tw] OR "IRON-qPCR"[tw] OR BIONEER[tw] OR "TB-LAMP"[tw] OR "Loop-Mediated Isothermal Amplification"[tw] OR LAMP[tw] OR LOOPAMP[tw] OR NAAT*[tw] OR "Nucleic Acid Amplification Techniques"[Mesh] OR "nucleic acid amplification"[tw] OR "Diagnostic Tests, Routine"[Mesh] OR RDT*[tw] OR (rapid[tiab] AND diagnos*[tiab]) OR LAM[tw] OR lipoarabinomannan[tw] OR alerelam[tw] OR "determine tb lam"[tw] OR "lf-lam"[tw] OR "TB LAM"[tw] OR AlereLAM[tw] OR FujiLAM[tw] ) AND 2023[dp]
