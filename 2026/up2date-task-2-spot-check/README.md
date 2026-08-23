@@ -31,6 +31,8 @@ tira_configs:
       --orbit-api-base $ORBIT_API_BASE
     format:
       name: "run.txt"
+      config:
+        minimum_queries: 2
 
   evaluator:
     image: "mam10eks/up2date-evaluator:0.0.1"
@@ -48,7 +50,7 @@ tira_configs:
 
 # Up2Date Task 2 Spot-Check Package
 
-The `inputs/` and public `truths/` contain the 4 development topics.
+The `inputs/` and public `truths/` contain 2 development topics.
 
 ## Task
 
