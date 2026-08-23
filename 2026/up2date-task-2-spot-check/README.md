@@ -97,10 +97,11 @@ access updated review versions or included-study labels.
 From the repository root:
 
 ```bash
-tira-cli dataset-submission \
+ORBIT_API_BASE=https://orbit-api.health-nlp.com tira-cli dataset-submission \
   --path up2date-task-2-spot-check \
   --task up2date \
   --split test \
+  --forward-environment-variable ORBIT_API_BASE
   --dry-run
 ```
 
