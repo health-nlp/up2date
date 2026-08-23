@@ -30,7 +30,7 @@ tira_configs:
       --run $outputDir/run.txt.gz
       --orbit-api-base $ORBIT_API_BASE
     format:
-      name: "arbitrary"
+      name: "run.txt"
 
   evaluator:
     image: "mam10eks/up2date-evaluator:0.0.1"
