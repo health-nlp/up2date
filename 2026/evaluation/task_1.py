@@ -3,8 +3,6 @@
 INPUT
     --predictions-tsv
             TSV columns: topic, date. Date format: YYYY-MM-DD.
-    --topics-dir
-            Initial review topic files. Uses each file's Date field as initial_date.
 
 GOLD DATA
     --gold-topics-dir
@@ -20,7 +18,7 @@ EVALUATION
         - signed and absolute delta in days
     Offline cutoff recall:
         - relevant PMIDs are supplied in the precomputed cutoff gold TSV
-        - counts PMIDs from the initial review year through the predicted year
+        - counts newly relevant PMIDs published by the predicted year
         - no URL, query execution, or retrieval occurs during evaluation
 
 OUTPUT
@@ -44,9 +42,8 @@ from pathlib import Path
 
 
 DEFAULT_PREDICTIONS = Path("baselines/task_1/task1_demo_predictions.tsv")
-DEFAULT_TOPICS_DIR = Path("export/training/topics")
-DEFAULT_GOLD_TOPICS_DIR = Path("export/testing/topics")
-DEFAULT_CUTOFF_GOLD = Path("export/testing/task1_cutoff_gold.tsv")
+DEFAULT_GOLD_TOPICS_DIR = Path("datasets-for-tira/up2date-task-1/truths/updated-review-topics")
+DEFAULT_CUTOFF_GOLD = Path("datasets-for-tira/up2date-task-1/truths/cutoff-gold.tsv")
 DEFAULT_METRICS_OUT = Path("baselines/task_1/eval/task1_eval_metrics.txt")
 DEFAULT_REPORT_JSON = Path("baselines/task_1/eval/task1_eval_report.json")
 DEFAULT_PROTOTEXT_OUT = Path("baselines/task_1/eval/evaluation.prototext")
@@ -147,7 +144,6 @@ def load_cutoff_gold(cutoff_gold_tsv: Path) -> dict[str, dict[str, int]]:
 
 def evaluate(
     topic_ids: list[str],
-    topics_dir: Path,
     gold_topics_dir: Path,
     predictions: dict[str, dt.date],
     cutoff_gold: dict[str, dict[str, int]],
@@ -161,20 +157,18 @@ def evaluate(
             missing_topics.append(topic)
             continue
 
-        initial_date = read_topic_date(resolve_topic_path(topics_dir, topic))
         gold_date = read_topic_date(resolve_topic_path(gold_topics_dir, topic))
         relevant_years = cutoff_gold.get(topic, {})
         covered_pmids = {
             pmid
             for pmid, publication_year in relevant_years.items()
-            if initial_date.year <= publication_year <= predicted_date.year
+            if publication_year <= predicted_date.year
         }
         recall = len(covered_pmids) / len(relevant_years) if relevant_years else None
         delta_days = (predicted_date - gold_date).days
         rows.append(
             {
                 "topic": topic,
-                "initial_date": initial_date.isoformat(),
                 "gold_date": gold_date.isoformat(),
                 "predicted_date": predicted_date.isoformat(),
                 "full_date_match": predicted_date == gold_date,
@@ -216,7 +210,7 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
     lines = [
         "Task 1 evaluation",
         "-----------------",
-        "Date gold target: Date field in export/testing/topics/<topic>.",
+        "Date gold target: Date field in the updated-review topic.",
         "Recall target: new relevant PMIDs covered by the submitted cutoff year.",
         f"Gold topics: {summary['gold_topics']}",
         f"Scored topics: {summary['scored_topics']}",
@@ -237,11 +231,11 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
     if summary["missing_topics"]:
         lines.append("Missing predictions: " + ", ".join(summary["missing_topics"]))
     lines.extend(["", f"Top {min(top_k, len(rows))} absolute date deltas"])
-    lines.append("topic\tinitial_date\tgold_date\tpredicted_date\tdelta_days\trecall\tcovered_relevant_pmids\tnew_relevant_pmids")
+    lines.append("topic\tgold_date\tpredicted_date\tdelta_days\trecall\tcovered_relevant_pmids\tnew_relevant_pmids")
     for row in rows[:top_k]:
         recall = "n/a" if row["recall"] is None else f"{row['recall']:.3f}"
         lines.append(
-            f"{row['topic']}\t{row['initial_date']}\t{row['gold_date']}\t{row['predicted_date']}"
+            f"{row['topic']}\t{row['gold_date']}\t{row['predicted_date']}"
             f"\t{row['delta_days']}\t{recall}"
             f"\t{row['covered_relevant_pmids']}\t{row['new_relevant_pmids']}"
         )
@@ -265,7 +259,6 @@ def render_prototext(report: dict[str, object]) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate Task 1 predicted dates offline.")
     parser.add_argument("--predictions-tsv", type=Path, default=DEFAULT_PREDICTIONS)
-    parser.add_argument("--topics-dir", type=Path, default=DEFAULT_TOPICS_DIR)
     parser.add_argument("--gold-topics-dir", type=Path, default=DEFAULT_GOLD_TOPICS_DIR)
     parser.add_argument("--cutoff-gold-tsv", type=Path, default=DEFAULT_CUTOFF_GOLD)
     parser.add_argument("--top-k", type=int, default=10)
@@ -278,8 +271,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     report = evaluate(
-        read_topic_ids(args.topics_dir),
-        args.topics_dir,
+        read_topic_ids(args.gold_topics_dir),
         args.gold_topics_dir,
         load_predictions(args.predictions_tsv),
         load_cutoff_gold(args.cutoff_gold_tsv),

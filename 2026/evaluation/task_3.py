@@ -17,7 +17,8 @@ EVALUATION
   New candidates and new gold inclusions exclude PMIDs already included in the
   initial review. Predictions outside a topic's new candidate set are recorded
   as invalid and excluded from scoring. Reports precision, recall, F1, and F3
-  per topic plus macro and micro aggregates.
+    per topic plus macro and micro aggregates. Topics with no new gold inclusions
+    are excluded from macro aggregates and reported separately.
 
 OUTPUT
   --metrics-out  Human-readable metric summary and top F3 topics.
@@ -40,9 +41,9 @@ from pathlib import Path
 
 
 DEFAULT_PREDICTIONS = Path("baselines/task_3/task3_predict_all_new_candidates.tsv")
-DEFAULT_PAIR_MANIFEST = Path("export/pair_manifest.csv")
-DEFAULT_TRAINING_QRELS = Path("export/training/qrels.txt")
-DEFAULT_TESTING_QRELS = Path("export/testing/qrels.txt")
+DEFAULT_PAIR_MANIFEST = Path("datasets-for-tira/up2date-task-3/truths/review-version-pairs.csv")
+DEFAULT_TRAINING_QRELS = Path("datasets-for-tira/up2date-task-3/truths/initial-review-qrels.txt")
+DEFAULT_TESTING_QRELS = Path("datasets-for-tira/up2date-task-3/truths/updated-review-qrels.txt")
 DEFAULT_METRICS_OUT = Path("baselines/task_3/eval/task3_eval_metrics.txt")
 DEFAULT_REPORT_JSON = Path("baselines/task_3/eval/task3_eval_report.json")
 DEFAULT_PROTOTEXT_OUT = Path("baselines/task_3/eval/evaluation.prototext")
@@ -161,12 +162,15 @@ def evaluate(
     total_true_positives = sum(int(row["true_positives"]) for row in rows)
     micro_precision = total_true_positives / total_predicted if total_predicted else 0.0
     micro_recall = total_true_positives / total_included if total_included else 0.0
+    macro_rows = [row for row in rows if int(row["new_included"]) > 0]
     summary = {
         "topics": len(rows),
-        "macro_precision": statistics.mean(row["precision"] for row in rows) if rows else None,
-        "macro_recall": statistics.mean(row["recall"] for row in rows) if rows else None,
-        "macro_f1": statistics.mean(row["f1"] for row in rows) if rows else None,
-        "macro_f3": statistics.mean(row["f3"] for row in rows) if rows else None,
+        "macro_scored_topics": len(macro_rows),
+        "zero_positive_topics": len(rows) - len(macro_rows),
+        "macro_precision": statistics.mean(row["precision"] for row in macro_rows) if macro_rows else None,
+        "macro_recall": statistics.mean(row["recall"] for row in macro_rows) if macro_rows else None,
+        "macro_f1": statistics.mean(row["f1"] for row in macro_rows) if macro_rows else None,
+        "macro_f3": statistics.mean(row["f3"] for row in macro_rows) if macro_rows else None,
         "micro_precision": micro_precision,
         "micro_recall": micro_recall,
         "micro_f1": f_score(micro_precision, micro_recall, 1.0),
@@ -193,6 +197,8 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
         "------------------------------------",
         "Gold target: new studies included in the updated review.",
         f"Topics: {summary['topics']}",
+        f"Topics in macro metrics: {summary['macro_scored_topics']}",
+        f"Topics with zero positive studies: {summary['zero_positive_topics']}",
         f"Macro precision: {summary['macro_precision']:.3f}",
         f"Macro recall: {summary['macro_recall']:.3f}",
         f"Macro F1: {summary['macro_f1']:.3f}",
