@@ -14,7 +14,7 @@ configs:
 
 tira_configs:
   resolve_inputs_to: "inputs"
-  resolve_truths_to: "truths"
+  resolve_truths_to: "."
   default_upload_name: "predictions.tsv"
 
   input_format:
@@ -38,8 +38,8 @@ tira_configs:
     command: >-
       python3 /task_1.py
       --predictions-tsv ${inputRun}/predictions.tsv
-      --gold-topics-dir ${inputDataset}/updated-review-topics
-      --cutoff-gold-tsv ${inputDataset}/cutoff-gold.tsv
+      --gold-topics-dir ${inputDataset}/truths/updated-review-topics
+      --cutoff-gold-tsv ${inputDataset}/truths/cutoff-gold.tsv
       --topics-dir ${inputDataset}/inputs/topics
       --metrics-out ${outputDir}/task1-evaluation.txt
       --report-json ${outputDir}/task1-evaluation.json
