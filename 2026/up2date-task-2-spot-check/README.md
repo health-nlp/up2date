@@ -24,7 +24,7 @@ tira_configs:
   baseline:
     link: "../baselines"
     command: >-
-      python3 /baseline_task_2.py
+      python3 /task_2.py
       --topics-dir $inputDataset/topics
       --queries-tsv $outputDir/queries.tsv
       --run $outputDir/run.txt.gz
