@@ -23,7 +23,7 @@ tira_configs:
     name: "arbitrary"
 
   baseline:
-    link: "../../src/baselines"
+    link: "../baselines"
     command: >-
       python3 /baseline_task_3.py
       --candidates-tsv $inputDataset/candidates.tsv
@@ -89,7 +89,7 @@ From the repository root:
 
 ```bash
 tira-cli dataset-submission \
-  --path datasets-for-tira/up2date-task-3 \
+  --path up2date-task-3-training \
   --task up2date \
   --split test \
   --dry-run
