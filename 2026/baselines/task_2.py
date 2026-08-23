@@ -142,7 +142,6 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
 	args = parse_args()
-	raise ValeuError("dsaad")
 	rows = build_rows(args.topics_dir)
 	write_tsv(args.queries_tsv, rows)
 	run_rows = write_run(args.run, rows, args.orbit_api_base)
