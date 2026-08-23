@@ -10,6 +10,7 @@ configs:
     path:
     - "truths/updated-review-topics/*"
     - "truths/cutoff-gold.tsv"
+    - "inputs/topics/*"
 
 tira_configs:
   resolve_inputs_to: "inputs"
@@ -39,7 +40,7 @@ tira_configs:
       --predictions-tsv ${inputRun}/predictions.tsv
       --gold-topics-dir ${inputDataset}/updated-review-topics
       --cutoff-gold-tsv ${inputDataset}/cutoff-gold.tsv
-      --topics-dir ${inputDataset}/topics
+      --topics-dir ${inputDataset}/inputs/topics
       --metrics-out ${outputDir}/task1-evaluation.txt
       --report-json ${outputDir}/task1-evaluation.json
       --prototext-out ${outputDir}/evaluation.prototext
