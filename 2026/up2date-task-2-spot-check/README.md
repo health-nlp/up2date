@@ -28,6 +28,7 @@ tira_configs:
       --topics-dir $inputDataset/topics
       --queries-tsv $outputDir/queries.tsv
       --run $outputDir/run.txt.gz
+      --orbit-api-base $ORBIT_API_BASE
     format:
       name: "arbitrary"
 
