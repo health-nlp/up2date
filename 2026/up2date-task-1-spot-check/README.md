@@ -29,6 +29,8 @@ tira_configs:
       --output-tsv $outputDir/predictions.tsv
     format:
       name: "*.tsv"
+      config:
+        minimum_lines: 3
 
   evaluator:
     image: "mam10eks/up2date-evaluator:0.0.1"
