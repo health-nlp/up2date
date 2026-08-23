@@ -124,7 +124,7 @@ def write_run(run_path: Path, rows: list[tuple[str, str]], api_base: str) -> int
 	total = 0
 	with gzip.open(run_path, "wt", encoding="utf-8", newline="") as file:
 		for topic, query in rows:
-			print(f"Executing Task 2 baseline query: {topic}")
+			print(f"Executing Task 2 baseline query: {topic}", flush=True)
 			for rank, pmid in enumerate(run_query(api_base, query), start=1):
 				file.write(f"{topic} Q0 {pmid} {rank} {1.0 / rank:.12g} {RUN_TAG}\n")
 				total += 1
@@ -142,6 +142,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
 	args = parse_args()
+	raise ValeuError("dsaad")
 	rows = build_rows(args.topics_dir)
 	write_tsv(args.queries_tsv, rows)
 	run_rows = write_run(args.run, rows, args.orbit_api_base)
