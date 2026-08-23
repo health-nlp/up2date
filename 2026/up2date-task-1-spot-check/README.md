@@ -39,6 +39,7 @@ tira_configs:
       --predictions-tsv ${inputRun}/predictions.tsv
       --gold-topics-dir ${inputDataset}/updated-review-topics
       --cutoff-gold-tsv ${inputDataset}/cutoff-gold.tsv
+      --topics-dir ${inputDataset}/topics
       --metrics-out ${outputDir}/task1-evaluation.txt
       --report-json ${outputDir}/task1-evaluation.json
       --prototext-out ${outputDir}/evaluation.prototext
