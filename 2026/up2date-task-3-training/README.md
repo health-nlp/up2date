@@ -25,7 +25,7 @@ tira_configs:
   baseline:
     link: "../baselines"
     command: >-
-      python3 /baseline_task_3.py
+      python3 /task_3.py
       --candidates-tsv $inputDataset/candidates.tsv
       --output-tsv $outputDir/predictions.tsv
     format:
