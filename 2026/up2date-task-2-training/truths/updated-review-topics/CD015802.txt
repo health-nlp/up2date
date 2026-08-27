@@ -1,0 +1,82 @@
+Topic: CD015802
+Version: pub2
+Title: Strategies for cessation of caffeine administration in preterm infants
+Year: 2024
+
+Date: 2024-07-24
+
+Abstract:
+Background Apnea and intermittent hypoxemia (IH) are common developmental disorders in infants born
+earlier than 37 weeks' gestation. Caffeine administration has been shown to lower the incidence of
+these disorders in preterm infants. Cessation of caffeine treatment is based on different
+post-menstrual ages (PMA) and resolution of symptoms. There is uncertainty about the best timing for
+caffeine discontinuation. Objectives To evaluate the effects of early versus late discontinuation of
+caffeine administration in preterm infants. Search methods We searched CENTRAL, PubMed, Embase, and
+three trial registries in August 2023; we applied no date limits. We checked the references of
+included studies and related systematic reviews. Selection criteria We included randomized
+controlled trials (RCTs) in preterm infants born earlier than 37 weeks' gestation, up to a PMA of 44
+weeks and 0 days, who received caffeine for any indication for at least seven days. We compared
+three different strategies for caffeine cessation: 1. at different PMAs, 2. before or after five
+days without symptoms, and 3. at a predetermined PMA versus at the resolution of symptoms. Data
+collection and analysis We used standard Cochrane methods. Primary outcomes were: restarting
+caffeine therapy, intubation within one week of treatment discontinuation, and the need for
+non‐invasive respiratory support within one week of treatment discontinuation. Secondary outcomes
+were: number of episodes of apnea in the seven days after treatment discontinuation, number of
+infants with at least one episode of apnea in the seven days after treatment discontinuation, number
+of episodes of intermittent hypoxemia (IH) within seven days of treatment discontinuation, number of
+infants with at least one episode of IH in the seven days after of treatment discontinuation,
+all-cause mortality prior to hospital discharge, major neurodevelopmental disability, number of days
+of respiratory support after treatment discontinuation, duration of hospital stay, and cost of
+neonatal care. We used GRADE to assess the certainty of evidence for each outcome. Main results We
+included three RCTs (392 preterm infants). Discontinuation of caffeine at PMA less than 35 weeks'
+gestation versus PMA equal to or longer than 35 weeks' gestation This comparison included one single
+completed RCT with 98 premature infants with a gestational age between 25 + 0 and 32 + 0 weeks at
+birth. All infants had discontinued caffeine treatment for five days at randomization. The infants
+received either an oral loading dose of caffeine citrate (20 mg/kg) at randomization followed by
+oral maintenance dosage (6 mg/kg/day) until 40 weeks PMA, or usual care (controls), during which
+caffeine was stopped before 37 weeks PMA. Early cessation of caffeine administration in preterm
+infants at PMA less than 35 weeks' gestation may result in an increase in the number of IH episodes
+in the seven days after discontinuation of treatment, compared to prolonged caffeine treatment
+beyond 35 weeks' gestation (mean difference [MD] 4.80, 95% confidence interval [CI] 2.21 to 7.39; 1
+RCT, 98 infants; low-certainty evidence). Early cessation may result in little to no difference in
+all-cause mortality prior to hospital discharge compared to late discontinuation after 35 weeks PMA
+(risk ratio [RR] not estimable; 98 infants; low-certainty evidence). No data were available for the
+following outcomes: restarting caffeine therapy, intubation within one week of treatment
+discontinuation, need for non‐invasive respiratory support within one week of treatment
+discontinuation, number of episodes of apnea, number of infants with at least one episode of apnea
+in the seven days after discontinuation of treatment, or number of infants with at least one episode
+of IH in the seven days after discontinuation of treatment. Discontinuation based on PMA versus
+resolution of symptoms This comparison included two RCTs with a total of 294 preterm infants.
+Discontinuing caffeine at the resolution of symptoms compared to discontinuing treatment at a
+predetermined PMA may result in little to no difference in all-cause mortality prior to hospital
+discharge (RR 1.00, 95% CI 0.14 to 7.03; 2 studies, 294 participants; low-certainty evidence), or in
+the number of infants with at least one episode of apnea within the seven days after discontinuing
+treatment (RR 0.60, 95% CI 0.31 to 1.18; 2 studies; 294 infants; low-certainty evidence).
+Discontinuing caffeine based on the resolution of symptoms probably results in more infants with IH
+in the seven days after discontinuation of treatment (RR 0.38, 95% CI 0.20 to 0.75; 1 study; 174
+participants; moderate-certainty evidence). No data were available for the following outcomes:
+restarting caffeine therapy, intubation within one week of treatment discontinuation, need for
+non‐invasive respiratory support within one week of treatment discontinuation, or number of episodes
+of IH in the seven days after treatment discontinuation. Adverse effects In the Rhein 2014 study,
+five of the infants randomized to caffeine had the caffeine treatment discontinued at the discretion
+of the clinical team, because of tachycardia. The Pradhap 2023 study reported adverse events,
+including recurrence of apnea of prematurity (15% in the short and 13% in the regular course
+caffeine therapy group), varying severities of bronchopulmonary dysplasia, hyperglycemia,
+extrauterine growth restriction, retinopathy of prematurity requiring laser treatment, feeding
+intolerance, osteopenia, and tachycardia, with no significant differences between the groups. The
+Prakash 2021 study reported that adverse effects of caffeine therapy for apnea of prematurity
+included tachycardia, feeding intolerance, and potential neurodevelopmental impacts, though most
+were mild and transient. We identified three ongoing studies. Authors' conclusions There may be
+little or no difference in the incidence of all-cause mortality and apnea in infants who were
+randomized to later discontinuation of caffeine treatment. However, the number of infants with at
+least one episode of IH was probably reduced with later cessation. No data were found to evaluate
+the benefits and harms of later caffeine discontinuation for: restarting caffeine therapy,
+intubation within one week of treatment discontinuation, or need for non‐invasive respiratory
+support within one week of treatment discontinuation. Further studies are needed to evaluate the
+short-term and long-term effects of different caffeine cessation strategies in premature infants.
+
+Query:
+#1 "Caffeine"[Mesh] OR caffeine*[tw] OR caffedrine*[tw] OR coffein*[tw] OR caffeine*[tw] OR methylxanthin*[tw] OR trimethylxanthin*[tw] #2 (infant, newborn[Mesh]) OR (intensive care, neonatal[Mesh]) OR (intensive care units, neonatal[Mesh]) OR (gestational age[Mesh]) #3 babe[TW] OR babes[TW] baby*[TW] OR babies[TW] OR gestational age[TW] OR gestational ages[TW] OR infant[TW] OR infants[TW] OR infant s[TW] OR infant's[TW] OR infantile[TW] OR infancy[TW] OR low birth weight[TW] OR low birthweight[TW] OR neonat*[TW] OR neo-nat*[TW] OR newborn*[TW] OR new born[TW] OR new borns[TW] OR newly born[TW] OR premature[TW] OR prematures[TW] OR pre-mature*[TW] OR prematurity[TW] OR pre-maturity[TW] OR preterm[TW] OR preterms[TW] OR pre term[TW] OR pre terms[TW] OR preemie[TW] OR preemies[TW] OR premies[TW] OR premie[TW] OR VLBW[TW] OR VLBWI[TW] OR VLBW-I[TW] OR VLBWs[TW] OR LBW[TW] OR LBWI[TW] OR LBWs[TW] OR ELBW[TW] OR ELBWI[TW] OR ELBWs[TW] OR NICU[TW] OR NICUs[TW] #4 #2 OR #3 #5 randomized controlled trial [pt] OR controlled clinical trial [pt] OR randomized [tiab] OR placebo [tiab] OR drug therapy [sh] OR randomly [tiab] OR trial [tiab] OR groups [tiab] #6 quasirandom*[tw] or quasi-random*[tw] or randomi*[tw] or randomly[tw] #7 control*[tw] AND (group[tw] OR groups[tw] OR random[tw] OR trial[tw] OR trials[tw] OR study[tw]) #8 #5 OR #6 OR #7 #9 (animals [mh] NOT humans [mh]) #10 #8 NOT #9 #11 #1 AND #4 AND #10
+
+QueryOrbit:
+("Caffeine"[Mesh] OR caffeine*[tw] OR caffedrine*[tw] OR coffein*[tw] OR methylxanthin*[tw] OR trimethylxanthin*[tw]) AND 2024[dp]

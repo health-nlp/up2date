@@ -1,0 +1,79 @@
+Topic: CD006103
+Version: pub8
+Title: Nicotine receptor partial agonists for smoking cessation
+Year: 2023
+
+Date: 2023-05-05
+
+Abstract:
+Background Nicotine receptor partial agonists may help people to stop smoking by a combination of
+maintaining moderate levels of dopamine to counteract withdrawal symptoms (acting as an agonist) and
+reducing smoking satisfaction (acting as an antagonist). This is an update of a Cochrane Review
+first published in 2007. Objectives To assess the effectiveness of nicotine receptor partial
+agonists, including varenicline and cytisine, for smoking cessation. Search methods We searched the
+Cochrane Tobacco Addiction Group's Specialised Register in April 2022 for trials, using relevant
+terms in the title or abstract, or as keywords. The register is compiled from searches of CENTRAL,
+MEDLINE, Embase, and PsycINFO. Selection criteria We included randomised controlled trials that
+compared the treatment drug with placebo, another smoking cessation drug, e-cigarettes, or no
+medication. We excluded trials that did not report a minimum follow-up period of six months from
+baseline. Data collection and analysis We followed standard Cochrane methods. Our main outcome was
+abstinence from smoking at longest follow-up using the most rigorous definition of abstinence,
+preferring biochemically validated rates where reported. We pooled risk ratios (RRs), using the
+Mantel-Haenszel fixed-effect model. We also reported the number of people reporting serious adverse
+events (SAEs). Main results We included 75 trials of 45,049 people; 45 were new for this update. We
+rated 22 at low risk of bias, 18 at high risk, and 35 at unclear risk. We found moderate-certainty
+evidence (limited by heterogeneity) that cytisine helps more people to quit smoking than placebo (RR
+1.30, 95% confidence interval (CI) 1.15 to 1.47; I2 = 83%; 4 studies, 4623 participants), and no
+evidence of a difference in the number reporting SAEs (RR 1.04, 95% CI 0.78 to 1.37; I2 = 0%; 3
+studies, 3781 participants; low-certainty evidence). SAE evidence was limited by imprecision. We
+found no data on neuropsychiatric or cardiac SAEs. We found high-certainty evidence that varenicline
+helps more people to quit than placebo (RR 2.32, 95% CI 2.15 to 2.51; I2 = 60%, 41 studies, 17,395
+participants), and moderate-certainty evidence that people taking varenicline are more likely to
+report SAEs than those not taking it (RR 1.23, 95% CI 1.01 to 1.48; I2 = 0%; 26 studies, 14,356
+participants). While point estimates suggested increased risk of cardiac SAEs (RR 1.20, 95% CI 0.79
+to 1.84; I2 = 0%; 18 studies, 7151 participants; low-certainty evidence), and decreased risk of
+neuropsychiatric SAEs (RR 0.89, 95% CI 0.61 to 1.29; I2 = 0%; 22 studies, 7846 participants;
+low-certainty evidence), in both cases evidence was limited by imprecision, and confidence intervals
+were compatible with both benefit and harm. Pooled results from studies that randomised people to
+receive cytisine or varenicline showed that more people in the varenicline arm quit smoking (RR
+0.83, 95% CI 0.66 to 1.05; I2 = 0%; 2 studies, 2131 participants; moderate-certainty evidence) and
+reported SAEs (RR 0.67, 95% CI 0.44 to 1.03; I2 = 45%; 2 studies, 2017 participants; low-certainty
+evidence). However, the evidence was limited by imprecision, and confidence intervals incorporated
+the potential for benefit from either cytisine or varenicline. We found no data on neuropsychiatric
+or cardiac SAEs. We found high-certainty evidence that varenicline helps more people to quit than
+bupropion (RR 1.36, 95% CI 1.25 to 1.49; I2 = 0%; 9 studies, 7560 participants), and no clear
+evidence of difference in rates of SAEs (RR 0.89, 95% CI 0.61 to 1.31; I2 = 0%; 5 studies, 5317
+participants), neuropsychiatric SAEs (RR 1.05, 95% CI 0.16 to 7.04; I2 = 10%; 2 studies, 866
+participants), or cardiac SAEs (RR 3.17, 95% CI 0.33 to 30.18; I2 = 0%; 2 studies, 866
+participants). Evidence of harms was of low certainty, limited by imprecision. We found
+high-certainty evidence that varenicline helps more people to quit than a single form of nicotine
+replacement therapy (NRT) (RR 1.25, 95% CI 1.14 to 1.37; I2 = 28%; 11 studies, 7572 participants),
+and low-certainty evidence, limited by imprecision, of fewer reported SAEs (RR 0.70, 95% CI 0.50 to
+0.99; I2 = 24%; 6 studies, 6535 participants). We found no data on neuropsychiatric or cardiac SAEs.
+We found no clear evidence of a difference in quit rates between varenicline and dual-form NRT (RR
+1.02, 95% CI 0.87 to 1.20; I2 = 0%; 5 studies, 2344 participants; low-certainty evidence, downgraded
+because of imprecision). While pooled point estimates suggested increased risk of SAEs (RR 2.15, 95%
+CI 0.49 to 9.46; I2 = 0%; 4 studies, 1852 participants) and neuropsychiatric SAEs (RR 4.69, 95% CI
+0.23 to 96.50; I2 not estimable as events only in 1 study; 2 studies, 764 participants), and reduced
+risk of cardiac SAEs (RR 0.32, 95% CI 0.01 to 7.88; I2 not estimable as events only in 1 study; 2
+studies, 819 participants), in all three cases evidence was of low certainty and confidence
+intervals were very wide, encompassing both substantial harm and benefit. Authors' conclusions
+Cytisine and varenicline both help more people to quit smoking than placebo or no medication.
+Varenicline is more effective at helping people to quit smoking than bupropion, or a single form of
+NRT, and may be as or more effective than dual-form NRT. People taking varenicline are probably more
+likely to experience SAEs than those not taking it, and while there may be increased risk of cardiac
+SAEs and decreased risk of neuropsychiatric SAEs, evidence was compatible with both benefit and
+harm. Cytisine may lead to fewer people reporting SAEs than varenicline. Based on studies that
+directly compared cytisine and varenicline, there may be a benefit from varenicline for quitting
+smoking, however further evidence could strengthen this finding or demonstrate a benefit from
+cytisine. Future trials should test the effectiveness and safety of cytisine compared with
+varenicline and other pharmacotherapies, and should also test variations in dose and duration. There
+is limited benefit to be gained from more trials testing the effect of standard-dose varenicline
+compared with placebo for smoking cessation. Further trials on varenicline should test variations in
+dose and duration, and compare varenicline with e-cigarettes for smoking cessation.
+
+Query:
+1. (cytisine or Tabex or dianicline or varenicline or champix or chantix):TI,AB,MH,EMT,XKY,KY,KW 2. MeSH DESCRIPTOR Nicotine WITH AG AI 3. MeSH DESCRIPTOR Nicotinic Agonists 4. MeSH DESCRIPTOR Nicotinic Antagonists 5. nicotinic agonist*:TI,AB,MH,EMT,XKY,KY,KW 6. nicotinic antagonist*:TI,AB,MH,EMT,XKY,KY,KW 7. nicotin* NEAR2 partial:TI,AB,MH,EMT,XKY,KY,KW #1 OR #2 OR #3 OR #4 OR #5 OR #6 OR #7
+
+QueryOrbit:
+(cytisine[tiab] OR Tabex[tiab] OR dianicline[tiab] OR varenicline[tiab] OR champix[tiab] OR chantix[tiab] OR "Nicotine/agonists"[Mesh] OR "Nicotine/antagonists and inhibitors"[Mesh] OR "Nicotinic Agonists"[Mesh] OR "Nicotinic Antagonists"[Mesh] OR nicotinic agonist*[tiab] OR nicotinic antagonist*[tiab] OR (nicotin*[tiab] AND partial[tiab])) AND 1800:2023[dp]

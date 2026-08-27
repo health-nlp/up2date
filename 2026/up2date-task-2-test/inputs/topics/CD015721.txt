@@ -1,0 +1,18 @@
+Topic: CD015721
+Version: base
+Title: Endovascular thrombectomy with versus without intravascular thrombolysis for acute ischaemic stroke
+Year: 2024
+
+Date: 2024-02-13
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To assess the effects of receiving endovascular thrombectomy with intravascular thrombolysis versus
+without intravascular thrombolysis on functional independence (defined as a modified Rankin Scale
+score (mRS) of < 3) at up to 90 days in people with acute ischaemic stroke.
+
+Query:
+1 (cerebral adj4 infarction).tw. 2 (cerebral infarction or cerebral arterial infarction or brain ischemia or cerebral ischemia or cerebral ischaemia or intravascular thrombolysis or intravenous thrombolysis or large vessel occlusion or stroke).tw. 3 Cerebral Infarction/ or Infarction, Anterior Cerebral Artery/ or Infarction, Middle Cerebral Artery/ or Infarction, Posterior Cerebral Artery/ 4 Stroke/ or Brain Infarction/ or exp Ischemic Stroke/ 5 or/1-4 6 (endovascular or thrombectomy or revascularization or revascularisation or reperfusion).tw. 7 Cerebral Revascularization/ 8 exp Reperfusion/ 9 exp Thrombectomy/ 10 or/6-9 11 (Alteplase or fibrinolytic or tissue plasminogen activator or streptokinase or Streptase or tenecteplase or TNKASE).tw. 12 streptokinase/ or exp tissue plasminogen activator/ or Thrombolytic Therapy/ 13 11 or 12 14 5 and 10 and 13 15 randomized controlled trial.pt. 16 controlled clinical trial.pt. 17 randomized.ab. 18 placebo.ab. 19 drug therapy.fs. 20 randomly.ab. 21 trial.ab. 22 groups.ab. 23 randomi*.tw. 24 or/15-23 25 14 and 24 26 exp animals/ not humans.sh. 27 25 not 26
+
+QueryOrbit:
+((("cerebral"[tiab] AND infarction[tiab]) OR "cerebral infarction"[tiab] OR "cerebral arterial infarction"[tiab] OR "brain ischemia"[tiab] OR "brain ischaemia"[tiab] OR "cerebral ischemia"[tiab] OR "cerebral ischaemia"[tiab] OR "intravascular thrombolysis"[tiab] OR "intravenous thrombolysis"[tiab] OR "large vessel occlusion"[tiab] OR stroke[tiab] OR "Cerebral Infarction"[Mesh] OR "Infarction, Anterior Cerebral Artery"[Mesh] OR "Infarction, Middle Cerebral Artery"[Mesh] OR "Infarction, Posterior Cerebral Artery"[Mesh] OR Stroke[Mesh] OR "Brain Infarction"[Mesh] OR "Ischemic Stroke"[Mesh]) AND (endovascular[tiab] OR thrombectomy[tiab] OR revascularization[tiab] OR revascularisation[tiab] OR reperfusion[tiab] OR "Cerebral Revascularization"[Mesh] OR Reperfusion[Mesh] OR Thrombectomy[Mesh]) AND (Alteplase[tiab] OR fibrinolytic[tiab] OR "tissue plasminogen activator"[tiab] OR streptokinase[tiab] OR Streptase[tiab] OR tenecteplase[tiab] OR TNKASE[tiab] OR Streptokinase[Mesh] OR "Tissue Plasminogen Activator"[Mesh] OR "Thrombolytic Therapy"[Mesh]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab] OR randomi*[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2024[dp]

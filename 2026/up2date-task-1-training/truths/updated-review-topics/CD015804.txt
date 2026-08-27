@@ -1,0 +1,84 @@
+Topic: CD015804
+Version: pub2
+Title: Anti-vascular endothelial growth factor biosimilars for neovascular age-related macular degeneration
+Year: 2024
+
+Date: 2024-07-04
+
+Abstract:
+Rationale Neovascular age-related macular degeneration (AMD) is a progressive eye disease
+characterized by choroidal neovascularization (CNV) and is a leading cause of vision loss and
+disability worldwide. Although intravitreal anti-vascular endothelial growth factor (anti-VEGF)
+therapy is an effective treatment option that helps to prevent vision loss or to improve visual
+acuity in people with neovascular AMD, treatment imposes a significant financial burden on patients
+and healthcare systems. A biosimilar is a biological product that has been developed to be nearly
+identical to a previously approved biological product. The use of biosimilars may help reduce costs
+and so may increase patient access to effective biologic medicines with similar levels of safety to
+the drugs on which they are based. Objectives To assess the benefits and harms of anti-VEGF
+biosimilar agents compared with their corresponding anti-VEGF agents (i.e. the reference products)
+that have obtained regulatory approval for intravitreal injections in people with neovascular AMD.
+Search methods We searched CENTRAL, MEDLINE, Embase, two other databases, and two trials registries
+together with reference checking and contact with study authors to identify studies that are
+included in the review. The latest search date was 2 June 2023. Eligibility criteria We included
+randomized controlled trials (RCTs) that compared approved anti-VEGF biosimilars with their
+reference products for treating the eyes of adult participants (≥ 50 years) who had an active
+primary or recurrent choroidal neovascularization lesion secondary to neovascular AMD. Outcomes Our
+outcomes were: best-corrected visual acuity (BCVA), central subfield thickness (CST), vision-related
+quality of life, serious ocular and non-ocular adverse events (AE), treatment-emergent adverse
+events (TEAEs), anti-drug antibodies (ADAs), and serum concentrations of biosimilars and reference
+drugs. Risk of bias We assessed the risk of bias (RoB) for seven outcomes reported in a summary of
+findings table by using the Cochrane RoB 2 tool. Synthesis methods We synthesized results for each
+outcome using meta-analysis, where possible, by calculating risk ratios (RR) and mean differences
+(MD) with 95% confidence intervals (CI) for dichotomous outcomes and continuous outcomes,
+respectively. Where this was not possible due to the nature of the data, we summarized the results
+narratively. We used GRADE to assess the certainty of evidence for prespecified outcomes. Included
+studies We included nine parallel-group multi-center RCTs that enrolled a total of 3814 participants
+(3814 participating eyes), with sample sizes that ranged from 160 to 705 participants per study. The
+mean age of the participants in these studies ranged from 67 to 76 years, and the proportion of
+women ranged from 26.5% to 58.7%. Ranibizumab (Lucentis) was the reference product in seven studies,
+and aflibercept (Eyelea) was the reference product in two others. All the included studies had been
+supported by industry. The follow-up periods ranged from 12 to 52 weeks (median 48 weeks). Five
+studies (56%) were conducted in multi-country settings across Europe, North America and Asia, two
+studies in India, and one each in Japan and the Republic of Korea. We judged all the included
+studies to have met high methodological standards. Synthesis of results With regard to efficacy, our
+meta-analyses demonstrated that anti-VEGF biosimilars for neovascular AMD resulted in little to no
+difference compared with the reference products for BCVA change at 8 to 12 weeks (MD -0.55 Early
+Treatment Diabetic Retinopathy Study (ETDRS) letters, 95% CI -1.17 to 0.07; 8 studies, 3603
+participants; high-certainty evidence) and the proportion of participants who lost fewer than 15
+letters in BCVA at 24 to 48 weeks (RR 0.99, 95% CI 0.98 to 1.01; 7 studies, 2658 participants;
+moderate-certainty evidence). Almost all participants (96.6% in the biosimilar group and 97.0% in
+the reference product group) lost fewer than 15 letters in BCVA. The evidence from two studies
+suggested that there was no evidence of difference between biosimilars and reference products in
+vision-related quality of life measured by the 25-item National Eye Institute Visual Function
+Questionnaire (NEI-VFQ-25) summary scores at 24 to 48 weeks (MD 0.82, 95% CI -0.70 to 2.35; 2
+studies, 894 participants; moderate-certainty evidence). With regard to the safety profile,
+meta-analyses also revealed little to no difference between anti-VEGF biosimilars and the reference
+products for the proportion of participants who experienced serious ocular AEs (RR 1.24, 95% CI 0.68
+to 2.26; 7 studies, 3292 participants; moderate-certainty evidence), and for TEAEs leading to
+investigational product discontinuation or death (RR 0.96, 95% CI 0.63 to 1.46; 8 studies, 3497
+participants; moderate-certainty evidence). Overall, 1.4% of participants in the biosimilar group
+and 1.2% in the reference product group experienced serious ocular adverse events. The most
+frequently documented serious ocular AEs were retinal hemorrhage and endophthalmitis. Although the
+evidence is of low certainty due to imprecision, meta-analysis suggested that anti-VEGF biosimilars
+led to no difference compared with the reference products for cumulative incidence of ADAs (RR 0.84,
+95% CI 0.58 to 1.22; 8 studies, 3066 participants; low-certainty evidence) or mean maximum serum
+concentrations (MD 0.42 ng/mL, 95% CI -0.22 to 1.05; subgroup of 3 studies, 100 participants;
+low-certainty evidence). We judged the overall risk of bias to be low for all studies. Authors'
+conclusions In our review, low to high certainty evidence suggests that there is little to no
+difference, to date, between the anti-VEGF biosimilars approved for treating neovascular AMD and
+their reference products in terms of benefits and harms. While anti-VEGF biosimilars may be a viable
+alternative to reference products, current evidence for their use is based on a limited number of
+studies - particularly for comparison with aflibercept - with sparse long-term safety data, and
+infrequent assessment of quality of life outcomes. Our effect estimates and conclusions may be
+modified once findings have been reported from studies that are currently ongoing, and studies of
+biosimilar agents that are currently in development. Funding Cochrane Eyes and Vision US Project is
+supported by grant UG1EY020522, National Eye Institute, National Institutes of Health. Takeshi
+Hasegawa and Hisashi Noma were supported by Grant-in-Aid for Scientific Research from the Japan
+Society for the Promotion of Science (Grant numbers: 22H03554, 19K03092, 24K06239). Registration
+Protocol available via doi.org/10.1002/14651858.CD015804
+
+Query:
+1. Randomized Controlled Trial.pt. 2. Controlled Clinical Trial.pt. 3. (randomized or randomised).ab,ti. 4. placebo.ab,ti. 5. drug therapy.fs. 6. randomly.ab,ti. 7. trial.ab,ti. 8. groups.ab,ti. 9. 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 10. exp animals/ not humans.sh. 11. 9 not 10 12. exp macular degeneration/ 13. exp retinal degeneration/ 14. exp retinal neovascularization/ 15. exp choroidal neovascularization/ 16. exp macula lutea/ 17. maculopath*.tw,kf. 18. ((macul* or retina* or choroid*) adj4 degener*).tw,kf. 19. ((macul* or retina* or choroid*) adj4 neovasc*).tw,kf. 20. (macula* adj2 lutea).tw,kf. 21. (AMD or ARMD or CNV or nAMD).tw,kf. 22. or/12-21 23. exp Biosimilar Pharmaceuticals/ 24. (biosimilar* or biobetter* or biomimic* or biogeneric*).tw,kf. 25. (biologic* adj2 ("subsequent entry" or "follow-on" or similar* or "me-too" or "non-innovator*")).tw,kf. 26. (similar* adj2 biotherapeutic*).tw,kf. 27. exp Ranibizumab/ 28. (Ranibizumab* or "BCD 100" or "BCD100" or "bcd 300" or "bcd300" or "byooviz" or "chs 201" or "chs 3351" or "chs201" or "chs3351" or "cimerli" or "ckd 701" or "ckd701" or "cmab 818" or "cmab818" or "fyb 201" or "fyb201" or "GBS007" or "GBS-007" or "idb 0062" or "idb0062" or "LUBT 010" or "LUBT010" or "lucentis" or "lucentris" or "ongavia" or "pf 582" or "pf582" or "ql 1205" or "ql1205" or "ranivisio" or ranizurel* or razumab* or "rg 3645" or "rg 6321" or "rg3645" or "rg6321" or "rhuFab V2" or "RTPR024" or "R-TPR-024" or "sb 11" or "sb11" or "SJP0133" or "SJP-0133" or "susvimo" or "ximluci" or "xlucane").tw,kf. 29. (Aflibercept* or "abp 938" or "abp938" or "alt l9" or "altl9" or "ave 0005" or "ave 005" or "ave0005" or "ave005" or "avt 06" or "avt06" or "bay 86 5321" or "bay 865321" or "bay865321" or "chs 2020" or "chs2020" or "CT-P42" or "CTP42" or "eylea" or "eylia" or "fyb 203" or "fyb203" or "gbs 012" or "gbs012" or "ly 01012" or "ly 09004" or "ly01012" or "ly09004" or "myl 1701p" or "myl1701p" or "ot 702" or "ot702" or "pbp 1602" or "pbp1602" or "pmc 902" or "pmc902" or "ql 1207" or "ql1207" or "regn 3" or "regn3" or "sb 15" or "sb15" or "scb 420" or "scb420" or "scd 411" or "scd411" or "sok 583a1" or "sok583a1" or "SOK583A19" or "SOK 583 A19" or "syn 112" or "syn112" or "vascular endothelial growth factor trap" or "vasculotropin trap" or "VEGF Trap" or "wetlia" or "zaltrap").tw,kf. 30. or/23-29 31. 22 and 30 32. 11 and 31
+
+QueryOrbit:
+2024[dp] AND (("Randomized Controlled Trial"[pt] OR "Controlled Clinical Trial"[pt] OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR "Drug Therapy"[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab]) NOT (animals[mh] NOT humans[mh])) AND ("Macular Degeneration"[mh] OR "Retinal Degeneration"[mh] OR "Retinal Neovascularization"[mh] OR "Choroidal Neovascularization"[mh] OR "Macula Lutea"[mh] OR maculopath*[tw] OR ((macul*[tw] OR retina*[tw] OR choroid*[tw]) AND degener*[tw]) OR ((macul*[tw] OR retina*[tw] OR choroid*[tw]) AND neovasc*[tw]) OR (macula*[tw] AND lutea[tw]) OR AMD[tw] OR ARMD[tw] OR CNV[tw] OR nAMD[tw]) AND ("Biosimilar Pharmaceuticals"[mh] OR biosimilar*[tw] OR biobetter*[tw] OR biomimic*[tw] OR biogeneric*[tw] OR (biologic*[tw] AND ("subsequent entry"[tw] OR "follow-on"[tw] OR similar*[tw] OR "me-too"[tw] OR non-innovator*[tw])) OR (similar*[tw] AND biotherapeutic*[tw]) OR "Ranibizumab"[mh] OR ranibizumab*[tw] OR lucentis[tw] OR byooviz[tw] OR cimerli[tw] OR ongavia[tw] OR ranivisio[tw] OR ranizurel*[tw] OR razumab*[tw] OR susvimo[tw] OR ximluci[tw] OR xlucane[tw] OR aflibercept*[tw] OR eylea[tw] OR eylia[tw] OR wetlia[tw] OR zaltrap[tw] OR "VEGF Trap"[tw] OR "vascular endothelial growth factor trap"[tw] OR "vasculotropin trap"[tw])

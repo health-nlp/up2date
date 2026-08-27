@@ -1,0 +1,49 @@
+Topic: CD008973
+Version: pub2
+Title: Topical corticosteroids for treating phimosis in boys
+Year: 2024
+
+Date: 2024-01-12
+
+Abstract:
+Background Until recently, phimosis has been treated surgically by circumcision or prepuceplasty;
+however, recent reports of non-invasive treatment using topical corticosteroids applied for four to
+eight weeks have been favourable. The efficacy and safety of topical corticosteroids for treating
+phimosis in boys has not been previously systematically reviewed. Objectives We aimed to 1) compare
+the effectiveness of the use of topical corticosteroid ointment applied to the distal stenotic
+portion of the prepuce in the resolution of phimosis in boys compared with the use of placebo or no
+treatment, and 2) determine the rate of partial resolution (improvement) of phimosis, rate of
+re-stenosis after initial resolution or improvement of phimosis, and the rate of adverse events of
+topical corticosteroid treatment in boys with phimosis. Search methods We searched the Cochrane
+Renal Group's Specialised Register through contact with the Trials' Search Co-ordinator using search
+terms relevant to this review. Date of last search: 16 June 2014. Selection criteria We included all
+randomised controlled trials (RCTs) that compared use of any topical corticosteroid ointment with
+placebo ointment or no treatment for boys with phimosis. Data collection and analysis Two authors
+independently assessed titles, abstracts and the full-text of eligible studies, extracted data
+relating to the review's primary and secondary outcomes, and assessed studies' risk of bias.
+Statistical analyses were performed using the random-effects model and results were expressed as
+risk ratios (RR) for dichotomous outcomes with 95% confidence intervals (CI). We contacted authors
+of primary articles asking for details of study design and specific outcome data. Main results We
+included 12 studies that enrolled 1395 boys in this review. We found that both types of
+corticosteroids investigated and treatment duration varied among studies. Compared with placebo,
+corticosteroids significantly increased complete or partial clinical resolution of phimosis (12
+studies, 1395 participants: RR 2.45, 95% CI 1.84 to 3.26). Our analysis of studies that compared
+different types of corticosteroids found that these therapies also significantly increased complete
+clinical resolution of phimosis (8 studies, 858 participants: RR 3.42, 95% CI 2.08 to 5.62).
+Although nine studies (978 participants) reported that assessment of adverse effects were planned in
+the study design, these outcomes were not reported. Overall, we found that inadequate reporting made
+assessing risk of bias challenging in many of the included studies.Selection bias, performance and
+detection bias was unclear in the majority of the included studies: two studies had adequate
+sequence generation, none reported allocation concealment; two studies had adequate blinding of
+participants and personnel and one had high risk of bias; one study blinded outcome assessors.
+Attrition bias was low in 8/12 studies and reporting bias was unclear in 11 studies and high in one
+study. Authors' conclusions Topical corticosteroids offer an effective alternative for treating
+phimosis in boys. Although sub optimal reporting among the included studies meant that the size of
+the effect remains uncertain, corticosteroids appear to be a safe, less invasive first-line
+treatment option before undertaking surgery to correct phimosis in boys.
+
+Query:
+1. exp Phimosis/ 2. Penis/ 3. Foreskin/ 4. Circumcision, Male/ 5. ph#mosis.tw. 6. paraph#mosis.tw. 7. penis.tw. 8. foreskin.tw. 9. prepuce.tw. 10. circumcision.tw. 11. or/1-10 12. exp Glucocorticoids/ 13. Adrenal Cortex Hormones/ 14. Steroids/ 15. steroid$.tw. 16. corticoid$.tw. 17. corticosteroid$.tw. 18. glucocorticoid$.tw. 19. betamethasone.tw. 20. clobetasol.tw. 21. triamcinolone.tw. 22. mometasone.tw. 23. or/12-22 24. and/11,23
+
+QueryOrbit:
+((Phimosis[Mesh] OR Penis[Mesh] OR Foreskin[Mesh] OR "Circumcision, Male"[Mesh] OR phimosis[tiab] OR phimoses[tiab] OR paraphimosis[tiab] OR paraphimoses[tiab] OR penis[tiab] OR foreskin[tiab] OR prepuce[tiab] OR circumcision[tiab]) AND (Glucocorticoids[Mesh] OR "Adrenal Cortex Hormones"[Mesh] OR Steroids[Mesh] OR steroid*[tiab] OR corticoid*[tiab] OR corticosteroid*[tiab] OR glucocorticoid*[tiab] OR betamethasone[tiab] OR clobetasol[tiab] OR triamcinolone[tiab] OR mometasone[tiab])) AND 1800:2024[dp]

@@ -1,0 +1,78 @@
+Topic: CD015751
+Version: pub2
+Title: Lubricating drops for contact lens discomfort in adults
+Year: 2024
+
+Date: 2024-09-05
+
+Abstract:
+Background Contact lens discomfort is a symptom-based clinical diagnosis that affects 13% to 75% of
+contact lens wearers. The Tear Film and Ocular Surface Society defines contact lens discomfort as "a
+condition characterized by episodic or persistent adverse ocular sensations related to lens wear
+either with or without visual disturbance, resulting from reduced compatibility between the lens and
+ocular environment, which can lead to decreased wearing time and discontinuation from lens wear."
+Signs of the condition include conjunctival hyperemia, corneal and conjunctival staining, altered
+blinking patterns, lid wiper epitheliopathy, and meibomian gland dysfunction. Eye care specialists
+often treat contact lens discomfort with lubricating drops, including saline, although there is no
+clear evidence showing this treatment is effective and safe. Objectives To evaluate the efficacy and
+safety of lubricating drops for ocular discomfort associated with contact lens wear in adults.
+Search methods We searched CENTRAL (which contains the Cochrane Eyes and Vision Trials Register),
+MEDLINE, Embase.com, two other databases, and two trials registries to May 2024, without date or
+language restrictions. Selection criteria We included parallel-group randomized controlled trials
+(RCTs) that evaluated lubricating drops, including saline, versus no treatment, or that evaluated
+lubricating drops versus saline, in adult contact lens wearers. We included studies regardless of
+publication status, language, or year of publication. Data collection and analysis We applied
+standard Cochrane methodology. The critical outcome was contact lens discomfort. Important outcomes
+were corneal fluorescein staining and conjunctival redness. Adverse outcomes were incident microbial
+keratitis, inflammatory corneal infiltrates, and participant discontinuation. We assessed risk of
+bias for outcomes reported in the summary of findings table using the Cochrane risk of bias tool RoB
+2, and we rated the certainty of the evidence using GRADE. Main results We included seven RCTs
+conducted in the USA, Canada, Italy, and France. They randomized a total of 463 participants to
+lubricating drops, saline, or no treatment. Four trials evaluated lubricating drops and saline
+versus no treatment, but one of them provided no usable outcome data. Three trials evaluated
+lubricating drops versus saline. Study characteristics All trial participants were adults, and the
+mean age ranged from 25.7 years to 36.7 years. The proportion of women varied from 15% to 82%. The
+trials lasted between one and four weeks. Of the five trials that reported contact lens discomfort,
+we judged three at high risk of bias, and considered the other two had some risk of bias concerns.
+Lubricating drops (including saline) versus no treatment Lubricating drops compared with no
+treatment may reduce contact lens discomfort, measured on a 37-point scale (lower is better), but
+the evidence is very uncertain (mean difference [MD] −5.9 points, 95% confidence interval [CI] −3.74
+to −8.05; 2 RCTs; 119 participants). One trial found no difference between lubricating drops and no
+treatment in "end-of-day" comfort. The trial that compared saline with no treatment provided no
+results for the control group. Two studies measured corneal fluorescein staining on a scale of 0 to
+20 (lower is better). We found low-certainty evidence of little to no difference between lubricating
+drops and no treatment in changes in the extent (MD −0.15 points, 95% CI −0.86 to 0.56; 2 RCTs; 119
+participants), depth (MD −0.01 points, 95% CI −0.44 to 0.42; 2 RCTs; 119 participants), or type (MD
+0.04 points, 95% CI −0.38 to 0.46; 2 RCTs; 119 participants) of corneal fluorescein staining scores.
+Regarding conjunctival redness, measured on a scale of 0 to 4 (lower is better), there was
+low-certainty evidence of little to no difference between lubricating drops and no treatment in
+nasal region scores (MD 0.10, 95% CI −0.29 to 0.49; 1 RCT; 73 participants) and temporal region
+scores (MD 0.00, 95% CI −0.39 to 0.39; 1 RCT; 73 participants). No studies reported microbial
+keratitis or inflammatory corneal infiltrates, and no trials reported vision-threatening adverse
+events up to four weeks of treatment. All trials reported the proportion of participants who
+discontinued participation. In two trials, no participants left any treatment group. Our
+meta-analysis of another two studies suggests little difference in the number of people who dropped
+out of the lubricating treatment group versus the no treatment group (risk ratio [RR] 1.42, 95% CI
+0.19 to 10.94; 138 participants; low-certainty evidence). Lubricating drops versus saline
+Lubricating drops may have little to no effect compared with saline on contact lens discomfort
+measured on a visual analog scale of 0 to 100 (lower is better), but the evidence is very uncertain
+(MD 9.5 points, 95% CI −4.65 to 23.65; 1 RCT; 39 participants). No studies reported corneal
+fluorescein staining or conjunctival redness. No studies reported microbial keratitis or
+inflammatory corneal infiltrates, and no trials reported vision-threatening adverse events up to
+four weeks of treatment. Our meta-analysis of three studies suggests little difference in the number
+of people who dropped out of the lubricating treatment group versus the saline group (RR 1.56, 95%
+CI 0.47 to 5.12; 269 participants; low-certainty evidence). Authors' conclusions Very low-certainty
+evidence suggests that lubricating drops may improve contact lens discomfort compared with no
+treatment, but may have little or no effect on contact lens discomfort compared with saline.
+Low-certainty evidence also suggests that lubricating drops may have no unwanted effects that would
+lead to discontinuation over one to four weeks. Current evidence suggests that prescribing
+lubricating drops (including saline) to people with contact lens discomfort is a viable option.
+However, most studies did not assess patient-reported contact lens (dis)comfort using a validated
+instrument. Therefore, further well-designed trials are needed to generate high-certainty evidence
+on patient-reported outcomes as well as on longer-term safety outcomes.
+
+Query:
+1. Randomized Controlled Trial.pt. 2. Controlled Clinical Trial.pt. 3. (randomized or randomised).ab,ti. 4. placebo.ab,ti. 5. drug therapy.fs. 6. randomly.ab,ti. 7. trial.ab,ti. 8. groups.ab,ti. 9. 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 10. exp animals/ not humans.sh. 11. 9 not 10 12. exp Contact Lenses/ 13. ((contact or contacts) adj2 (lens or lenses)).tw. 14. ((hydrogel* or hydrophilic* or silicone* or "gas perm*") adj2 (contact or contacts)).tw. 15. ((hydrogel* or hydrophilic* or silicone* or "gas perm*") adj2 (lens or lenses)).tw. 16. ((soft or disposable or disposables or daily or dailies or monthly or monthlies or weekly or weeklies or "extended wear" or "continuous wear" or hybrid* or biweek* or replacement*) adj2 (contact or contacts)).tw. 17. ((soft or disposable or disposables or daily or dailies or monthly or monthlies or weekly or weeklies or "extended wear" or "continuous wear" or hybrid* or biweek* or replacement*) adj2 (lens or lenses)).tw. 18. or/12-17 19. exp Nonprescription Drugs/ 20. ("over-the-counter" or "over the counter" or OTC).tw. 21. ("non-prescription*" or "non prescription*" or "nonprescription*").tw. 22. exp Ophthalmic Solutions/ 23. ("artificial tear*" or "tear substitute*" or eyedrop*).tw. 24. ((eye or eyes or ocular* or ophthalmic* or "non prescripti*" or nonprescripti* or wetting or rewetting or lubricating) adj2 (drop or drops or agent or agents or solution or solutions)).tw. 25. exp Ointments/ 26. (ointment* or lubricant*).tw. 27. exp Demulcents/ 28. demulcent*.tw. 29. exp Hypromellose Derivatives/ 30. exp Methylcellulose/ 31. (hypromellose or "cellulose derivative*" or "carboxymethylcellulose sodium" or CMC or hydroxypropylmethylcellulose or "hydroxypropyl methylcellulose" or HPMC or "hydroxyethyl cellulose" or methylcellulose or methoxyhydroxypropylcellulose or carbomer* or cellulose).tw. 32. "dextran 70".tw. 33. exp Gelatin/ 34. (gelatin* or "HP Guar" or "Carbopol type gel").tw. 35. exp Polyethylene Glycols/ 36. ("liquid polyol*" or glycerin* or "polyethylene glycol*" or "PEG 300" or "PEG 400" or "polysorbate 80" or "propylene glycol*" or "polyhydric alcohol*").tw. 37. exp Polyvinyls/ 38. ("polyvinyl alcohol*" or polyvinylalcohol* or PVA).tw. 39. (povidone or polyvinylpyrrolidone).tw. 40. exp Hyaluronic Acid/ 41. "sodium hyaluronate".tw. 42. exp Emollients/ 43. emollient*.tw. 44. exp Lanolin/ 45. exp Paraffin/ 46. exp Mineral Oil/ 47. exp Fatty Acids, Omega-3/ 48. exp Leptospermum/ 49. (lanolin* or paraffin*).tw. 50. ((castor or mineral) adj2 oil*).tw. 51. (omega-3 or omega 3).tw. 52. (manuka or leptospermum).tw. 53. or/19-52 54. 18 and 53 55. 11 and 54
+
+QueryOrbit:
+

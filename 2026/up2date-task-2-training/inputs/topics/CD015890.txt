@@ -1,0 +1,20 @@
+Topic: CD015890
+Version: base
+Title: Undernutrition as a risk factor for tuberculosis disease
+Year: 2023
+
+Date: 2023-10-06
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (prognosis). The objectives are as follows: To
+determine the prognostic value of undernutrition in the general population of adults and children
+for predicting tuberculosis disease. Population Adults and children from the general population
+Index prognostic factors Undernutrition (wasting, stunting, underweight) Outcomes Incidence of
+tuberculosis (adjusted risk) Timing Short- and long-term follow-up Setting General
+population/outpatients Study design Cohort studies
+
+Query:
+#1 tubercul*[tw] #2 diabet*[tw] OR BMI[tiab] OR body mass index[tiab] OR underweight[tiab] OR malnutri*[tw] OR undernutri*[tiab] OR wasting[tw] OR undernourish*[tiab] OR malnourish*[tiab] OR Kwashiorkor*[tw] OR nutritional deficien*[tiab] #3 risk[tw] OR prevalence[tw] OR incidence[tw] OR cohort[tw] #4 #1 AND #2 AND #3
+
+QueryOrbit:
+(tubercul*[tw]) AND (diabet*[tw] OR BMI[tiab] OR "body mass index"[tiab] OR underweight[tiab] OR malnutri*[tw] OR undernutri*[tiab] OR wasting[tw] OR undernourish*[tiab] OR malnourish*[tiab] OR Kwashiorkor*[tw] OR "nutritional deficien*"[tiab]) AND (risk[tw] OR prevalence[tw] OR incidence[tw] OR cohort[tw]) AND 2023[dp]

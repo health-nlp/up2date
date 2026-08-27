@@ -1,0 +1,19 @@
+Topic: CD016058
+Version: base
+Title: Interventions for quitting vaping
+Year: 2024
+
+Date: 2024-05-21
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To conduct a living systematic review to assess the benefits and harms of interventions to help
+people quit vaping compared to each other or to placebo or no intervention. We will also assess how
+these interventions affect the use of combustible tobacco, and whether effects vary based on
+participant characteristics.
+
+Query:
+1. (e-cig* or ecig* or electr* cigar* or electronic nicotine).mp. or (vape or vapes or vaporizer or vapourizer or vaporiser or vapouriser or vaper or vapers or vaping).ti,ab. or exp Electronic Nicotine Delivery Systems/ or exp Vaping/ 2. (randomized controlled trial or controlled clinical trial).pt. or randomized.ab. or placebo.ab. or clinical trials as topic.sh. or randomly.ab. or trial.ti. 3. exp animals/ not human/ 4. 2 not 3 5. 1 and 4 6. exp Smoking Cessation/ 7. "Tobacco-Use-Cessation"/ 8. (nicotine dependence or tobacco dependence).mp. 9. exp Smoking/th 10. "Tobacco-Use-Disorder"/ 11. Smoking reduction/ 12. exp Pipe smoking/ or exp Tobacco smoking/ or exp Tobacco Products/ 13. ((quit* or stop* or cessation or ceas* or giv* or abstain* or abstinen* or reduc*) adj5 (e-cig* or ecig* or electr* cigar* or electronic nicotine or vape or vapes or vaporizer or vapourizer or vaporiser or vapouriser or vaper or vapers or vaping)).ti,ab. 14. exp Tobacco/ or exp Nicotine/ 15. 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 16. 5 and 15
+
+QueryOrbit:
+2024[dp] AND ( ( e-cig*[tw] OR ecig*[tw] OR (electr*[tw] AND cigar*[tw]) OR (electronic[tw] AND nicotine[tw]) OR vape[tiab] OR vapes[tiab] OR vaporizer[tiab] OR vapourizer[tiab] OR vaporiser[tiab] OR vapouriser[tiab] OR vaper[tiab] OR vapers[tiab] OR vaping[tiab] OR "Electronic Nicotine Delivery Systems"[Mesh] OR "Vaping"[Mesh] ) AND ( ( "Randomized Controlled Trial"[pt] OR "Controlled Clinical Trial"[pt] OR randomized[ab] OR placebo[ab] OR "Clinical Trials as Topic"[Mesh] OR randomly[ab] OR trial[ti] ) NOT (animals[Mesh] NOT humans[Mesh]) ) AND ( "Smoking Cessation"[Mesh] OR "Tobacco Use Cessation"[Mesh] OR (nicotine[tw] AND dependence[tw]) OR (tobacco[tw] AND dependence[tw]) OR "Smoking"[Mesh] OR "Tobacco Use Disorder"[Mesh] OR "Smoking Reduction"[Mesh] OR "Pipe Smoking"[Mesh] OR "Tobacco Smoking"[Mesh] OR "Tobacco Products"[Mesh] OR ( ( quit*[tiab] OR stop*[tiab] OR cessation[tiab] OR ceas*[tiab] OR giv*[tiab] OR abstain*[tiab] OR abstinen*[tiab] OR reduc*[tiab] ) AND ( e-cig*[tiab] OR ecig*[tiab] OR (electr*[tiab] AND cigar*[tiab]) OR (electronic[tiab] AND nicotine[tiab]) OR vape[tiab] OR vapes[tiab] OR vaporizer[tiab] OR vapourizer[tiab] OR vaporiser[tiab] OR vapouriser[tiab] OR vaper[tiab] OR vapers[tiab] OR vaping[tiab] ) ) OR "Tobacco"[Mesh] OR "Nicotine"[Mesh] ) )

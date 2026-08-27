@@ -1,0 +1,63 @@
+Topic: CD016070
+Version: pub2
+Title: Parallel use of low-complexity automated nucleic acid amplification tests and lateral flow urine lipoarabinomannan assays to detect tuberculosis disease in adults and adolescents living with HIV
+Year: 2025
+
+Date: 2025-06-10
+
+Abstract:
+Background Low-complexity automated nucleic acid amplification tests (LC-aNAATs) are molecular World
+Health Organization (WHO)-recommended rapid diagnostic tests (also known as mWRDs) widely used to
+diagnose tuberculosis disease. The lateral flow urine lipoarabinomannan assay (LF-LAM) is
+recommended by the WHO to assist in diagnosing tuberculosis disease amongst people with HIV.
+Previous systematic reviews have assessed the diagnostic accuracy of LC-aNAATs and LF-LAM used in
+isolation for the detection of tuberculosis, but in clinical practice the tests may be used in
+parallel (i.e. LC-aNAAT in combination with LF-LAM). Objectives To compare the diagnostic accuracy
+of the parallel use of LC-aNAAT on respiratory samples and LF-LAM on urine versus LC-aNAATs on
+respiratory samples alone for detection of tuberculosis disease in adults and adolescents with HIV
+who present with presumptive tuberculosis. Search methods We searched Cochrane CENTRAL, MEDLINE,
+Embase, Science Citation Index-Expanded, Biosis Previews, Conference Proceedings Citation Index –
+Science, Scopus, WHO Global Index Medicus, ProQuest Dissertations & Theses, ClinicalTrial.gov, and
+the WHO International Clinical Trials Registry up to 3 November 2023. Selection criteria We included
+studies that allowed assessment of the diagnostic accuracy of parallel testing and LC-aNAAT on
+respiratory samples in the same study group. Participants were adults and adolescents (defined as 10
+years of age and older) with HIV who presented with presumptive tuberculosis. The reference
+standards we used for the detection of tuberculosis disease were microbiological or composite. As
+well as published studies, we included unpublished data if the data provided by study authors on
+request were the final data and could be used to compare diagnostic accuracy of parallel testing to
+one of the component tests. Data collection and analysis Two review authors independently extracted
+data using a standardised form and assessed methodological quality using QUADAS-2 and QUADAS-C
+tools. We performed bivariate random-effects meta-analysis using a Bayesian approach to estimate
+sensitivity, specificity, and absolute differences between index tests. We performed subgroup
+analyses based on the presence of signs and symptoms, CD4 cell count, and clinical setting, as well
+as separate analyses for those with a positive screen for tuberculosis, advanced HIV, or serious
+illness. Main results In 27 studies involving 12,651 participants, of whom 2368 (19%) had
+tuberculosis based on a microbiological reference standard, the parallel use of respiratory LC-aNAAT
+and urine LF-LAM had a pooled sensitivity of 77.5% (95% credible interval (CrI) 73.4 to 81.3) and
+specificity of 89.4% (95% CrI 85.8 to 92.3). Compared to respiratory LC-aNAAT alone, parallel
+testing had 6.7 (95% CrI 3.8 to 10.7) percentage points higher sensitivity (low certainty) and −6.8
+(95% CrI −9.5 to −4.7) percentage points difference in specificity (low-certainty evidence), using a
+microbiological reference standard. In 23 studies, 11,109 participants, of whom 3723 (34%) had
+tuberculosis based on a composite reference standard, parallel testing had a pooled sensitivity of
+67.6% (95% CrI 59.9 to 74.6) and a pooled specificity of 96.2% (95% CrI 92.8 to 98.1). Compared to
+respiratory LC-aNAAT alone, parallel testing had 16.0 (10.7 to 22.9) percentage points higher
+sensitivity (low-certainty evidence) and −3.5 (95% CrI −6.6 to −1.7) percentage points difference in
+specificity (very low certainty evidence), using a composite reference standard. Authors'
+conclusions In the diagnosis of tuberculosis disease in people with HIV who present with presumptive
+tuberculosis, parallel testing (LC-aNAAT on respiratory samples and LF-LAM on urine) improves
+sensitivity at the cost of reduced specificity compared to LC-aNAAT on respiratory samples alone.
+The gain in sensitivity should be weighed against the loss of specificity, taking into consideration
+the varying tuberculosis prevalence in different settings. For low-prevalence settings, using the
+tests in parallel may lead to a large increase in false-positive results. In settings with high
+tuberculosis prevalence, the benefit of identifying additional patients with tuberculosis at the
+point-of-care likely outweighs the relatively lower risk of overtreatment of those without
+tuberculosis. Funding Internal sources: Liverpool School of Tropical Medicine, UK External sources:
+Foreign, Commonwealth and Development Office (FCDO), UK. Project number 300342-104; WHO, TB
+Prevention, Diagnosis, Treatment, Care & Innovation (PCI), Global TB Programme Registration Protocol
+available via https://doi.org/10.1002/14651858.CD016070, version published 13 May 2024
+
+Query:
+1 Mycobacterium tuberculosis/ 2 *Tuberculosis/ 3 Tuberculosis, Pulmonary/ 4 multidrug resistant tuberculosis.mp. or Tuberculosis, Multidrug-Resistant/ 5 extensively drug resistant tuberculosis.mp. or Extensively Drug-Resistant Tuberculosis/ 6 (tuberculosis or TB).ti,ab. 7 1 or 2 or 3 or 4 or 5 or 6 8 Xpert*.ti. or Xpert*.ab. 9 (GeneXpert* or cepheid).ti. or (GeneXpert* or cepheid).ab. 10 (Truenat* or Molbio or TruRif).mp. 11 (STANDARD M10 or SD Biosensor or IRON-qPCR or BIONEER).mp. 12 TB-LAMP*.mp. 13 Loop-Mediated Isothermal Amplification.mp. 14 (LAMP or LOOPAMP).mp. 15 NAAT*.mp. 16 Nucleic Acid Amplification Techniques/ 17 "nucleic acid amplification".tw. 18 Diagnostic Tests, Routine/ or RDT*.mp. 19 rapid diagnos*.ti,ab. 20 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 21 7 and 20 22 (LAM or lipoarabinomannan or alerelam or "determine tb lam" or "lf-lam" or "TB LAM").mp. 23 21 and 22 24 limit 23 to yr="2010 -Current"
+
+QueryOrbit:
+(("Mycobacterium tuberculosis"[Mesh] OR "Tuberculosis"[Majr] OR "Tuberculosis, Pulmonary"[Mesh] OR "Tuberculosis, Multidrug-Resistant"[Mesh] OR "Extensively Drug-Resistant Tuberculosis"[Mesh] OR "multidrug resistant tuberculosis"[tw] OR "extensively drug resistant tuberculosis"[tw] OR tuberculosis[tiab] OR TB[tiab]) AND (Xpert*[tiab] OR GeneXpert*[tiab] OR cepheid[tiab] OR Truenat*[tw] OR Molbio[tw] OR TruRif[tw] OR "STANDARD M10"[tw] OR "SD Biosensor"[tw] OR "IRON-qPCR"[tw] OR BIONEER[tw] OR TB-LAMP*[tw] OR "Loop-Mediated Isothermal Amplification"[tw] OR LAMP[tw] OR LOOPAMP[tw] OR NAAT*[tw] OR "Nucleic Acid Amplification Techniques"[Mesh] OR "nucleic acid amplification"[tw] OR "Diagnostic Tests, Routine"[Mesh] OR RDT*[tw] OR rapid diagnos*[tiab] OR LAM[tw] OR lipoarabinomannan[tw] OR alerelam[tw] OR "determine tb lam"[tw] OR "lf-lam"[tw] OR "TB LAM"[tw])) AND 2025[dp]

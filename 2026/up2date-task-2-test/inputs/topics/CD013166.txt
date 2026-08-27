@@ -1,0 +1,16 @@
+Topic: CD013166
+Version: pub2
+Title: Low-intensity shockwave therapy for erectile dysfunction
+Year: 2023
+
+Date: 2023-09-20
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To assess the effects of low-intensity shockwave therapy (LiSWT) for men with erectile dysfunction.
+
+Query:
+#1 exp Extracorporeal Shockwave Therapy/ #2 exp Ultrasonic Therapy/ #3 (shock wave* or shockwave*).tw. #4 (Ultraso* adj2 therap*).tw. #5 ESWT.tw. #6 ECSW.tw. #7 #1 or #2 or #3 or #4 or #5 or #6 #8 exp Erectile Dysfunction/ #9 Erectile dysfunction*.tw. #10 Erectile function*.tw. #11 Erectile failure*.tw. #12 Erection failure*.tw. #13 ED.tw. #14 Penile erect*.tw. #15 Impoten*.tw. #16 (sexual adj (function* or dysfunction* or problem* or symptom* or arous*)).tw. #17 (sex adj (function* or dysfunction* or problem* or symptom* or arous*)).tw. #18 exp Impotence, Vasculogenic/ #19 #9 or #10 or #11 or #12 or #13 or #14 or #15 or #16 or #17 or #18 #20 #7 and #19 #21 randomized controlled trial.pt. #22 controlled clinical trial.pt. #23 randomized.ab. #24 placebo.ab. #25 drug therapy.fs. #26 randomly.ab. #27 trial.ab. #28 groups.ab. #29 #21 or #22 or #23 or #24 or #25 or #26 or #27 or #28 #30 exp animals/ not humans.sh. #31 #29 not #30 #32 #20 and #31
+
+QueryOrbit:
+(("Extracorporeal Shockwave Therapy"[Mesh] OR "Ultrasonic Therapy"[Mesh] OR shock wave*[tiab] OR shockwave*[tiab] OR (ultraso*[tiab] AND therap*[tiab]) OR ESWT[tiab] OR ECSW[tiab]) AND ("Erectile Dysfunction"[Mesh] OR "Impotence, Vasculogenic"[Mesh] OR "erectile dysfunction"[tiab] OR "erectile dysfunctions"[tiab] OR "erectile function"[tiab] OR "erectile functions"[tiab] OR "erectile failure"[tiab] OR "erectile failures"[tiab] OR "erection failure"[tiab] OR "erection failures"[tiab] OR ED[tiab] OR "penile erection"[tiab] OR "penile erections"[tiab] OR impotenc*[tiab] OR ((sexual[tiab] OR sex[tiab]) AND (function*[tiab] OR dysfunction*[tiab] OR problem*[tiab] OR symptom*[tiab] OR arous*[tiab]))) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

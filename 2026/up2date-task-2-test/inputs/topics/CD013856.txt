@@ -1,0 +1,81 @@
+Topic: CD013856
+Version: pub2
+Title: Physical exercise for people with Parkinson’s disease: a systematic review and network meta-analysis
+Year: 2023
+
+Date: 2023-05-17
+
+Abstract:
+Background Physical exercise is effective in managing Parkinson's disease (PD), but the relative
+benefit of different exercise types remains unclear. Objectives To compare the effects of different
+types of physical exercise in adults with PD on the severity of motor signs, quality of life (QoL),
+and the occurrence of adverse events, and to generate a clinically meaningful treatment ranking
+using network meta-analyses (NMAs). Search methods An experienced information specialist performed a
+systematic search for relevant articles in CENTRAL, MEDLINE, Embase, and five other databases to 17
+May 2021. We also searched trial registries, conference proceedings, and reference lists of
+identified studies up to this date. Selection criteria We included randomized controlled trials
+(RCTs) comparing one type of physical exercise for adults with PD to another type of exercise, a
+control group, or both. Data collection and analysis Two review authors independently extracted
+data. A third author was involved in case of disagreements. We categorized the interventions and
+analyzed their effects on the severity of motor signs, QoL, freezing of gait, and functional
+mobility and balance up to six weeks after the intervention using NMAs. Two review authors
+independently assessed the risk of bias using the risk of bias 2 (RoB 2) tool and rated the
+confidence in the evidence using the CINeMA approach for results on the severity of motor signs and
+QoL. We consulted a third review author to resolve any disagreements. Due to heterogeneous reporting
+of adverse events, we summarized safety data narratively and rated our confidence in the evidence
+using the GRADE approach. Main results We included 156 RCTs with a total of 7939 participants with
+mostly mild to moderate disease and no major cognitive impairment. The number of participants per
+study was small (mean 51, range from 10 to 474). The NMAs on the severity of motor signs and QoL
+included data from 71 (3196 participants), and 55 (3283 participants) trials, respectively.
+Eighty-five studies (5192 participants) provided safety data. Here, we present the main results. We
+observed evidence of beneficial effects for most types of physical exercise included in our review
+compared to a passive control group. The effects on the severity of motor signs and QoL are
+expressed as scores on the motor scale of the Unified Parkinson Disease Rating Scale (UPDRS-M) and
+the Parkinson's Disease Questionnaire 39 (PDQ-39), respectively. For both scales, higher scores
+denote higher symptom burden. Therefore, negative estimates reflect improvement (minimum clinically
+important difference: -2.5 for UPDRS-M and -4.72 for PDQ-39). Severity of motor signs The evidence
+from the NMA (71 studies; 3196 participants) suggests that dance has a moderate beneficial effect on
+the severity of motor signs (mean difference (MD) -10.32, 95% confidence interval (CI) -15.54 to
+-4.96; high confidence), and aqua-based, gait/balance/functional, and multi-domain training might
+have a moderate beneficial effect on the severity of motor signs (aqua-based: MD -7.77, 95% CI
+-13.27 to -2.28; gait/balance/functional: MD -7.37, 95% CI -11.39 to -3.35; multi-domain: MD -6.97,
+95% CI -10.32 to -3.62; low confidence). The evidence also suggests that mind-body training and
+endurance training might have a small beneficial effect on the severity of motor signs (mind-body:
+MD -6.57, 95% CI -10.18 to -2.81; endurance: MD -6.43, 95% CI -10.72 to -2.28; low confidence).
+Flexibility training might have a trivial or no effect on the severity of motor signs (MD 2.01, 95%
+CI -4.82 to 8.98; low confidence). The evidence is very uncertain about the effects of
+strength/resistance training and "Lee Silverman Voice training BIG" (LSVT BIG) on the severity of
+motor signs (strength/resistance: MD -6.97, 95% CI -11.93 to -2.01; LSVT BIG: MD -5.49, 95% CI
+-14.74 to 3.62; very low confidence). Quality of life The evidence from the NMA (55 studies; 3283
+participants) suggests that aqua-based training probably has a large beneficial effect on QoL (MD
+-14.98, 95% CI -23.26 to -6.52; moderate confidence). The evidence also suggests that endurance
+training might have a moderate beneficial effect, and that gait/balance/functional and multi-domain
+training might have a small beneficial effect on QoL (endurance: MD -9.16, 95% CI -15.68 to -2.82;
+gait/balance/functional: MD -5.64, 95% CI -10.04 to -1.23; multi-domain: MD -5.29, 95% CI -9.34 to
+-1.06; low confidence). The evidence is very uncertain about the effects of mind-body training,
+gaming, strength/resistance training, dance, LSVT BIG, and flexibility training on QoL (mind-body:
+MD -8.81, 95% CI -14.62 to -3.00; gaming: MD -7.05, 95% CI -18.50 to 4.41; strength/resistance: MD
+-6.34, 95% CI -12.33 to -0.35; dance: MD -4.05, 95% CI -11.28 to 3.00; LSVT BIG: MD 2.29, 95% CI
+-16.03 to 20.44; flexibility: MD 1.23, 95% CI -11.45 to 13.92; very low confidence). Adverse events
+Only 85 studies (5192 participants) provided some kind of safety data, mostly only for the
+intervention groups. No adverse events (AEs) occurred in 40 studies and no serious AEs occurred in
+four studies. AEs occurred in 28 studies. The most frequently reported events were falls (18
+studies) and pain (10 studies). The evidence is very uncertain about the effect of physical exercise
+on the risk of adverse events (very low confidence). Across outcomes, we observed little evidence of
+differences between exercise types. Authors' conclusions We found evidence of beneficial effects on
+the severity of motor signs and QoL for most types of physical exercise for people with PD included
+in this review, but little evidence of differences between these interventions. Thus, our review
+highlights the importance of physical exercise regarding our primary outcomes severity of motor
+signs and QoL, while the exact exercise type might be secondary. Notably, this conclusion is
+consistent with the possibility that specific motor symptoms may be treated most effectively by
+PD-specific programs. Although the evidence is very uncertain about the effect of exercise on the
+risk of adverse events, the interventions included in our review were described as relatively safe.
+Larger, well-conducted studies are needed to increase confidence in the evidence. Additional studies
+recruiting people with advanced disease severity and cognitive impairment might help extend the
+generalizability of our findings to a broader range of people with PD.
+
+Query:
+1. exp PARKINSON DISEASE/ 2. parkinson*.tw,kf. 3. or/1-2 4. exp SOFTWARE/ 5. software.mp. 6. game.mp. 7. gaming.mp. 8. play*.mp. 9. simulation*.mp. 10. program*.mp. 11. techni*.mp. 12. video.mp. 13. VIRTUAL REALITY EXPOSURE THERAPY/ 14. user-computer interface.mp. 15. interactive.mp. 16. virtual*.mp. 17. vr.mp. 18. augmented.mp. 19. exergam*.mp. 20. kinect.mp. 21. nintendo wii.mp. 22. microsoft xbox.mp. 23. or/4-22 24. biofeedback.mp. 25. exp MOVEMENT/ 26. movement.mp. 27. exp PHYSICAL THERAPY MODALITIES/ 28. exp PHYSICAL FITNESS/ 29. fitness.mp. 30. exp MUSCLE STRENGTH/ 31. strength.mp. 32. muscle.mp. 33. locomot*.mp. 34. exp BODY WEIGHT/ 35. (weight* adj1 body*).mp. 36. (weight* adj2 training*).mp. 37. motor activity.mp. 38. or/24-37 39. exp EXERCISE/ 40. exercise*.mp. 41. activit*.mp. 42. sport*.mp. 43. train*.mp. 44. intervention*.mp. 45. condition*.mp. 46. exp PHYSICAL ENDURANCE/ 47. endurance.mp. 48. exp GAIT/ 49. gait*.mp. 50. postural balance.mp. 51. exp DANCING/ 52. danc*.mp. 53. tango.mp. 54. exp MARTIAL ARTS/ 55. martial art*.mp. 56. aerobic.mp. 57. (boxing or shadowboxing).mp. 58. treadmill*.mp. 59. karate.mp. 60. exp WALKING/ 61. walking.mp. 62. BICYCLING/ 63. bicycle*.mp. 64. or/39-63 65. MEDICINE, CHINESE TRADITIONAL/ 66. traditional chinese exercise.mp. 67. or/65-66 68. exp MIND-BODY THERAPIES/ 69. (mind adj1 body).mp. 70. Tai ji/ 71. ((chi adj1 tai) or (tai adj1 ji*) or taiji* or taichi* or t'ai chi).mp. 72. (wuqinxi or baduanjin or yijiejing).mp. 73. QIGONG/ 74. (qi-gong* or qigong*).mp. 75. ((qi* adj2 (gong* or kung* or chung* or gung*)) or (chi* adj2 (gong* or kung* or chung* or gung*))).mp. 76. yoga.mp. 77. (asana or pranayama or dhyana).mp. 78. pilates.mp. 79. or/68-78 80. exp REHABILITATION/ 81. rehab*.mp. 82. exp THERAPEUTICS/ 83. therap*.mp. 84. physical*.mp. 85. physiotherapy.mp. 86. exercise therapy.mp. 87. exp EXERCISE TEST/ 88. exercise test.mp. 89. strengthening program*.mp. 90. progressive resistance training.mp. 91. cardiorespiratory.mp. 92. exp CARDIOVASCULAR SYSTEM/ 93. cardiovascular.mp. 94. aqua*.mp. 95. hydrotherapy.mp. 96. (lsvt-big or lsvtbig).mp. 97. ("Lee Silverman Voice Treatment" and big).mp. 98. periodicity.mp. 99. socio environmental.mp. 100. (whole body adj1 vibration*).mp. 101. or/80-100 102. 23 or 38 or 64 or 67 or 79 or 101 103. randomized controlled trial.pt. 104. controlled clinical trial.pt. 105. randomi?ed.ab. 106. placebo.ab. 107. clinical trials as topic.sh. 108. randomly.ab. 109. trial.ti. 110. or/103-109 111. exp animals/ not humans/ 112. 110 not 111 113. 3 and 102 and 112
+
+QueryOrbit:
+(("Parkinson Disease"[Mesh] OR parkinson*[tiab]) AND (Software[Mesh] OR software[tiab] OR game[tiab] OR gaming[tiab] OR play*[tiab] OR simulation*[tiab] OR program*[tiab] OR techni*[tiab] OR video[tiab] OR "Virtual Reality Exposure Therapy"[Mesh] OR "user-computer interface"[tiab] OR interactive[tiab] OR virtual*[tiab] OR vr[tiab] OR augmented[tiab] OR exergam*[tiab] OR kinect[tiab] OR "nintendo wii"[tiab] OR "microsoft xbox"[tiab] OR biofeedback[tiab] OR Movement[Mesh] OR movement[tiab] OR "Physical Therapy Modalities"[Mesh] OR "Physical Fitness"[Mesh] OR fitness[tiab] OR "Muscle Strength"[Mesh] OR strength[tiab] OR muscle[tiab] OR locomot*[tiab] OR "Body Weight"[Mesh] OR "body weight"[tiab] OR "weight training"[tiab] OR "motor activity"[tiab] OR Exercise[Mesh] OR exercise*[tiab] OR activit*[tiab] OR sport*[tiab] OR train*[tiab] OR intervention*[tiab] OR condition*[tiab] OR "Physical Endurance"[Mesh] OR endurance[tiab] OR Gait[Mesh] OR gait*[tiab] OR "postural balance"[tiab] OR Dancing[Mesh] OR danc*[tiab] OR tango[tiab] OR "Martial Arts"[Mesh] OR "martial art"[tiab] OR "martial arts"[tiab] OR aerobic[tiab] OR boxing[tiab] OR shadowboxing[tiab] OR treadmill*[tiab] OR karate[tiab] OR Walking[Mesh] OR walking[tiab] OR Bicycling[Mesh] OR bicycle*[tiab] OR "Medicine, Chinese Traditional"[Mesh] OR "traditional chinese exercise"[tiab] OR "Mind-Body Therapies"[Mesh] OR "mind body"[tiab] OR "Tai Ji"[Mesh] OR "tai chi"[tiab] OR taiji*[tiab] OR taichi*[tiab] OR "t'ai chi"[tiab] OR wuqinxi[tiab] OR baduanjin[tiab] OR yijiejing[tiab] OR Qigong[Mesh] OR qi-gong*[tiab] OR qigong*[tiab] OR yoga[tiab] OR asana[tiab] OR pranayama[tiab] OR dhyana[tiab] OR pilates[tiab] OR Rehabilitation[Mesh] OR rehab*[tiab] OR Therapeutics[Mesh] OR therap*[tiab] OR physical*[tiab] OR physiotherapy[tiab] OR "exercise therapy"[tiab] OR "Exercise Test"[Mesh] OR "exercise test"[tiab] OR "strengthening program"[tiab] OR "strengthening programs"[tiab] OR "progressive resistance training"[tiab] OR cardiorespiratory[tiab] OR "Cardiovascular System"[Mesh] OR cardiovascular[tiab] OR aqua*[tiab] OR hydrotherapy[tiab] OR lsvt-big[tiab] OR lsvtbig[tiab] OR "Lee Silverman Voice Treatment"[tiab] OR periodicity[tiab] OR "socio environmental"[tiab] OR "whole body vibration"[tiab]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR "Clinical Trials as Topic"[Mesh] OR randomly[tiab] OR trial[ti])) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2023[dp]

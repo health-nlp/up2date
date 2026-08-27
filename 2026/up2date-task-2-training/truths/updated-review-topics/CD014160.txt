@@ -1,0 +1,79 @@
+Topic: CD014160
+Version: pub2
+Title: Acupuncture for neonatal abstinence syndrome in newborn infants
+Year: 2025
+
+Date: 2025-02-21
+
+Abstract:
+Background Neonatal abstinence syndrome (NAS) is a drug-withdrawal syndrome, mostly occurring after
+antenatal exposure to opioids. A neonate may be born physically dependent on opioid medications,
+which causes withdrawal symptoms (such as high-pitched crying, disruptions in the sleep-wake cycle
+and tremors) after birth. This is diagnosed with a standardised withdrawal assessment, such as the
+Finnegan score. Newborns developing NAS require medical treatment and longer hospital stays after
+birth than neonates without this condition. Treatments for NAS include multiple multimodal
+treatments to ease symptoms of withdrawal, such as swaddling, 'rooming in' and breastfeeding. If the
+standardised assessment exceeds a certain threshold, newborns are treated pharmacologically with an
+orally administered opioid. However, optimal NAS management continues to be debated. Acupuncture has
+been proposed as a potential intervention. Acupuncture involves stimulation of specific points on
+the body, either through the insertion of thin metal needles or with techniques that do not
+penetrate the skin, such as acupressure and laser. Objectives To assess if acupuncture (acupressure,
+needle, laser) reduces the treatment duration of neonatal abstinence syndrome (NAS) in newborn
+infants, reduces adverse events and reduces length of hospital stay. Search methods We used
+bibliographic databases (CENTRAL, PubMed, Embase) and trial registries, together with reference
+checking, citation searching and contact with study authors, to identify the studies that are
+included in the review. The latest search date was 25 August 2023. Selection criteria We included
+randomised controlled trials (RCTs) or quasi-RCTs, and cluster-randomised trials. We included
+infants born at full term and late preterm who were diagnosed with NAS within the first 72 hours
+after birth (i.e. showing significant signs as assessed using a standardised NAS assessment tool,
+e.g. presenting with withdrawal syndrome and Finnegan score > 8). We included studies where
+acupuncture (using invasive or non-invasive techniques) was compared with: 1) no intervention; 2)
+placebo or sham treatment; 3) any pharmacological treatment; or 4) another type of acupuncture (e.g.
+penetration of the skin with a needle versus acupressure). Acupuncture could be given alone or in
+combination with conventional medical treatment for NAS ('standard care'), as long as the latter was
+administered to the control group as well. Data collection and analysis We used the standard
+methodological procedures expected by Cochrane. Our primary outcomes were duration of any
+pharmacological treatment for NAS, adverse events and length of hospital stay. We used GRADE to
+assess the certainty of evidence. Main results We included two single-centre RCTs (104 infants).
+Both studies compared non-invasive acupuncture added to standard care versus standard care. There
+were no studies where acupuncture was compared with placebo or sham treatment, pharmacological
+treatment or with another type of acupuncture. We did not identify any ongoing studies. One of the
+included studies was conducted with 28 babies in Austria, between 2009 and 2014; it was a
+prospective, blinded RCT of laser acupuncture, which was performed daily at ear and body acupuncture
+points, bilaterally, until morphine was discontinued. The other study was conducted with 76 babies
+in the USA between 1992 and 1996. It was a randomised, prospective, but unblinded study of
+acupressure: a small herbal seed was taped to an ear acupoint or acupoints, and the seed site was
+massaged for 30 to 60 seconds after each NAS scoring event. The evidence is very uncertain about the
+effect of adding acupuncture to standard care on the following outcomes. • Duration of any
+pharmacological treatment for NAS. In one study, the median duration was 28 days (interquartile
+range (IQR) 22 to 33) and 39 days (IQR 32 to 48) in the acupuncture and control groups,
+respectively; in the other study, the mean duration of any pharmacological treatment for NAS was
+22.1 days (standard deviation (SD) 16.6) and 22.7 days (SD 13.8) in the acupuncture and control
+groups, respectively (mean difference (MD) -0.60, 95% CI -7.45 to 6.25; 1 study, 76 infants). •
+Adverse events. Both studies reported that no adverse effects occurred (risk difference (RD) 0.00
+95% CI -0.05 to 0.05; 2 studies, 104 infants; I2 = 0). • Length of hospital stay in days. In one
+study (28 infants), the median and IQR were 35 (25 to 47) days and 50 (36 to 66) days in the
+acupuncture and control groups, respectively. In the other study (76 infants), the mean duration of
+any pharmacological treatment for NAS was 25.8 days (SD 16.4) and 26 days (SD 13.3) in the
+acupuncture and control groups, respectively (MD -0.20, 95% CI -6.90 to 6.50; 1 study, 76 infants).
+• Highest score in a single standardised NAS assessment. One study (28 infants) reported median
+scores of 15 (IQR 13 to 18) and 16 (IQR 14 to 19) in the acupuncture and control groups,
+respectively; the other study (76 infants) reported that the average NAS score per scoring event was
+slightly lower (mean 4.95, SD 1.00) for the 'control' infants than for the infants assigned to
+acupuncture (mean 5.27, SD 1.04). We judged the certainty of the evidence to be very low for all
+these outcomes. No studies reported data on all-cause mortality, pain or long-term follow-up.
+Authors' conclusions The limited available evidence is insufficient to establish the benefits and
+harms of acupuncture for the management of NAS in newborn infants. Both studies we included in this
+review assessed non-invasive acupuncture and reported no adverse effects; however, data are drawn
+from a very small sample. In light of current limitations, clinicians are urged to approach the use
+of acupuncture in newborn infants with NAS cautiously, as there is currently no evidence to support
+its routine application. This systematic review highlights the need for well-conducted, large
+randomised controlled trials to achieve an optimal information size to assess both the benefits and
+harms of acupuncture for NAS. In addition, comparisons of acupuncture techniques and sites should be
+made to assess effectiveness and feasibility.
+
+Query:
+#1 (("Acupuncture Therapy"[Mesh] OR "Acupuncture"[Mesh] OR "Acupuncture Points"[Mesh] OR "Acupuncture Analgesia"[Mesh] OR "Acupuncture, Ear"[Mesh] OR "Meridians"[Mesh] OR "Low-Level Light Therapy"[Mesh]) OR (("Transcutaneous Electric Nerve Stimulation"[Mesh]) OR "Acupressure"[Mesh])) OR (Acupuncture*[TW] OR acupoint*[TW] OR acupressure*[TW] OR catgut embedding[TW] OR electroacupuncture*[Text word] OR electro-acupuncture*[TW] OR pharmacopuncture[TW] OR meridian*[TW] OR transcutaneous electric nerve stimulation[TW] OR NESAP[TW] OR Neuromodulat*[TW] OR electric stimulation therap*[TW] OR neuroelectric therap*[TW] OR neuro-electric therap*[TW] OR Low-level laser therap*[Text Word] OR low-level light therap*[Text Word] OR photobiomodulat*[Text Word] OR LLLT[Text Word] OR low-power laser therap*[Text Word] OR low-power laser irridiat*[Text Word] OR laser biostimulat*[Text Word] OR laser phototherap*[Text Word]) #2 (("Neonatal Abstinence Syndrome"[Mesh]) OR ((substance withdrawal syndrome[MeSH Terms]))) OR ((substance use[Text Word] OR opioid use[Text word] OR abstinence*[Text word] OR withdrawal*[Text word] OR passive addiction*[Text word] OR NAS[Text word] OR NWS[Text word] OR NPA[Text word] OR NOWS[Text word] OR PSU[Text word] OR NSU[Text word] OR NPA[Text word] OR PPA[Text word])) #3 (((("infant, newborn"[MeSH Terms]) OR ("intensive care, neonatal"[MeSH Terms])) OR ("intensive care units, neonatal"[MeSH Terms])) OR ("gestational age"[MeSH Terms])) OR (babe[Text Word] OR babes[Text Word] OR baby*[Text Word] OR babies[Text Word] OR gestational age*[Text Word] OR infant*[Text Word] OR infantile[Text Word] OR infancy[Text Word] OR low birth weight[Text Word] OR low birthweight[Text Word] OR neonat*[Text Word] OR neo-nat*[Text Word] OR newborn*[Text Word] OR new born*[Text Word] OR newly born[Text Word] OR premature[Text Word] OR premature[Text Word] OR pre-matures[Text Word] OR prematures[Text Word] OR prematurity[Text Word] OR pre-maturity[Text Word] OR preterm[Text Word] OR preterms[Text Word] OR pre term*[Text Word] OR preemie[Text Word] OR preemies[Text Word] OR premies[Text Word] OR premie[Text Word] OR VLBW[Text Word] OR VLBWI[Text Word] OR VLBW-I[Text Word] OR VLBWs[Text Word] OR LBW[Text Word] OR LBWI[Text Word] OR LBWs[Text Word] OR ELBW[Text Word] OR ELBWI[Text Word] OR ELBWs[Text Word] OR NICU[Text Word] OR NICUs[Text Word]) #4 #2 AND #3 #5 #1 AND #4
+
+QueryOrbit:
+(("Acupuncture Therapy"[Mesh] OR Acupuncture[Mesh] OR "Acupuncture Points"[Mesh] OR "Acupuncture Analgesia"[Mesh] OR "Acupuncture, Ear"[Mesh] OR Meridians[Mesh] OR "Low-Level Light Therapy"[Mesh] OR "Transcutaneous Electric Nerve Stimulation"[Mesh] OR Acupressure[Mesh] OR acupuncture*[tiab] OR acupoint*[tiab] OR acupressure*[tiab] OR "catgut embedding"[tiab] OR electroacupuncture*[tiab] OR electro-acupuncture*[tiab] OR pharmacopuncture[tiab] OR meridian*[tiab] OR "transcutaneous electric nerve stimulation"[tiab] OR NESAP[tiab] OR neuromodulat*[tiab] OR "electric stimulation therapy"[tiab] OR "electric stimulation therapies"[tiab] OR "neuroelectric therapy"[tiab] OR "neuroelectric therapies"[tiab] OR "neuro-electric therapy"[tiab] OR "neuro-electric therapies"[tiab] OR "low-level laser therapy"[tiab] OR "low-level laser therapies"[tiab] OR "low-level light therapy"[tiab] OR "low-level light therapies"[tiab] OR photobiomodulat*[tiab] OR LLLT[tiab] OR "low-power laser therapy"[tiab] OR "low-power laser therapies"[tiab] OR "low-power laser irradiation"[tiab] OR "laser biostimulation"[tiab] OR "laser phototherapy"[tiab]) AND (("Neonatal Abstinence Syndrome"[Mesh] OR "Substance Withdrawal Syndrome"[Mesh] OR "substance use"[tiab] OR "opioid use"[tiab] OR abstinence*[tiab] OR withdrawal*[tiab] OR "passive addiction"[tiab] OR NAS[tiab] OR NWS[tiab] OR NPA[tiab] OR NOWS[tiab] OR PSU[tiab] OR NSU[tiab] OR PPA[tiab]) AND ("Infant, Newborn"[Mesh] OR "Intensive Care, Neonatal"[Mesh] OR "Intensive Care Units, Neonatal"[Mesh] OR "Gestational Age"[Mesh] OR babe[tiab] OR babes[tiab] OR baby*[tiab] OR babies[tiab] OR "gestational age"[tiab] OR infant*[tiab] OR infantile[tiab] OR infancy[tiab] OR "low birth weight"[tiab] OR "low birthweight"[tiab] OR neonat*[tiab] OR neo-nat*[tiab] OR newborn*[tiab] OR "new born"[tiab] OR "newly born"[tiab] OR premature[tiab] OR pre-mature*[tiab] OR prematures[tiab] OR prematurity[tiab] OR pre-maturity[tiab] OR preterm[tiab] OR preterms[tiab] OR "pre term"[tiab] OR "pre terms"[tiab] OR preemie[tiab] OR preemies[tiab] OR premies[tiab] OR premie[tiab] OR VLBW[tiab] OR VLBWI[tiab] OR VLBW-I[tiab] OR VLBWs[tiab] OR LBW[tiab] OR LBWI[tiab] OR LBWs[tiab] OR ELBW[tiab] OR ELBWI[tiab] OR ELBWs[tiab] OR NICU[tiab] OR NICUs[tiab]))) AND 1800:2025[dp]

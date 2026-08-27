@@ -1,0 +1,72 @@
+Topic: CD001920
+Version: pub3
+Title: Physical rehabilitation approaches for the recovery of function and mobility following stroke
+Year: 2023
+
+Date: 2023-08-24
+
+Abstract:
+Background Various approaches to physical rehabilitation may be used after stroke, and considerable
+controversy and debate surround the effectiveness of relative approaches. Some physiotherapists base
+their treatments on a single approach; others use a mixture of components from several different
+approaches. Objectives To determine whether physical rehabilitation approaches are effective in
+recovery of function and mobility in people with stroke, and to assess if any one physical
+rehabilitation approach is more effective than any other approach. For the previous versions of this
+review, the objective was to explore the effect of 'physiotherapy treatment approaches' based on
+historical classifications of orthopaedic, neurophysiological or motor learning principles, or on a
+mixture of these treatment principles. For this update of the review, the objective was to explore
+the effects of approaches that incorporate individual treatment components, categorised as
+functional task training, musculoskeletal intervention (active), musculoskeletal intervention
+(passive), neurophysiological intervention, cardiopulmonary intervention, assistive device or
+modality. In addition, we sought to explore the impact of time after stroke, geographical location
+of the study, dose of the intervention, provider of the intervention and treatment components
+included within an intervention. Search methods We searched the Cochrane Stroke Group Trials
+Register (last searched December 2012), the Cochrane Central Register of Controlled Trials (CENTRAL)
+(The Cochrane Library Issue 12, 2012), MEDLINE (1966 to December 2012), EMBASE (1980 to December
+2012), AMED (1985 to December 2012) and CINAHL (1982 to December 2012). We searched reference lists
+and contacted experts and researchers who have an interest in stroke rehabilitation. Selection
+criteria Randomised controlled trials (RCTs) of physical rehabilitation approaches aimed at
+promoting the recovery of function or mobility in adult participants with a clinical diagnosis of
+stroke. Outcomes included measures of independence in activities of daily living (ADL), motor
+function, balance, gait velocity and length of stay. We included trials comparing physical
+rehabilitation approaches versus no treatment, usual care or attention control and those comparing
+different physical rehabilitation approaches. Data collection and analysis Two review authors
+independently categorised identified trials according to the selection criteria, documented their
+methodological quality and extracted the data. Main results We included a total of 96 studies
+(10,401 participants) in this review. More than half of the studies (50/96) were carried out in
+China. Generally the studies were heterogeneous, and many were poorly reported. Physical
+rehabilitation was found to have a beneficial effect, as compared with no treatment, on functional
+recovery after stroke (27 studies, 3423 participants; standardised mean difference (SMD) 0.78, 95%
+confidence interval (CI) 0.58 to 0.97, for Independence in ADL scales), and this effect was noted to
+persist beyond the length of the intervention period (nine studies, 540 participants; SMD 0.58, 95%
+CI 0.11 to 1.04). Subgroup analysis revealed a significant difference based on dose of intervention
+(P value < 0.0001, for independence in ADL), indicating that a dose of 30 to 60 minutes per day
+delivered five to seven days per week is effective. This evidence principally arises from studies
+carried out in China. Subgroup analyses also suggest significant benefit associated with a shorter
+time since stroke (P value 0.003, for independence in ADL). We found physical rehabilitation to be
+more effective than usual care or attention control in improving motor function (12 studies, 887
+participants; SMD 0.37, 95% CI 0.20 to 0.55), balance (five studies, 246 participants; SMD 0.31, 95%
+CI 0.05 to 0.56) and gait velocity (14 studies, 1126 participants; SMD 0.46, 95% CI 0.32 to 0.60).
+Subgroup analysis demonstrated a significant difference based on dose of intervention (P value 0.02
+for motor function), indicating that a dose of 30 to 60 minutes delivered five to seven days a week
+provides significant benefit. Subgroup analyses also suggest significant benefit associated with a
+shorter time since stroke (P value 0.05, for independence in ADL). No one physical rehabilitation
+approach was more (or less) effective than any other approach in improving independence in ADL
+(eight studies, 491 participants; test for subgroup differences: P value 0.71) or motor function
+(nine studies, 546 participants; test for subgroup differences: P value 0.41). These findings are
+supported by subgroup analyses carried out for comparisons of intervention versus no treatment or
+usual care, which identified no significant effects of different treatment components or categories
+of interventions. Authors' conclusions Physical rehabilitation, comprising a selection of components
+from different approaches, is effective for recovery of function and mobility after stroke. Evidence
+related to dose of physical therapy is limited by substantial heterogeneity and does not support
+robust conclusions. No one approach to physical rehabilitation is any more (or less) effective in
+promoting recovery of function and mobility after stroke. Therefore, evidence indicates that
+physical rehabilitation should not be limited to compartmentalised, named approaches, but rather
+should comprise clearly defined, well-described, evidenced-based physical treatments, regardless of
+historical or philosophical origin.
+
+Query:
+1. cerebrovascular disorders/ or exp basal ganglia cerebrovascular disease/ or exp brain ischemia/ or exp carotid artery diseases/ or exp intracranial arterial diseases/ or exp "intracranial embolism and thrombosis"/ or exp intracranial hemorrhages/ or stroke/ or exp brain infarction/ or stroke, lacunar/ or vasospasm, intracranial/ or vertebral artery dissection/ 2. (stroke or poststroke or post-stroke or cerebrovasc$ or brain vasc$ or cerebral vasc$ or cva$ or apoplex$ or SAH).tw. 3. ((brain$ or cerebr$ or cerebell$ or intracran$ or intracerebral) adj5 (isch?emi$ or infarct$ or thrombo$ or emboli$ or occlus$)).tw. 4. ((brain$ or cerebr$ or cerebell$ or intracerebral or intracranial or subarachnoid) adj5 (haemorrhage$ or hemorrhage$ or haematoma$ or hematoma$ or bleed$)).tw. 5. hemiplegia/ or exp paresis/ 6. (hemipleg$ or hemipar$ or paresis or paretic).tw. 7. exp Gait Disorders, Neurologic/ 8. 1 or 2 or 3 or 4 or 5 or 6 or 7 9. physical therapy modalities/ or exp exercise movement techniques/ or exp exercise therapy/ or rehabilitation/ or occupational therapy/ 10. feedback/ or feedback, psychological/ or biofeedback, psychology/ or neurofeedback/ or feedback, sensory/ 11. exercise/ or orthopedic procedures/ 12. (physiotherapy or physical therapy or exercise therapy or rehabilitation).tw. 13. (neurorehabilitation or feedback or biofeedback).tw. 14. (motor adj5 (train$ or re?train$ or learn$ or re?learn$)).tw. 15. neuromuscular facilitation.tw. 16. (movement adj5 (therap$ or science)).tw. 17. ((neurodevelopmental or neurophysiological or orthop?edic) adj5 (therap$ or treatment$ or rehabilitation or principle$ or approach$ or component$ or concept$)).tw. 18. (Bobath or Carr or Brunnstrom or Rood or Johnstone or NDT).tw. 19. 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 20. 8 and 19 21. cerebrovascular disorders/rh or exp basal ganglia cerebrovascular disease/rh or exp brain ischemia/rh or exp carotid artery diseases/rh or exp intracranial arterial diseases/rh or exp "intracranial embolism and thrombosis"/rh or exp intracranial hemorrhages/rh or stroke/rh or exp brain infarction/rh or vasospasm, intracranial/rh or vertebral artery dissection/rh 22. hemiplegia/rh or exp paresis/rh 23. 20 or 21 or 22 24. psychomotor performance/ or motor skills/ or "task performance and analysis"/ 25. learning/ or "conditioning (psychology)"/ or problem-based learning/ or problem solving/ 26. movement/ or locomotion/ or walking/ or dependent ambulation/ or gait/ 27. motor activity/ or range of motion, articular/ 28. postural balance/ or exp posture/ or supination/ or pronation/ or weight-bearing/ 29. exp lower extremity/ or exp back/ 30. (motor adj5 (skill$ or activit$ or function$)).tw. 31. (learning or conditioning).tw. 32. (movement or gait or locomotion or walking or walk or mobility).tw. 33. (equilibrium or balance or postur$ or supination or pronation).tw. 34. (body sway or stance or strength or weight?bearing or body weight support).tw. 35. (locomotor adj5 (recovery or training)).tw. 36. (weight adj5 (distribut$ or transfer$)).tw. 37. (sit or sitting or stand or standing or step or stepping or climb or climbing).tw. 38. (lower limb$ or lower extremit$ or ankle or leg or heel or calf or knee or hip or thigh or foot or trunk).tw. 39. or/24-38 40. 23 and 39 41. exp animals/ not humans.sh. 42. 40 not 41 43. Randomized Controlled Trials as Topic/ 44. random allocation/ 45. Controlled Clinical Trials as Topic/ 46. control groups/ 47. clinical trials as topic/ 48. double-blind method/ 49. single-blind method/ 50. Placebos/ 51. placebo effect/ 52. cross-over studies/ 53. Research Design/ 54. randomized controlled trial.pt. 55. controlled clinical trial.pt. 56. clinical trial.pt. 57. (random$ or RCT or RCTs).tw. 58. (controlled adj5 (trial$ or stud$)).tw. 59. (clinical$ adj5 trial$).tw. 60. ((control or treatment or experiment$ or intervention) adj5 (group$ or subject$ or patient$)).tw. 61. (quasi-random$ or quasi random$ or pseudo-random$ or pseudo random$).tw. 62. ((control or experiment$ or conservative) adj5 (treatment or therapy or procedure or manage$)).tw. 63. ((singl$ or doubl$ or tripl$ or trebl$) adj5 (blind$ or mask$)).tw. 64. (cross-over or cross over or crossover).tw. 65. placebo$.tw. 66. sham.tw. 67. (assign$ or allocat$).tw. 68. controls.tw. 69. trial.ti. 70. or/43-69 71. 42 and 70 72. (2005$ or 2006$ or 2007$ or 2008$ or 2009$ or 2010$ or 2011$ or 2012$).ed. 73. 71 and 72
+
+QueryOrbit:
+((stroke[Mesh] OR "Cerebrovascular Disorders"[Mesh] OR "Brain Ischemia"[Mesh] OR "Brain Infarction"[Mesh] OR "Intracranial Hemorrhages"[Mesh] OR "Subarachnoid Hemorrhage"[Mesh] OR "Carotid Artery Diseases"[Mesh] OR "Intracranial Embolism and Thrombosis"[Mesh] OR "Hemiplegia"[Mesh] OR "Paresis"[Mesh] OR "Gait Disorders, Neurologic"[Mesh] OR stroke[tiab] OR poststroke[tiab] OR post-stroke[tiab] OR cerebrovasc*[tiab] OR cva[tiab] OR apoplex*[tiab] OR SAH[tiab] OR ischemia[tiab] OR ischaemia[tiab] OR infarct*[tiab] OR thrombo*[tiab] OR emboli*[tiab] OR occlus*[tiab] OR hemorrhage*[tiab] OR haemorrhage*[tiab] OR hematoma*[tiab] OR haematoma*[tiab] OR bleed*[tiab] OR hemipleg*[tiab] OR hemipar*[tiab] OR paresis[tiab] OR paretic[tiab]) AND (rehabilitation[Mesh] OR "Physical Therapy Modalities"[Mesh] OR "Exercise Therapy"[Mesh] OR "Occupational Therapy"[Mesh] OR Feedback[Mesh] OR "Biofeedback, Psychology"[Mesh] OR Neurofeedback[Mesh] OR Exercise[Mesh] OR physiotherapy[tiab] OR "physical therapy"[tiab] OR "exercise therapy"[tiab] OR rehabilitation[tiab] OR neurorehabilitation[tiab] OR feedback[tiab] OR biofeedback[tiab] OR "motor training"[tiab] OR "motor retraining"[tiab] OR "motor learning"[tiab] OR "neuromuscular facilitation"[tiab] OR movement[tiab] OR Bobath[tiab] OR Carr[tiab] OR Brunnstrom[tiab] OR Rood[tiab] OR Johnstone[tiab] OR NDT[tiab]) AND ("Psychomotor Performance"[Mesh] OR "Motor Skills"[Mesh] OR "Task Performance and Analysis"[Mesh] OR Learning[Mesh] OR Movement[Mesh] OR Locomotion[Mesh] OR Walking[Mesh] OR Gait[Mesh] OR "Motor Activity"[Mesh] OR "Range of Motion, Articular"[Mesh] OR "Postural Balance"[Mesh] OR Posture[Mesh] OR Supination[Mesh] OR Pronation[Mesh] OR "Weight-Bearing"[Mesh] OR "Lower Extremity"[Mesh] OR Back[Mesh] OR motor[tiab] OR gait[tiab] OR walking[tiab] OR walk[tiab] OR mobility[tiab] OR locomotion[tiab] OR movement[tiab] OR learning[tiab] OR conditioning[tiab] OR balance[tiab] OR equilibrium[tiab] OR posture[tiab] OR postur*[tiab] OR supination[tiab] OR pronation[tiab] OR "body sway"[tiab] OR stance[tiab] OR strength[tiab] OR weight-bearing[tiab] OR "weight bearing"[tiab] OR "body weight support"[tiab] OR sitting[tiab] OR standing[tiab] OR stepping[tiab] OR climbing[tiab] OR "lower limb"[tiab] OR "lower limbs"[tiab] OR "lower extremity"[tiab] OR "lower extremities"[tiab] OR ankle[tiab] OR leg[tiab] OR heel[tiab] OR calf[tiab] OR knee[tiab] OR hip[tiab] OR thigh[tiab] OR foot[tiab] OR trunk[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR clinical trial[pt] OR random*[tiab] OR RCT[tiab] OR RCTs[tiab] OR controlled[tiab] OR clinical trial[tiab] OR placebo*[tiab] OR sham[tiab] OR assign*[tiab] OR allocat*[tiab] OR controls[tiab] OR trial[ti]) AND 2005:2012[dp]

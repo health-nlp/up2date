@@ -1,0 +1,79 @@
+Topic: CD015786
+Version: pub2
+Title: Lymphadenectomy or sentinel node biopsy for the management of endometrial cancer
+Year: 2025
+
+Date: 2025-06-10
+
+Abstract:
+Rationale Endometrial cancer, which affects the lining of the uterus, is the most common form of
+uterine cancer (96%), and the sixth most common cancer in females worldwide, accounting for 4.5% of
+all cancers in females. In 2022, there were 420,242 cases of uterine cancer and 97,704 deaths from
+the disease worldwide. Most women have early-stage endometrial cancer at diagnosis. Traditionally,
+surgical staging included removal of all lymph nodes (lymphadenectomy) in the pelvis (pelvic
+lymphadenectomy) with or without para-aortic areas (pelvic/para-aortic lymphadenectomy), to
+determine the need for further treatment. However, rates of lymph node involvement are relatively
+low and may be predicted by uterine histopathology and molecular markers. Lymphadenectomy carries a
+significant risk of long-term morbidity from lymphoedema and previous studies comparing pelvic
+lymphadenectomy with no lymphadenectomy found no survival benefit. Detecting the first draining
+lymph node(s) from each side of the uterus, called sentinel lymph node biopsy, can replace
+lymphadenectomy in terms of accuracy of detecting nodes, but no studies have shown whether sentinel
+lymph node biopsy is beneficial to women, despite its wide use. Objectives To evaluate the benefits
+and harms of lymphadenectomy and sentinel lymph node biopsy for the management of endometrial cancer
+comparing different head-to-head comparisons in a network meta-analysis allowing ranking of
+treatment strategies. Search methods We searched CENTRAL, MEDLINE, Embase, ClinicalTrials.gov and
+the WHO ICTRP for studies up to 22 March 2024. Eligibility criteria We included randomised
+controlled trials (RCTs) of women with early-stage endometrial cancer, comparing combinations of no
+lymphadenectomy, pelvic lymphadenectomy, pelvic/para-aortic lymphadenectomy and sentinel lymph node
+biopsy. We excluded non-randomised studies and studies assessing diagnostic test accuracy of lymph
+node sampling. Outcomes Overall survival; progression-free survival; morbidity and mortality related
+to surgery; early and late adverse events, including lymphoedema and lymphocyst formation; and
+quality of life. Risk of bias We used RoB 2 to assess risk of bias. Synthesis methods We conducted
+meta-analyses using random-effects models to calculate hazard ratios (HR) for time-to-event data and
+risk ratios (RR) and mean difference (MD) for other outcomes, with 95% confidence intervals (CI). We
+used GRADE to summarise the certainty of evidence. We intended to compare treatments in a network
+meta-analysis. Included studies We included five RCTs (one remains ongoing) with 2074 women. Studies
+were conducted in the UK, South Africa, Poland, New Zealand, Chile, Italy, Egypt and Brazil, and
+published between 2008 and 2023. Another 10 studies are ongoing. Three studies (1955 participants)
+compared no lymphadenectomy with pelvic lymphadenectomy, one study (50 participants) compared no
+lymphadenectomy with pelvic/para-aortic lymphadenectomy, and one study (69 participants – ongoing)
+compared sentinel lymph node biopsy with pelvic/para-aortic lymphadenectomy. Synthesis of results No
+lymphadenectomy versus pelvic lymphadenectomy No lymphadenectomy probably results in little to no
+difference in overall survival (HR 0.85, 95% CI 0.66 to 1.10; 2 studies, 1922 participants;
+moderate-certainty evidence) and improves progression-free survival (HR 0.78, 95% CI 0.63 to 0.96; 2
+studies, 1922 participants; high-certainty evidence) compared to pelvic lymphadenectomy. No
+lymphadenectomy may reduce early adverse effects from direct surgical morbidity slightly (RR 0.68,
+95% CI 0.27 to 1.71; 3 studies, 1955 participants; low-certainty evidence) and probably reduces
+early adverse effects due to surgically related systemic morbidity (RR 0.28, 95% CI 0.09 to 0.93; 3
+studies, 1955 participants; moderate-certainty evidence). No lymphadenectomy probably results in a
+large reduction in lymphoedema (RR 0.12, 95% CI 0.05 to 0.26; 3 studies, 1955 participants;
+moderate-certainty evidence) and likely reduces lymphocyst formation (RR 0.20, 95% CI 0.04 to 0.91;
+1 study, 1403 participants; moderate-certainty evidence). There were no quality of life data.
+Sentinel lymph node biopsy versus pelvic/para-aortic lymphadenectomy One study shared unpublished
+data and the evidence is very uncertain about the effect of sentinel lymph node biopsy on overall
+survival, progression-free survival, early adverse events, lymphocyst formation and quality of life
+at 12 months. Sentinel lymph node biopsy compared with pelvic/para-aortic lymphadenectomy probably
+reduces the development of lymphoedema (RR 0.30, 95% CI 0.09 to 0.97; 1 study, 69 participants;
+moderate-certainty evidence). No lymphadenectomy versus pelvic/para-aortic lymphadenectomy One study
+closed after the recruitment of 50 participants due to slow uptake, and we were unable to extract
+data for use in the meta-analysis. Because of this, we were unable to form a linked network for
+meta-analysis. Other comparisons Studies of other comparisons are ongoing or results are yet to be
+published. Authors' conclusions Data suggest 'less is probably more' in terms of surgical staging
+for women with presumed endometrial cancer, as no lymphadenectomy is favoured over pelvic
+lymphadenectomy in terms of important outcomes, with overall moderate certainty. Preliminary results
+for sentinel lymph node biopsy versus pelvic/para-aortic lymphadenectomy have a similar direction of
+effect, but the evidence is very uncertain. Data from several studies are ongoing. However, given
+the weight of evidence that supports no lymphadenectomy over lymphadenectomy, our ability to make
+adjuvant treatment decisions based on uterine factors, and the advent of molecular profiling, it is
+disappointing that only one study compared no lymphadenectomy with sentinel lymph node biopsy,
+potentially putting many women at continued risk of short- and significant long-term consequences of
+extensive lymphadenectomy. Funding This Cochrane review had no dedicated funding. Registration This
+review is based on an updated protocol including network meta-analysis methods and new RoB 2
+assessment of a previously published review. Updated protocol 2023 available via
+https://doi.org/10.1002/14651858.CD015786
+
+Query:
+1. Sentinel Lymph Node Biopsy/ 2. Sentinel Lymph Node/ 3. exp Lymph Node Excision/ 4. ((sentinel or lymph or node*) adj5 (excision* or dissection* or surg* or removal or clearance)).ti,ab,kw. 5. lymphadenectom*.ti,ab,kw. 6. Lymph Nodes/ 7. 1 or 2 or 3 or 4 or 5 or 6 8. exp Uterine Neoplasms/ 9. ((endometr* or uter*) adj5 (neoplas* or carcinom* or adenocarcinom* or malignan* or cancer* or tumor* or tumour*)).ti,ab,kw. 10. 8 or 9 11. randomized controlled trial.pt. 12. controlled clinical trial.pt. 13. randomized.ab. 14. randomly.ab. 15. trial.ab. 16. groups.ab. 17. 11 or 12 or 13 or 14 or 15 or 16 18. exp animals/ not humans.sh. 19. 17 not 18 20. 7 and 10 and 19 21. limit 20 to ed=20230419-20240322
+
+QueryOrbit:
+(("Sentinel Lymph Node Biopsy"[Mesh] OR "Sentinel Lymph Node"[Mesh] OR "Lymph Node Excision"[Mesh] OR ((sentinel[tiab] OR lymph[tiab] OR node*[tiab]) AND (excision*[tiab] OR dissection*[tiab] OR surg*[tiab] OR removal[tiab] OR clearance[tiab])) OR lymphadenectom*[tiab] OR "Lymph Nodes"[Mesh]) AND ("Uterine Neoplasms"[Mesh] OR ((endometr*[tiab] OR uter*[tiab]) AND (neoplas*[tiab] OR carcinom*[tiab] OR adenocarcinom*[tiab] OR malignan*[tiab] OR cancer*[tiab] OR tumor*[tiab] OR tumour*[tiab]))) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 2023:2024[dp]

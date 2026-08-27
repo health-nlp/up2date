@@ -1,0 +1,84 @@
+Topic: CD016071
+Version: pub2
+Title: Parallel use of low-complexity automated nucleic acid amplification tests on respiratory and stool samples with or without lateral flow lipoarabinomannan assays to detect pulmonary tuberculosis disease in children
+Year: 2025
+
+Date: 2025-06-11
+
+Abstract:
+Background Low-complexity automated nucleic acid amplification tests (LC-aNAATs) are molecular
+assays widely used to diagnose tuberculosis disease in children. The lateral flow urine
+lipoarabinomannan assay (LF-LAM) is recommended for use amongst children with HIV. Previous
+systematic reviews have assessed the diagnostic accuracy of LC-aNAATs and LF-LAM separately in
+children, but in clinical practice the tests may be used concurrently, i.e. in 'parallel'.
+Objectives To compare the diagnostic accuracy of the parallel use of LC-aNAAT on respiratory and
+stool specimens in children, and with LF-LAM on urine amongst children with HIV, versus each assay
+alone for detecting pulmonary tuberculosis disease. Search methods We searched MEDLINE, Embase,
+Science Citation Index-Expanded, Conference Proceedings Citation Index – Science, Biosis Previews,
+the Cochrane Central Register of Controlled Trials, Scopus, WHO (World Health Organization) Global
+Index Medicus, ClinicalTrials.gov, and the WHO International Clinical Trials Registry up to 3
+November 2023. There was a WHO public call for data on the accuracy of LC-aNAAT and LF-LAM for
+children until December 2023. Selection criteria We included studies that enroled children under 10
+years of age with presumptive pulmonary tuberculosis, and provided data to assess the accuracy of
+parallel testing and at least one of the component tests, against a microbiological reference
+standard (MRS) based on culture or composite reference standard (CRS) that included clinical
+diagnosis. Data collection and analysis We extracted data using a standardised form and assessed
+study quality using QUADAS-2 and QUADAS-C tools. We performed bivariate random-effects meta-analysis
+using a Bayesian approach to estimate sensitivity and specificity and absolute differences between
+index tests. Diagnostic accuracy estimates were calculated primarily against the MRS and secondarily
+against the CRS. We used GRADE to assess the certainty of the evidence on comparative accuracy. Main
+results We included 14 studies to assess parallel testing in children with and without HIV. In
+addition, six of the 14 studies were included to evaluate LC-aNAATs with LF-LAM amongst children
+with HIV. Other than a high risk of bias with the CRS due to the potential incorporation of index
+results in clinical diagnoses, studies generally had low risk of bias across QUADAS-2 and QUADAS-C
+domains. Parallel use of respiratory and stool LC-aNAATs Children without HIV or HIV status unknown
+We included eight studies (2145 participants, tuberculosis prevalence 8.1% (173/2145)) for
+assessment against the MRS. Parallel use of LC-aNAAT on respiratory samples and stool had an
+estimated pooled sensitivity of 79.9% (95% credible interval (CrI) 67.9 to 89.8) and an estimated
+pooled specificity of 93.4% (95% CrI 87.2 to 97.0). Compared to LC-aNAAT on respiratory samples
+alone, parallel testing had 7.1 (95% CrI 3.2 to 13.4) percentage points higher sensitivity and −1.7
+(95% CrI −3.8 to −0.6) percentage point change in specificity (both low-certainty evidence).
+Compared to LC-aNAAT on stool alone, parallel testing had 22.1 (95% CrI 13.7 to 32.7) percentage
+points higher sensitivity (moderate-certainty evidence) and a −4.1 (95% CrI −8.0 to −1.7) percentage
+point difference in specificity (low-certainty evidence). Children with HIV Against the MRS (seven
+studies, 697 participants, tuberculosis prevalence 6.3% (44/697)), parallel use of LC-aNAAT on
+respiratory samples and stool had an estimated pooled sensitivity of 70.2% (95% CrI 51.1 to 84.7)
+and specificity of 95.4% (95% CrI 91.7 to 97.8). Compared to LC-aNAAT on respiratory samples alone,
+parallel testing had 4.0 (95% CrI 0.6 to 12.9) percentage points higher sensitivity
+(moderate-certainty evidence) and −1.9 (95% CrI −3.9 to −0.7) percentage point difference in
+specificity (moderate-certainty evidence). Compared to LC-aNAAT on stool alone, parallel testing had
+8.5 (95% CrI 2.4 to 20.9) percentage points higher sensitivity and −1.4 (95% CrI −3.3 to −0.4)
+percentage point difference in specificity (both moderate-certainty evidence). Composite reference
+standard The parallel use of respiratory and stool LC-aNAATs had lower sensitivity than the CRS in
+children with and without HIV, with smaller differences compared to using each component test alone
+(very low-certainty evidence for children without HIV; low-certainty evidence for children with
+HIV). The specificity of parallel testing was similar between MRS and CRS. Parallel use of
+respiratory and stool LC-aNAATs and LF-LAM amongst children with HIV We included six studies for the
+evaluation of diagnostic accuracy against the MRS (653 participants, tuberculosis prevalence 6.6%
+(43/653)). Parallel use of LC-aNAAT on respiratory and stool samples and LF-LAM had an estimated
+pooled sensitivity of 77.6% (95% CrI 60.0 to 89.6) and an estimated pooled specificity of 83.9% (95%
+CrI 73.9 to 90.4). Compared to LC-aNAAT on respiratory and stool samples, parallel testing had 6.9
+(95% CrI 1.5 to 20.1) percentage points higher sensitivity (low-certainty evidence) and a −10.2 (95%
+CrI −19.6 to −4.9) percentage point difference in specificity (moderate-certainty evidence).
+Composite reference standard Against the CRS (six studies, 674 participants, tuberculosis prevalence
+42.4% (286/674)), parallel use of LC-aNAAT on respiratory and stool samples and LF-LAM had a pooled
+sensitivity of 30.0% (95% CrI 13.2 to 54.8) and specificity of 83.3% (95% CrI 69.8 to 90.2).
+Compared to LC-aNAAT on respiratory and stool samples, parallel testing had 11.5 (95% CrI 3.8 to
+26.7) percentage points higher sensitivity (very low-certainty evidence) and −10.1 (95% CrI −21.6 to
+−4.9) percentage point difference in specificity (low-certainty evidence). Authors' conclusions
+Using LC-aNAAT with both respiratory and stool samples may increase the sensitivity of diagnostic
+testing for tuberculosis in children, including those with HIV, and the addition of LF-LAM for
+children with HIV may further increase sensitivity, although at the cost of reduced specificity.
+Stool and urine testing is non-invasive and may complement testing respiratory samples to increase
+tuberculosis case detection in children. The benefits of parallel testing may be greater in settings
+with high tuberculosis prevalence, while there may be a larger proportion of false-positive results
+and greater risk of overtreatment in areas of low tuberculosis prevalence. Funding Liverpool School
+of Tropical Medicine, Foreign, Commonwealth and Development Office (FCDO) WHO, TB Prevention,
+Diagnosis, Treatment, Care & Innovation (PCI), Global TB Programme Registration Protocol available
+via https://doi.org/10.1002/14651858.CD016071, version published 13 May 2024
+
+Query:
+1 Mycobacterium tuberculosis/ 2 *Tuberculosis/ 3 Tuberculosis, Pulmonary/ 4 multidrug resistant tuberculosis.mp. or Tuberculosis, Multidrug-Resistant/ 5 extensively drug resistant tuberculosis.mp. or Extensively Drug-Resistant Tuberculosis/ 6 (tuberculosis or TB).ti,ab. 7 1 or 2 or 3 or 4 or 5 or 6 8 Xpert*.ti. or Xpert*.ab. 9 (GeneXpert* or cepheid).ti. or (GeneXpert* or cepheid).ab. 10 (Truenat* or Molbio or TruRif).mp. 11 (STANDARD M10 or 1 or IRON-qPCR or BIONEER).mp. 12 TB-LAMP*.mp. 13 Loop-Mediated Isothermal Amplification.mp. 14 (LAMP or LOOPAMP).mp. 15 NAAT*.mp. 16 Nucleic Acid Amplification Techniques/ 17 "nucleic acid amplification".tw. 18 Diagnostic Tests, Routine/ or RDT*.mp. 19 rapid diagnos*.ti,ab. 20 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 21 7 and 20 22 (LAM or lipoarabinomannan or alerelam or "determine tb lam" or "lf-lam" or "TB LAM").mp. 23 (child or children* or childhood or infan* or newborn or neonat* or toddler* or adolescen*).mp. 24 exp Child/ or exp Infant/ or Adolescent/ or exp Pediatrics/ 25 21 or 22 26 23 or 24 27 25 and 26 28 limit 27 to yr="2010 -Current"
+
+QueryOrbit:
+

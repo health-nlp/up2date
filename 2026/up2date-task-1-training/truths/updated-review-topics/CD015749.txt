@@ -1,0 +1,78 @@
+Topic: CD015749
+Version: pub2
+Title: Multimodal interventions for cachexia management
+Year: 2025
+
+Date: 2025-03-25
+
+Abstract:
+Background Cachexia (disease-related wasting) is a complex metabolic syndrome which occurs in people
+with chronic illnesses, including cancer, HIV/AIDS, kidney disease, heart disease, and chronic
+obstructive pulmonary disease (COPD). People with cachexia experience unintentional weight loss,
+muscle loss, fatigue, loss of appetite, and reduced quality of life. Multimodal interventions which
+work synergistically to treat the syndrome could lead to benefits. Objectives To assess the benefits
+and harms of multimodal interventions aimed at alleviating or stabilising cachexia in people with a
+chronic illness. Search methods We searched CENTRAL, MEDLINE, Embase, PsycINFO, and two trials
+registers in July 2024, together with reference checking, citation searching, and contact with study
+authors to identify studies. Selection criteria We included randomised controlled trials (RCTs) in
+adults with or at risk of cachexia, comparing multimodal interventions combining two or more
+modalities (of pharmacology, nutrition, exercise) to treatment as usual, variation of the
+intervention, or unimodal intervention. Data collection and analysis Two review authors
+independently screened potentially eligible studies, extracted data, and assessed risk of bias (RoB
+1). Primary outcomes were physical function, strength, and adverse events. Secondary outcomes were
+body composition and weight, quality of life (QoL), appetite, fatigue, and biochemical markers. We
+assessed the certainty of evidence with GRADE. Main results We included nine studies with 926 adults
+(mean age: 63 years). Study sample sizes ranged from 20 to 332 participants. Six studies were
+conducted in Europe, and one each in Turkey, New Zealand, and the USA. There were six studies in
+people with cancer, and one each in people with COPD, chronic kidney disease, and HIV/AIDS. We
+judged four studies to be at an overall high risk of bias, and five at an overall unclear risk. All
+outcomes in all comparisons had very low-certainty evidence, downgraded once for risk of bias and/or
+indirectness and twice for imprecision. Multimodal intervention (pharmacological, nutritional,
+and/or exercise) compared to treatment as usual One cancer study randomised 46 participants, with 41
+included in all analyses except adverse events. The study assessed outcomes immediately after
+treatment, lasting six weeks. Compared to treatment as usual, there is no clear evidence for an
+effect of a multimodal intervention on: physical function (mean difference (MD) −16.10 m, 95%
+confidence interval (CI) −79.06 to 46.86; 41 participants); strength (MD 3.80 kg, 95% CI −3.21 to
+10.81; 41 participants); adverse events (risk ratio (RR) 1.36, 95% CI 0.70 to 2.65; 46
+participants); body composition (MD 7.89 cm2, 95% CI −10.43 to 26.21; 41 participants); weight (MD
+5.89 kg, 95% CI −1.45 to 13.23; 41 participants); appetite (MD 0.68 points, 95% CI −0.60 to 1.96; 41
+participants); fatigue (MD 0.12, 95% CI −1.05 to 1.29; 41 participants); and biochemical markers (MD
+2%, 95% CI 0.99 to 3.01; 41 participants), but the evidence was very uncertain; QoL was not
+reported. Multimodal intervention compared to variation of the intervention Three cancer studies and
+one HIV/AIDS study randomised 192 participants. We could not use the available data, nor obtain
+additional data, from two studies (one in cancer, one in HIV/AIDS). The studies assessed outcomes
+immediately after treatment, ranging from three to seven months. Compared to a variation of the
+intervention, there is no clear evidence for an effect of a multimodal intervention on: physical
+function (MD 10.0 m, 95% CI −36.27 to 56.27; 1 study, 56 participants); strength (MD 0.7 kg, 95% CI
+−3.75 to 5.15; 1 study, 56 participants); adverse events (RR 0.87, 95% CI 0.38 to 2.02; P = 0.75, I2
+= 0%; 2 studies, 95 participants); body composition (MD −2.67 kg, 95% CI −5.89 to 0.54; P = 0.10, I2
+= 0%; 2 studies, 95 participants); weight (MD −2.47 kg, 95% CI −7.11 to 2.16; P = 0.30, I2 = 0%; 2
+studies, 95 participants); QoL (standardised mean difference (SMD) −0.15, 95% CI −0.55 to 0.26; P =
+0.47, I2 = 0%; 2 studies, 95 participants); appetite (SMD −0.34, 95% CI −1.27 to 0.59; P = 0.48, I2
+= 79%; 2 studies, 95 participants); fatigue (MD 6.40 points, 95% CI −1.10 to 13.90; 1 study, 56
+participants); or biochemical markers (MD 9.80 pg/mL, 95% CI −6.25 to 25.85; P = 0.23, I2 = 73%; 2
+studies, 95 participants), but the evidence is very uncertain. Multimodal intervention compared to
+unimodal intervention We included six studies (802 participants) in this comparison: three cancer
+studies, and one each in people with COPD, chronic kidney disease, and HIV/AIDS. The studies
+assessed outcomes immediately after treatment, ranging from three to seven months. We could not use
+the available data, nor obtain additional data, from the HIV/AIDS study. Compared to a unimodal
+intervention, there is no clear evidence for an effect of a multimodal intervention on: physical
+function (SMD 0.02, 95% CI −0.22 to 0.26; P = 0.86, I2 = 0%; 2 studies, 348 participants); strength
+(SMD 0.23, 95% CI −0.81 to 1.27; P = 0.66, I2 = 0%; 2 studies, 348 participants); adverse events (RR
+0.87, 95% CI −0.43 to 1.73; P = 0.68, I2 = 45%; 2 studies, 395 participants); body composition (SMD
+0.11, 95% CI −0.28 to 0.50; P = 0.58, I2 = 74%; 5 studies, 742 participants); body weight (SMD
+−0.02, 95% CI −0.38 to 0.33; P = 0.90, I2 = 49%; 4 studies, 431 participants); QoL (SMD 0.22, 95% CI
+−0.29 to 0.73; P = 0.39, I2 = 61%; 3 studies, 411 participants); appetite (SMD −0.09, 95% CI −0.58
+to 0.40; P = 0.72, I2 = 58%; 2 studies, 395 participants); fatigue (MD −6.80 points, 95% CI −12.44
+to −1.17; 1 study, 244 participants); and biochemical markers (SMD 0.11, 95% CI −0.59 to 0.80; P =
+0.76, I2 = 79%; 3 studies, 411 participants), but the evidence is very uncertain. Authors'
+conclusions The review found insufficient evidence to support or refute the use of multimodal
+interventions in managing cachexia. The certainty of the evidence was very low. Methodologically
+rigorous, well-powered RCTs with adequate interaction times are needed to assess the effectiveness
+of multimodal interventions in managing cachexia across chronic illnesses.
+
+Query:
+1 exp weight loss/ or body weight/ 2 (cachexia or cachexic or cachectic).mp. 3 exp malnutrition/ 4 (malnutrition or malnourish* or wasting or wasted or underweight).mp. 5 (protein energy wasting or PEW).mp. 6 2 or 3 or 4 or 5 7 exp chronic disease/ 8 ((advance* or late-stage or end-stage) adj2 (disease* or illness* or condition* or cancer)).tw. 9 exp Kidney Failure, Chronic/ 10 (kidney disease or renal disease or end-stage renal disease or end-stage kidney disease or ESRD or ESKD or CKD or chronic kidney disease or h?emodialysis).mp. 11 exp heart failure/ 12 (cardiac disease or cardiovascular disease or heart failure or heart disease).mp. 13 exp Arthritis, Rheumatoid/ 14 rheumatoid arthritis.mp. 15 (COPD or chronic obstructive pulmonary disease or chronic obstructive pulmonary disorder or chronic obstructive lung disease or pulmonary disease).mp. 16 exp Pulmonary Disease, Chronic Obstructive/ 17 exp HIV/ 18 (HIV or AIDS or acquired immunodeficiency syndrome or human immunodeficiency virus).mp. 19 exp Neoplasms/ 20 (cancer* or oncolog* or neoplasm* or carcinom* or tumo?r* or malignan* or leuk? emia).mp. 21 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 22 6 and 21 23 exp Exercise Therapy/ 24 exp Exercise/ 25 exercise*.mp. 26 exp Physical Therapy Modalities/ 27 (physical adj3 therap*).tw. 28 exp Nutrition Therapy/ 29 (nutrition* or diet*).mp. or dietary counsel*.tw. [mp=title, book title, abstract, original title, name of substance word, subject heading word, floating sub-heading word, keyword heading word, organism supplementary concept word, protocol supplementary concept word, rare disease supplementary concept word, unique identifier, synonyms, population supplementary concept word, anatomy supplementary concept word] 30 exp Drug Therapy/ 31 (pharmacological adj3 (therap* or treatment*)).tw. 32 Pharmacotherap*.mp. 33 exp Adrenal Cortex Hormones/ 34 Corticosteroid*.tw. 35 exp Progestins/ 36 Progestin*.tw. 37 exp Cannabinoids/ 38 cannab*.tw. 39 exp Androgens/ 40 androgen*.tw. 41 Olanzapine/ 42 Olanzapine.tw. 43 exp Anti-Inflammatory Agents, Non-Steroidal/ 44 (NSAID* or "non-steroidal anti-inflammatory").tw. 45 Prokinetic*.tw. 46 Receptors, Ghrelin/ 47 Ghrelin receptor*.tw. 48 exp Antioxidants/ 49 Antioxidant*.tw. 50 exp Carnitine/ 51 #carnitine*.tw. 52 Thalidomide/ 53 thalidomide.tw. 54 exp Fatty Acids, Omega-3/ 55 ((fatty adj3 acid*) or (omega-3 adj3 (acid* or oil*)) or PUFA* or DHA* or EPA*).tw. 56 Ibuprofen/ 57 Ibuprofen.tw. 58 exp Testosterone/ 59 Testosterone.tw. 60 23 or 24 or 25 or 26 61 28 or 29 62 30 or 31 or 32 or 33 or 34 or 35 or 36 or 37 or 38 or 39 or 40 or 41 or 42 or 43 or 44 or 45 or 46 or 47 or 48 or 49 or 50 or 51 or 52 or 53 or 54 or 55 or 56 or 57 or 58 or 59 63 60 and 61 64 60 and 62 65 61 and 62 66 ((multi-modal* or multimodal*) adj3 treatment*).tw. 67 ((multi-modal* or multimodal*) adj3 therap*).tw. 68 (combin* adj3 (therap* or treatment*)).tw. 69 (add* or combin* or multipl* or plus or polytherap* or versus or vs).ti,ab. 70 Combined Modality Therapy/ 71 66 or 67 or 68 or 69 or 70 72 63 or 64 or 65 or 71 73 22 and 72 74 exp animals/ not humans.sh. 75 73 not 74 76 randomized controlled trial.pt. 77 controlled clinical trial.pt. 78 randomized.ab. 79 placebo.ab. 80 drug therapy.fs. 81 randomly.ab. 82 trial.ab. 83 groups.ab. 84 76 or 77 or 78 or 79 or 80 or 81 or 82 or 83 85 75 and 84 86 limit 85 to yr="2023 -Current"
+
+QueryOrbit:
+((cachexia[tiab] OR cachexic[tiab] OR cachectic[tiab] OR Malnutrition[Mesh] OR malnutrition[tiab] OR malnourish*[tiab] OR wasting[tiab] OR wasted[tiab] OR underweight[tiab] OR "protein energy wasting"[tiab] OR PEW[tiab]) AND ("Chronic Disease"[Mesh] OR ((advance*[tiab] OR late-stage[tiab] OR end-stage[tiab]) AND (disease*[tiab] OR illness*[tiab] OR condition*[tiab] OR cancer[tiab])) OR "Kidney Failure, Chronic"[Mesh] OR "kidney disease"[tiab] OR "renal disease"[tiab] OR "end-stage renal disease"[tiab] OR "end-stage kidney disease"[tiab] OR ESRD[tiab] OR ESKD[tiab] OR CKD[tiab] OR "chronic kidney disease"[tiab] OR hemodialysis[tiab] OR haemodialysis[tiab] OR "Heart Failure"[Mesh] OR "cardiac disease"[tiab] OR "cardiovascular disease"[tiab] OR "heart failure"[tiab] OR "heart disease"[tiab] OR "Arthritis, Rheumatoid"[Mesh] OR "rheumatoid arthritis"[tiab] OR COPD[tiab] OR "chronic obstructive pulmonary disease"[tiab] OR "chronic obstructive pulmonary disorder"[tiab] OR "chronic obstructive lung disease"[tiab] OR "pulmonary disease"[tiab] OR "Pulmonary Disease, Chronic Obstructive"[Mesh] OR HIV[Mesh] OR HIV[tiab] OR AIDS[tiab] OR "acquired immunodeficiency syndrome"[tiab] OR "human immunodeficiency virus"[tiab] OR Neoplasms[Mesh] OR cancer*[tiab] OR oncolog*[tiab] OR neoplasm*[tiab] OR carcinom*[tiab] OR tumor*[tiab] OR tumour*[tiab] OR malignan*[tiab] OR leukemia[tiab] OR leukaemia[tiab]) AND (((Exercise Therapy[Mesh] OR Exercise[Mesh] OR exercise*[tiab] OR "Physical Therapy Modalities"[Mesh]) AND ("Nutrition Therapy"[Mesh] OR nutrition*[tiab] OR diet*[tiab] OR "dietary counsel"[tiab] OR "dietary counseling"[tiab] OR "dietary counselling"[tiab])) OR ((Exercise Therapy[Mesh] OR Exercise[Mesh] OR exercise*[tiab] OR "Physical Therapy Modalities"[Mesh]) AND ("Drug Therapy"[Mesh] OR (pharmacological[tiab] AND (therap*[tiab] OR treatment*[tiab])) OR pharmacotherap*[tiab] OR "Adrenal Cortex Hormones"[Mesh] OR corticosteroid*[tiab] OR Progestins[Mesh] OR progestin*[tiab] OR Cannabinoids[Mesh] OR cannab*[tiab] OR Androgens[Mesh] OR androgen*[tiab] OR Olanzapine[Mesh] OR olanzapine[tiab] OR "Anti-Inflammatory Agents, Non-Steroidal"[Mesh] OR NSAID*[tiab] OR "non-steroidal anti-inflammatory"[tiab] OR prokinetic*[tiab] OR "Receptors, Ghrelin"[Mesh] OR "ghrelin receptor"[tiab] OR "ghrelin receptors"[tiab] OR Antioxidants[Mesh] OR antioxidant*[tiab] OR Carnitine[Mesh] OR carnitine*[tiab] OR Thalidomide[Mesh] OR thalidomide[tiab] OR "Fatty Acids, Omega-3"[Mesh] OR (fatty[tiab] AND acid*[tiab]) OR (omega-3[tiab] AND (acid*[tiab] OR oil*[tiab])) OR PUFA*[tiab] OR DHA*[tiab] OR EPA*[tiab] OR Ibuprofen[Mesh] OR ibuprofen[tiab] OR Testosterone[Mesh] OR testosterone[tiab])) OR (("Nutrition Therapy"[Mesh] OR nutrition*[tiab] OR diet*[tiab] OR "dietary counsel"[tiab] OR "dietary counseling"[tiab] OR "dietary counselling"[tiab]) AND ("Drug Therapy"[Mesh] OR (pharmacological[tiab] AND (therap*[tiab] OR treatment*[tiab])) OR pharmacotherap*[tiab] OR "Adrenal Cortex Hormones"[Mesh] OR corticosteroid*[tiab] OR Progestins[Mesh] OR progestin*[tiab] OR Cannabinoids[Mesh] OR cannab*[tiab] OR Androgens[Mesh] OR androgen*[tiab] OR Olanzapine[Mesh] OR olanzapine[tiab] OR "Anti-Inflammatory Agents, Non-Steroidal"[Mesh] OR NSAID*[tiab] OR "non-steroidal anti-inflammatory"[tiab] OR prokinetic*[tiab] OR "Receptors, Ghrelin"[Mesh] OR "ghrelin receptor"[tiab] OR "ghrelin receptors"[tiab] OR Antioxidants[Mesh] OR antioxidant*[tiab] OR Carnitine[Mesh] OR carnitine*[tiab] OR Thalidomide[Mesh] OR thalidomide[tiab] OR "Fatty Acids, Omega-3"[Mesh] OR (fatty[tiab] AND acid*[tiab]) OR (omega-3[tiab] AND (acid*[tiab] OR oil*[tiab])) OR PUFA*[tiab] OR DHA*[tiab] OR EPA*[tiab] OR Ibuprofen[Mesh] OR ibuprofen[tiab] OR Testosterone[Mesh] OR testosterone[tiab])) OR ((multi-modal*[tiab] OR multimodal*[tiab]) AND treatment*[tiab]) OR ((multi-modal*[tiab] OR multimodal*[tiab]) AND therap*[tiab]) OR (combin*[tiab] AND (therap*[tiab] OR treatment*[tiab])) OR add*[tiab] OR combin*[tiab] OR multipl*[tiab] OR plus[tiab] OR polytherap*[tiab] OR versus[tiab] OR vs[tiab] OR "Combined Modality Therapy"[Mesh]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR drug therapy[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab])) NOT (animals[Mesh] NOT humans[Mesh]) AND 2023:2025[dp]

@@ -1,0 +1,17 @@
+Topic: CD015802
+Version: base
+Title: Early versus late discontinuation of caffeine administration in preterm infants
+Year: 2023
+
+Date: 2023-08-31
+
+Abstract:
+Objectives This is a protocol for a Cochrane Review (intervention). The objectives are as follows:
+To evaluate the effects of early versus late discontinuation of caffeine administration in preterm
+infants.
+
+Query:
+#1 "Caffeine"[Mesh] OR caffeine[tw] OR caffedrine[tw] OR coffein[tw] OR cafeine[tw] OR methylxanthine[tw] OR trimethylxanthine[tw] #2 (infant, newborn[Mesh]) OR (intensive care, neonatal[Mesh]) OR (intensive care units, neonatal[Mesh]) OR (gestational age[Mesh]) #3 babe[TW] OR babes[TW] baby*[TW] OR babies[TW] OR gestational age[TW] OR gestational ages[TW] OR infant[TW] OR infants[TW] OR infant s[TW] OR infant's[TW] OR infantile[TW] OR infancy[TW] OR low birth weight[TW] OR low birthweight[TW] OR neonat*[TW] OR neo-nat*[TW] OR newborn*[TW] OR new born[TW] OR new borns[TW] OR newly born[TW] OR premature[TW] OR prematures[TW] OR pre-mature*[TW] OR prematurity[TW] OR pre-maturity[TW] OR preterm[TW] OR preterms[TW] OR pre term[TW] OR pre terms[TW] OR preemie[TW] OR preemies[TW] OR premies[TW] OR premie[TW] OR VLBW[TW] OR VLBWI[TW] OR VLBW-I[TW] OR VLBWs[TW] OR LBW[TW] OR LBWI[TW] OR LBWs[TW] OR ELBW[TW] OR ELBWI[TW] OR ELBWs[TW] OR NICU[TW] OR NICUs[TW] #4 #2 OR #3 #5 randomized controlled trial [pt] OR controlled clinical trial [pt] OR randomized [tiab] OR placebo [tiab] OR drug therapy [sh] OR randomly [tiab] OR trial [tiab] OR groups [tiab] #6 quasirandom*[tw] or quasi-random*[tw] or randomi*[tw] or randomly[tw] #7 control*[tw] AND (group[tw] OR groups[tw] OR random[tw] OR trial[tw] OR trials[tw] OR study[tw]) #8 #5 OR #6 OR #7 #9 (animals [mh] NOT humans [mh]) #10 #8 NOT #9 #11 #1 AND #4 AND #10
+
+QueryOrbit:
+("Caffeine"[Mesh] OR caffeine[tw] OR caffedrine[tw] OR coffein[tw] OR cafeine[tw] OR methylxanthine[tw] OR trimethylxanthine[tw] ) AND ( "Infant, Newborn"[Mesh] OR "Intensive Care, Neonatal"[Mesh] OR "Intensive Care Units, Neonatal"[Mesh] OR "Gestational Age"[Mesh] OR babe*[tw] OR baby*[tw] OR babies[tw] OR "gestational age"[tw] OR "gestational ages"[tw] OR infant*[tw] OR "infant s"[tw] OR "infant's"[tw] OR infantile[tw] OR infancy[tw] OR "low birth weight"[tw] OR low birthweight[tw] OR neonat*[tw] OR neo-nat*[tw] OR newborn*[tw] OR "new born"[tw] OR "new borns"[tw] OR "newly born"[tw] OR premature[tw] OR prematures[tw] OR pre-mature*[tw] OR prematurity[tw] OR pre-maturity[tw] OR preterm*[tw] OR "pre term"[tw] OR "pre terms"[tw] OR preemie*[tw] OR premie*[tw] OR VLBW[tw] OR VLBWI[tw] OR "VLBW-I"[tw] OR VLBWs[tw] OR LBW[tw] OR LBWI[tw] OR LBWs[tw] OR ELBW[tw] OR ELBWI[tw] OR ELBWs[tw] OR NICU[tw] OR NICUs[tw] ) AND ( "Randomized Controlled Trial"[pt] OR "Controlled Clinical Trial"[pt] OR randomized[tiab] OR placebo[tiab] OR "drug therapy"[sh] OR randomly[tiab] OR trial[tiab] OR groups[tiab] OR quasirandom*[tw] OR quasi-random*[tw] OR randomi*[tw] OR randomly[tw] OR control*[tw] AND ( group[tw] OR groups[tw] OR random[tw] OR trial[tw] OR trials[tw] OR study[tw] ) ) NOT ( animals[mh] NOT humans[mh] ) AND ( 1900:2023[dp] )
