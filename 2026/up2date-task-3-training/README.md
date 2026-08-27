@@ -89,7 +89,7 @@ From the repository root:
 
 ```bash
 tira-cli dataset-submission \
-  --path up2date-task-3-training \
+  --path up2date-task-3-training-training \
   --task up2date \
   --split test \
   --dry-run
