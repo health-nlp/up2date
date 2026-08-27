@@ -1,0 +1,76 @@
+Topic: CD010216
+Version: pub8
+Title: Electronic cigarettes for smoking cessation
+Year: 2024
+
+Date: 2024-01-08
+
+Abstract:
+Background Electronic cigarettes (ECs) are handheld electronic vaping devices which produce an
+aerosol by heating an e-liquid. People who smoke, healthcare providers and regulators want to know
+if ECs can help people quit smoking, and if they are safe to use for this purpose. This is a review
+update conducted as part of a living systematic review. Objectives To examine the safety,
+tolerability and effectiveness of using electronic cigarettes (ECs) to help people who smoke tobacco
+achieve long-term smoking abstinence, in comparison to non-nicotine EC, other smoking cessation
+treatments and no treatment. Search methods We searched the Cochrane Tobacco Addiction Group's
+Specialized Register to 1 February 2023, and Cochrane Central Register of Controlled Trials
+(CENTRAL), MEDLINE, Embase, and PsycINFO to 1 July 2023, and reference-checked and contacted study
+authors. Selection criteria We included trials in which people who smoke were randomized to an EC or
+control condition. We also included uncontrolled intervention studies in which all participants
+received an EC intervention as these studies have the potential to provide further information on
+harms and longer-term use. Studies had to report an eligible outcome. Data collection and analysis
+We followed standard Cochrane methods for screening and data extraction. Critical outcomes were
+abstinence from smoking after at least six months, adverse events (AEs), and serious adverse events
+(SAEs). We used a fixed-effect Mantel-Haenszel model to calculate risk ratios (RRs) with a 95%
+confidence interval (CI) for dichotomous outcomes. For continuous outcomes, we calculated mean
+differences. Where appropriate, we pooled data in pairwise and network meta-analyses (NMA). Main
+results We included 88 completed studies (10 new to this update), representing 27,235 participants,
+of which 47 were randomized controlled trials (RCTs). Of the included studies, we rated ten (all but
+one contributing to our main comparisons) at low risk of bias overall, 58 at high risk overall
+(including all non-randomized studies), and the remainder at unclear risk. There is high certainty
+that nicotine EC increases quit rates compared to nicotine replacement therapy (NRT) (RR 1.59, 95%
+CI 1.29 to 1.93; I2 = 0%; 7 studies, 2544 participants). In absolute terms, this might translate to
+an additional four quitters per 100 (95% CI 2 to 6 more). There is moderate-certainty evidence
+(limited by imprecision) that the rate of occurrence of AEs is similar between groups (RR 1.03, 95%
+CI 0.91 to 1.17; I2 = 0%; 5 studies, 2052 participants). SAEs were rare, and there is insufficient
+evidence to determine whether rates differ between groups due to very serious imprecision (RR 1.20,
+95% CI 0.90 to 1.60; I2 = 32%; 6 studies, 2761 participants; low-certainty evidence). There is
+moderate-certainty evidence, limited by imprecision, that nicotine EC increases quit rates compared
+to non-nicotine EC (RR 1.46, 95% CI 1.09 to 1.96; I2 = 4%; 6 studies, 1613 participants). In
+absolute terms, this might lead to an additional three quitters per 100 (95% CI 1 to 7 more). There
+is moderate-certainty evidence of no difference in the rate of AEs between these groups (RR 1.01,
+95% CI 0.91 to 1.11; I2 = 0%; 5 studies, 1840 participants). There is insufficient evidence to
+determine whether rates of SAEs differ between groups, due to very serious imprecision (RR 1.00, 95%
+CI 0.56 to 1.79; I2 = 0%; 9 studies, 1412 participants; low-certainty evidence). Due to issues with
+risk of bias, there is low-certainty evidence that, compared to behavioural support only/no support,
+quit rates may be higher for participants randomized to nicotine EC (RR 1.88, 95% CI 1.56 to 2.25;
+I2 = 0%; 9 studies, 5024 participants). In absolute terms, this represents an additional four
+quitters per 100 (95% CI 2 to 5 more). There was some evidence that (non-serious) AEs may be more
+common in people randomized to nicotine EC (RR 1.22, 95% CI 1.12 to 1.32; I2 = 41%, low-certainty
+evidence; 4 studies, 765 participants) and, again, insufficient evidence to determine whether rates
+of SAEs differed between groups (RR 0.89, 95% CI 0.59 to 1.34; I2 = 23%; 10 studies, 3263
+participants; very low-certainty evidence). Results from the NMA were consistent with those from
+pairwise meta-analyses for all critical outcomes, and there was no indication of inconsistency
+within the networks. Data from non-randomized studies were consistent with RCT data. The most
+commonly reported AEs were throat/mouth irritation, headache, cough, and nausea, which tended to
+dissipate with continued EC use. Very few studies reported data on other outcomes or comparisons,
+hence, evidence for these is limited, with CIs often encompassing both clinically significant harm
+and benefit. Authors' conclusions There is high-certainty evidence that ECs with nicotine increase
+quit rates compared to NRT and moderate-certainty evidence that they increase quit rates compared to
+ECs without nicotine. Evidence comparing nicotine EC with usual care/no treatment also suggests
+benefit, but is less certain due to risk of bias inherent in the study design. Confidence intervals
+were for the most part wide for data on AEs, SAEs and other safety markers, with no difference in
+AEs between nicotine and non-nicotine ECs nor between nicotine ECs and NRT. Overall incidence of
+SAEs was low across all study arms. We did not detect evidence of serious harm from nicotine EC, but
+the longest follow-up was two years and the number of studies was small. The main limitation of the
+evidence base remains imprecision due to the small number of RCTs, often with low event rates.
+Further RCTs are underway. To ensure the review continues to provide up-to-date information to
+decision-makers, this review is a living systematic review. We run searches monthly, with the review
+updated when relevant new evidence becomes available. Please refer to the Cochrane Database of
+Systematic Reviews for the review's current status.
+
+Query:
+1. exp case control studies/ or exp cohort studies/ or Case control.tw. or (cohort adj (study or studies)).tw. or Cohort analy$.tw. or (Follow up adj (study or studies)).tw. or (observational adj (study or studies)).tw. or Longitudinal.tw. 2. (e-cig$ or ecig$ or electr$ cigar$ or electronic nicotine).mp. or (vape or vapes or vaporizer or vapourizer or vaporiser or vapouriser or vaper or vapers or vaping).ti,ab. or exp Electronic Nicotine Delivery Systems/ 3. (randomized controlled trial or controlled clinical trial).pt. or randomized.ab. or placebo.ab. or clinical trials as topic.sh. or randomly.ab. or trial.ti. 4. exp animals/ not human/ 5. 3 not 4 6. 2 and 5 7. 1 and 2 8. 6 or 7 9. smoking cessation.mp. or exp Smoking Cessation/ 10. tobacco cessation.mp. or "Tobacco-Use-Cessation"/ 11. (nicotine dependence or tobacco dependence).mp. 12. exp Smoking/th 13. "Tobacco-Use-Disorder"/ 14. Smoking reduction/ or Smoking reduction.mp. 15. exp Pipe smoking/ or exp Tobacco smoking/ or exp Tobacco Products/ 16. ((quit$ or stop$ or ceas$ or giv$ or abstain* or abstinen*) adj5 (smoking or smoke* or tobacco)).ti,ab. 17. exp Tobacco/ or exp Nicotine/ 18. 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 19. 8 and 18
+
+QueryOrbit:
+(((("Electronic Nicotine Delivery Systems"[Mesh] OR e-cig*[tiab] OR ecig*[tiab] OR "electronic nicotine"[tiab] OR vape[tiab] OR vapes[tiab] OR vaporizer[tiab] OR vapourizer[tiab] OR vaporiser[tiab] OR vapouriser[tiab] OR vaper[tiab] OR vapers[tiab] OR vaping[tiab]) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR "Clinical Trials as Topic"[Mesh] OR randomly[tiab] OR trial[ti]) NOT (animals[Mesh] NOT humans[Mesh])) OR (("Case-Control Studies"[Mesh] OR "Cohort Studies"[Mesh] OR "case control"[tiab] OR cohort[tiab] OR "cohort study"[tiab] OR "cohort studies"[tiab] OR "cohort analysis"[tiab] OR "cohort analyses"[tiab] OR "follow up study"[tiab] OR "follow up studies"[tiab] OR "follow-up study"[tiab] OR "follow-up studies"[tiab] OR "observational study"[tiab] OR "observational studies"[tiab] OR longitudinal[tiab]) AND ("Electronic Nicotine Delivery Systems"[Mesh] OR e-cig*[tiab] OR ecig*[tiab] OR "electronic nicotine"[tiab] OR vape[tiab] OR vapes[tiab] OR vaporizer[tiab] OR vapourizer[tiab] OR vaporiser[tiab] OR vapouriser[tiab] OR vaper[tiab] OR vapers[tiab] OR vaping[tiab]))) AND ("Smoking Cessation"[Mesh] OR "Tobacco Use Cessation"[Mesh] OR "Tobacco Use Disorder"[Mesh] OR "Smoking/therapy"[Mesh] OR "Smoking Reduction"[Mesh] OR "Pipe Smoking"[Mesh] OR "Tobacco Smoking"[Mesh] OR "Tobacco Products"[Mesh] OR Tobacco[Mesh] OR Nicotine[Mesh] OR "smoking cessation"[tiab] OR "tobacco cessation"[tiab] OR "nicotine dependence"[tiab] OR "tobacco dependence"[tiab] OR "smoking reduction"[tiab] OR ((quit*[tiab] OR stop*[tiab] OR ceas*[tiab] OR giv*[tiab] OR abstain*[tiab] OR abstinen*[tiab]) AND (smoking[tiab] OR smoke*[tiab] OR tobacco[tiab])))) AND 1800:2024[dp]

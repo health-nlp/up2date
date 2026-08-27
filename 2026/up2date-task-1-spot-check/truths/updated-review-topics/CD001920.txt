@@ -1,0 +1,85 @@
+Topic: CD001920
+Version: pub4
+Title: Physical rehabilitation approaches for the recovery of function and mobility following stroke
+Year: 2025
+
+Date: 2025-02-11
+
+Abstract:
+Background Various approaches to physical rehabilitation to improve function and mobility are used
+after stroke. There is considerable controversy around the relative effectiveness of approaches, and
+little known about optimal delivery and dose. Some physiotherapists base their treatments on a
+single approach; others use components from several different approaches. Objectives Primary
+objective: To determine whether physical rehabilitation is effective for recovery of function and
+mobility in people with stroke, and to assess if any one physical rehabilitation approach is more
+effective than any other approach. Secondary objective: To explore factors that may impact the
+effectiveness of physical rehabilitation approaches, including time after stroke, geographical
+location of study, intervention dose/duration, intervention provider, and treatment components.
+Stakeholder involvement: Key aims were to clarify the focus of the review, inform decisions about
+subgroup analyses, and co-produce statements relating to key implications. Search methods For this
+update, we searched the Cochrane Stroke Trials Register (last searched November 2022), CENTRAL
+(2022, Issue 10), MEDLINE (1966 to November 2022), Embase (1980 to November 2022), AMED (1985 to
+November 2022), CINAHL (1982 to November 2022), and the Chinese Biomedical Literature Database (to
+November 2022). Selection criteria Inclusion criteria: Randomised controlled trials (RCTs) of
+physical rehabilitation approaches aimed at promoting the recovery of function or mobility in adult
+participants with a clinical diagnosis of stroke. Exclusion criteria: RCTs of upper limb function or
+single treatment components. Primary outcomes: measures of independence in activities of daily
+living (IADL) and motor function. Secondary outcomes: balance, gait velocity, and length of stay.
+Data collection and analysis Two independent authors selected studies according to pre-defined
+eligibility criteria, extracted data, and assessed the risk of bias in the included studies. We used
+GRADE to assess the certainty of evidence. Main results In this review update, we included 267
+studies (21,838 participants). Studies were conducted in 36 countries, with half (133/267) in China.
+Generally, studies were heterogeneous, and often poorly reported. We judged only 14 studies in
+meta-analyses as at low risk of bias for all domains and, on average, we considered 33% of studies
+in analyses of primary outcomes at high risk of bias. Is physical rehabilitation more effective than
+no (or minimal) physical rehabilitation? Compared to no physical rehabilitation, physical
+rehabilitation may improve IADL (standardised mean difference (SMD) 1.32, 95% confidence interval
+(CI) 1.08 to 1.56; 52 studies, 5403 participants; low-certainty evidence) and motor function (SMD
+1.01, 95% CI 0.80 to 1.22; 50 studies, 5669 participants; low-certainty evidence). There was
+evidence of long-term benefits for these outcomes. Physical rehabilitation may improve balance (MD
+4.54, 95% CI 1.36 to 7.72; 9 studies, 452 participants; low-certainty evidence) and likely improves
+gait velocity (SMD 0.23, 95% CI 0.05 to 0.42; 18 studies, 1131 participants; moderate-certainty
+evidence), but with no evidence of long-term benefits. Is physical rehabilitation more effective
+than attention control? The evidence is very uncertain about the effects of physical rehabilitation,
+as compared to attention control, on IADL (SMD 0.91, 95% CI 0.06 to 1.75; 2 studies, 106
+participants), motor function (SMD 0.13, 95% CI -0.13 to 0.38; 5 studies, 237 participants), and
+balance (MD 6.61, 95% CI -0.45 to 13.66; 4 studies, 240 participants). Physical rehabilitation
+likely improves gait speed when compared to attention control (SMD 0.34, 95% CI 0.14 to 0.54; 7
+studies, 405 participants; moderate-certainty evidence). Does additional physical rehabilitation
+improve outcomes? Additional physical rehabilitation may improve IADL (SMD 1.26, 95% CI 0.82 to
+1.71; 21 studies, 1972 participants; low-certainty evidence) and motor function (SMD 0.69, 95% CI
+0.46 to 0.92; 22 studies, 1965 participants; low-certainty evidence). Very few studies assessed
+these outcomes at long-term follow-up. Additional physical rehabilitation may improve balance (MD
+5.74, 95% CI 3.78 to 7.71; 15 studies, 795 participants; low-certainty evidence) and gait velocity
+(SMD 0.59, 95% CI 0.26 to 0.91; 19 studies, 1004 participants; low-certainty evidence). Very few
+studies assessed these outcomes at long-term follow-up. Is any one approach to physical
+rehabilitation more effective than any other approach? Compared to other approaches, those that
+focus on functional task training may improve IADL (SMD 0.58, 95% CI 0.29 to 0.87; 22 studies, 1535
+participants; low-certainty evidence) and motor function (SMD 0.72, 95% CI 0.21 to 1.22; 20 studies,
+1671 participants; very low-certainty evidence) but the evidence in the latter is very uncertain.
+The benefit was sustained long-term. The evidence is very uncertain about the effect of functional
+task training on balance (MD 2.16, 95% CI -0.24 to 4.55) and gait velocity (SMD 0.28, 95% CI -0.01
+to 0.56). Compared to other approaches, neurophysiological approaches may be less effective than
+other approaches in improving IADL (SMD -0.34, 95% CI -0.63 to -0.06; 14 studies, 737 participants;
+low-certainty evidence), and there may be no difference in improving motor function (SMD -0.60, 95%
+CI -1.32 to 0.12; 13 studies, 663 participants; low-certainty evidence), balance (MD -0.60, 95% CI
+-5.90 to 6.03; 9 studies, 292 participants; low-certainty evidence), and gait velocity (SMD -0.17,
+95% CI -0.62 to 0.27; 16 studies, 630 participants; very low-certainty evidence), but the evidence
+is very uncertain about the effect on gait velocity. For all comparisons, the evidence is very
+uncertain about the effects of physical rehabilitation on adverse events and length of hospital
+stay. Authors' conclusions Physical rehabilitation, using a mix of different treatment components,
+likely improves recovery of function and mobility after stroke. Additional physical rehabilitation,
+delivered as an adjunct to 'usual' rehabilitation, may provide added benefits. Physical
+rehabilitation approaches that focus on functional task training may be useful. Neurophysiological
+approaches to physical rehabilitation may be no different from, or less effective than, other
+physical rehabilitation approaches. Certainty in this evidence is limited due to substantial
+heterogeneity, with mainly small studies and important differences between study populations and
+interventions. We feel it is unlikely that any studies published since November 2022 would alter our
+conclusions. Given the size of this review, future updates warrant consensus discussion amongst
+stakeholders to ensure the most relevant questions are explored for optimal decision-making.
+
+Query:
+1. cerebrovascular disorders/ or exp basal ganglia cerebrovascular disease/ or brain ischemia/ or brain infarction/ or brain stem infarctions/ or cerebral infarction/ or infarction, anterior cerebral artery/ or infarction, middle cerebral artery/ or infarction, posterior cerebral artery/ or ischemic attack, transient/ or carotid artery diseases/ or carotid artery thrombosis/ or carotid stenosis/ or cerebral arterial diseases/ or intracranial arteriosclerosis/ or exp intracranial arteriovenous malformations/ or exp "intracranial embolism and thrombosis"/ or intracranial hemorrhages/ or cerebral hemorrhage/ or cerebral intraventricular hemorrhage/ or intracranial hemorrhage, hypertensive/ or subarachnoid hemorrhage/ or stroke/ or hemorrhagic stroke/ or exp ischemic stroke/ or vasospasm, intracranial/ 2. (stroke or poststroke or post-stroke or cerebrovasc$ or (cerebr$ adj3 vasc$) or CVA$ or apoplectic or apoplex$ or (transient adj3 isch?emic adj3 attack) or tia$ or SAH or AVM or ESUS or ICH).tw. 3. ((cerebr$ or cerebell$ or arteriovenous or vertebrobasil$ or interhemispheric or hemispher$ or intracran$ or intracerebral or infratentorial or supratentorial or MCA$ or ((anterior or posterior) adj3 circulat$) or lenticulostriate or ((basilar or brachial or vertebr$) adj3 arter$)) adj3 ((blood adj5 clot$) or disease$ or damage$ or disorder$ or disturbance or dissection or lesion or syndrome or arrest or accident or lesion or vasculopathy or insult or attack or injury or insufficiency or malformation or obstruct$ or anomal$)).tw. 4. ((cerebr$ or cerebell$ or arteriovenous or vertebrobasil$ or interhemispheric or hemispher$ or intracran$ or corpus callosum or intracerebral or intracortical or intraventricular or periventricular or posterior fossa or infratentorial or supratentorial or MCA$ or ((anterior or posterior) adj3 circulation) or basal ganglia or ((basilar or brachial or vertebr$) adj3 arter$) or space-occupying or brain ventricle$ or lacunar or cortical or ocular) adj3 (isch?emi$ or infarct$ or thrombo$ or emboli$ or occlus$ or hypoxi$ or vasospasm or obstruct$ or vasoconstrict$)).tw. 5. ((cerebr$ or cerebell$ or vertebrobasil$ or interhemispheric or hemispher$ or intracran$ or corpus callosum or intracerebral or intracortical or intraventricular or periventricular or posterior fossa or infratentorial or supratentorial or MCA$ or ((anterior or posterior) adj3 circulation) or basal ganglia or ((basilar or brachial or vertebr$) adj3 arter$) or space-occupying or brain ventricle$ or subarachnoid$ or arachnoid$) adj3 (h?emorrhag$ or h?ematom$ or bleed$)).tw. 6. ((carotid or cerebr$ or cerebell$ or intracranial or ((basilar or brachial or vertebr$) adj3 arter$)) adj3 (aneurysm or malformation$ or block$ or dysplasia or disease$ or bruit or injur$ or narrow$ or obstruct$ or occlusion or constriction or presclerosis or scleros$ or stenos$ or atherosclero$ or arteriosclero$ or plaque$ or thrombo$ or embol$ or arteriopathy)).tw. 7. hemiplegia/ or paresis/ or exp gait disorders, neurologic/ 8. (hemipleg$ or hemipar$ or paresis or paretic or hemineglect).tw. 9. or/1-8 10. physical therapy modalities/ or exp exercise movement techniques/ or exp exercise therapy/ or rehabilitation/ or neurological rehabilitation/ or stroke rehabilitation/ or occupational therapy/ or occupational therapists/ or physical therapists/ 11. feedback/ or feedback, physiological/ or exp biofeedback, psychology/ 12. exercise/ or orthopedic procedures/ 13. (physiotherap$ or ((physical or occupational or exercise) adj3 therap$) or rehabilitation).tw. 14. (neurorehabilitation or feedback or biofeedback).tw. 15. (motor adj5 (train$ or re?train$ or learn$ or re?learn$)).tw. 16. (((neuromuscular or neurodevelopmental or neuro-developmental) adj2 (facilitation or trainin$ or retrain$)) or PNF or NDT).tw. 17. (movement adj5 (therap$ or science)).tw. 18. ((neurodevelopmental or neurophysiological or orthop?edic) adj5 (therap$ or treatment$ or rehabilitation or principle$ or approach$ or component$ or concept$)).tw. 19. (Bobath or Carr or Brunnstrom or Rood or Johnstone or NDT or (standardi?ed adj2 three adj2 stage$)).tw. 20. or/10-19 21. 9 and 20 22. cerebrovascular disorders/rh or exp basal ganglia cerebrovascular disease/rh or brain ischemia/rh or brain infarction/rh or brain stem infarctions/rh or cerebral infarction/rh or infarction, anterior cerebral artery/rh or infarction, middle cerebral artery/rh or infarction, posterior cerebral artery/rh or ischemic attack, transient/rh or carotid artery diseases/rh or carotid artery thrombosis/rh or carotid stenosis/rh or cerebral arterial diseases/rh or intracranial arteriosclerosis/rh or exp intracranial arteriovenous malformations/rh or exp "intracranial embolism and thrombosis"/rh or intracranial hemorrhages/rh or cerebral hemorrhage/rh or cerebral intraventricular hemorrhage/rh or intracranial hemorrhage, hypertensive/rh or subarachnoid hemorrhage/rh or stroke/rh or hemorrhagic stroke/rh or exp ischemic stroke/rh or vasospasm, intracranial/rh 23. hemiplegia/rh or exp paresis/rh 24. neurological rehabilitation/ or stroke rehabilitation/ 25. 21 or 22 or 23 or 24 26. psychomotor performance/ or motor skills/ or "task performance and analysis"/ 27. learning/ or "conditioning (psychology)"/ or problem-based learning/ or problem solving/ 28. movement/ or locomotion/ or walking/ or dependent ambulation/ or gait/ 29. motor activity/ or range of motion, articular/ 30. postural balance/ or exp posture/ or supination/ or pronation/ or weight-bearing/ 31. exp lower extremity/ or exp back/ 32. (motor adj5 (skill$ or activit$ or function$)).tw. 33. (learning or conditioning).tw. 34. (movement or gait or locomotion or walking or walk or mobility).tw. 35. (equilibrium or balance or postur$ or supination or pronation).tw. 36. (body sway or stance or strength or weight?bearing or body weight support).tw. 37. (locomotor adj5 (recovery or training)).tw. 38. (weight adj5 (distribut$ or transfer$)).tw. 39. (sit or sitting or stand or standing or step or stepping or climb or climbing).tw. 40. (lower limb$ or lower extremit$ or ankle or leg or heel or calf or knee or hip or thigh or foot or trunk).tw. 41. or/26-40 42. 25 and 41 43. randomized controlled trial.pt. 44. controlled clinical trial.pt. 45. randomized.ab. 46. placebo.ab. 47. randomly.ab. 48. trial.ab. 49. groups.ab. 50. or/43-49 51. exp animals/ not humans.sh. 52. 50 not 51 53. 42 and 52
+
+QueryOrbit:
+((stroke[Mesh] OR "Cerebrovascular Disorders"[Mesh] OR "Brain Ischemia"[Mesh] OR "Brain Infarction"[Mesh] OR "Ischemic Attack, Transient"[Mesh] OR "Carotid Artery Diseases"[Mesh] OR "Intracranial Arteriovenous Malformations"[Mesh] OR "Intracranial Embolism and Thrombosis"[Mesh] OR "Intracranial Hemorrhages"[Mesh] OR "Subarachnoid Hemorrhage"[Mesh] OR "Hemiplegia"[Mesh] OR "Paresis"[Mesh] OR "Gait Disorders, Neurologic"[Mesh] OR stroke[tiab] OR poststroke[tiab] OR post-stroke[tiab] OR cerebrovasc*[tiab] OR cva[tiab] OR apoplex*[tiab] OR apoplectic[tiab] OR tia[tiab] OR tias[tiab] OR SAH[tiab] OR AVM[tiab] OR ESUS[tiab] OR ICH[tiab] OR ischemia[tiab] OR ischaemia[tiab] OR infarct*[tiab] OR thrombo*[tiab] OR emboli*[tiab] OR occlus*[tiab] OR hemorrhage*[tiab] OR haemorrhage*[tiab] OR hematoma*[tiab] OR haematoma*[tiab] OR bleed*[tiab] OR hemipleg*[tiab] OR hemipar*[tiab] OR paresis[tiab] OR paretic[tiab] OR hemineglect[tiab]) AND (rehabilitation[Mesh] OR "Physical Therapy Modalities"[Mesh] OR "Exercise Therapy"[Mesh] OR "Occupational Therapy"[Mesh] OR "Neurological Rehabilitation"[Mesh] OR "Stroke Rehabilitation"[Mesh] OR Feedback[Mesh] OR "Biofeedback, Psychology"[Mesh] OR Exercise[Mesh] OR physiotherap*[tiab] OR "physical therapy"[tiab] OR "occupational therapy"[tiab] OR "exercise therapy"[tiab] OR rehabilitation[tiab] OR neurorehabilitation[tiab] OR feedback[tiab] OR biofeedback[tiab] OR "motor training"[tiab] OR "motor retraining"[tiab] OR "motor learning"[tiab] OR "motor relearning"[tiab] OR "neuromuscular facilitation"[tiab] OR PNF[tiab] OR NDT[tiab] OR Bobath[tiab] OR Carr[tiab] OR Brunnstrom[tiab] OR Rood[tiab] OR Johnstone[tiab]) AND ("Psychomotor Performance"[Mesh] OR "Motor Skills"[Mesh] OR "Task Performance and Analysis"[Mesh] OR Learning[Mesh] OR Movement[Mesh] OR Locomotion[Mesh] OR Walking[Mesh] OR Gait[Mesh] OR "Motor Activity"[Mesh] OR "Range of Motion, Articular"[Mesh] OR "Postural Balance"[Mesh] OR Posture[Mesh] OR Supination[Mesh] OR Pronation[Mesh] OR "Weight-Bearing"[Mesh] OR "Lower Extremity"[Mesh] OR Back[Mesh] OR motor[tiab] OR gait[tiab] OR walking[tiab] OR walk[tiab] OR mobility[tiab] OR locomotion[tiab] OR movement[tiab] OR learning[tiab] OR conditioning[tiab] OR balance[tiab] OR equilibrium[tiab] OR posture[tiab] OR postur*[tiab] OR supination[tiab] OR pronation[tiab] OR "body sway"[tiab] OR stance[tiab] OR strength[tiab] OR weight-bearing[tiab] OR "weight bearing"[tiab] OR "body weight support"[tiab] OR sitting[tiab] OR standing[tiab] OR stepping[tiab] OR climbing[tiab] OR "lower limb"[tiab] OR "lower limbs"[tiab] OR "lower extremity"[tiab] OR "lower extremities"[tiab] OR ankle[tiab] OR leg[tiab] OR heel[tiab] OR calf[tiab] OR knee[tiab] OR hip[tiab] OR thigh[tiab] OR foot[tiab] OR trunk[tiab])) AND (randomized controlled trial[pt] OR controlled clinical trial[pt] OR randomized[tiab] OR placebo[tiab] OR randomly[tiab] OR trial[tiab] OR groups[tiab]) NOT (animals[Mesh] NOT humans[Mesh]) AND 1800:2025[dp]
