@@ -10,10 +10,11 @@ configs:
     path:
     - "truths/updated-review-topics/*"
     - "truths/included-studies-qrels.txt"
+    - "inputs/topics/*"
 
 tira_configs:
   resolve_inputs_to: "inputs"
-  resolve_truths_to: "truths"
+  resolve_truths_to: "."
   default_upload_name: "task2-submission"
 
   input_format:
@@ -41,8 +42,9 @@ tira_configs:
       python3 /task_2.py
       --queries-tsv ${inputRun}/queries.tsv
       --run ${inputRun}/run.txt.gz
-      --gold-topics-dir ${inputDataset}/updated-review-topics
-      --qrels ${inputDataset}/included-studies-qrels.txt
+      --gold-topics-dir ${inputDataset}/truths/updated-review-topics
+      --qrels ${inputDataset}/truths/included-studies-qrels.txt
+      --topics-dir ${inputDataset}/inputs/topics
       --metrics-out ${outputDir}/task2-evaluation.txt
       --report-json ${outputDir}/task2-evaluation.json
       --prototext-out ${outputDir}/evaluation.prototext

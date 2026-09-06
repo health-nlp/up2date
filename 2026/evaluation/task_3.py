@@ -1,6 +1,8 @@
 """Evaluate Task 3 study-inclusion submissions.
 
 INPUT
+    --candidates-tsv
+            Candidate TSV defining the split and evaluation scope.
   --predictions-tsv
       TSV columns: topic, study. Each row predicts that one candidate PMID is
       included in the updated review. Omitted candidates are predicted excluded.
@@ -74,6 +76,33 @@ def load_pair_versions(pair_manifest: Path) -> dict[str, tuple[str, str]]:
     if not pairs:
         raise SystemExit(f"No version pairs found in: {pair_manifest}")
     return pairs
+
+
+def read_candidate_topic_ids(candidates_tsv: Path) -> list[str]:
+    if not candidates_tsv.exists():
+        raise SystemExit(f"Candidates TSV does not exist: {candidates_tsv}")
+    topics: set[str] = set()
+    with candidates_tsv.open("r", encoding="utf-8", newline="") as file:
+        reader = csv.DictReader(file, delimiter="\t")
+        if "topic" not in (reader.fieldnames or []):
+            raise SystemExit("Candidates TSV must contain a 'topic' column.")
+        for line_number, row in enumerate(reader, start=2):
+            topic = (row.get("topic") or "").strip()
+            if not topic:
+                raise SystemExit(f"Empty topic in {candidates_tsv}:{line_number}")
+            topics.add(topic)
+    if not topics:
+        raise SystemExit(f"No topics found in: {candidates_tsv}")
+    return sorted(topics)
+
+
+def restrict_pairs(
+    pairs: dict[str, tuple[str, str]], topic_ids: list[str]
+) -> dict[str, tuple[str, str]]:
+    missing_pairs = sorted(set(topic_ids) - set(pairs))
+    if missing_pairs:
+        raise SystemExit("Version pairs are missing topics: " + ", ".join(missing_pairs))
+    return {topic: pairs[topic] for topic in topic_ids}
 
 
 def load_qrels(qrels_path: Path) -> dict[str, dict[str, int]]:
@@ -242,6 +271,11 @@ def render_prototext(report: dict[str, object]) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate Task 3 study-inclusion predictions.")
     parser.add_argument("--predictions-tsv", type=Path, default=DEFAULT_PREDICTIONS)
+    parser.add_argument(
+        "--candidates-tsv",
+        type=Path,
+        help="Candidate TSV defining the topics to score.",
+    )
     parser.add_argument("--pair-manifest", type=Path, default=DEFAULT_PAIR_MANIFEST)
     parser.add_argument("--training-qrels", type=Path, default=DEFAULT_TRAINING_QRELS)
     parser.add_argument("--testing-qrels", type=Path, default=DEFAULT_TESTING_QRELS)
@@ -254,8 +288,11 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    pairs = load_pair_versions(args.pair_manifest)
+    if args.candidates_tsv is not None:
+        pairs = restrict_pairs(pairs, read_candidate_topic_ids(args.candidates_tsv))
     report = evaluate(
-        load_pair_versions(args.pair_manifest),
+        pairs,
         load_qrels(args.training_qrels),
         load_qrels(args.testing_qrels),
         load_predictions(args.predictions_tsv),

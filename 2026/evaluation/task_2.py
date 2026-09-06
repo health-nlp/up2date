@@ -4,6 +4,9 @@ The submission consists of a query TSV and a gzip-compressed six-column TREC
 run. Queries are archived and checked for topic coverage but are not executed.
 Retrieved PMIDs are read exclusively from the submitted run and compared with
 the updated-review qrels.
+
+The input topic directory defines the split being evaluated; the gold topic
+directory supplies the updated-review versions and labels.
 """
 
 from __future__ import annotations
@@ -273,6 +276,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate a Task 2 query and TREC-run submission offline.")
     parser.add_argument("--queries-tsv", type=Path, default=DEFAULT_QUERIES)
     parser.add_argument("--run", type=Path, default=DEFAULT_RUN)
+    parser.add_argument(
+        "--topics-dir",
+        type=Path,
+        help="Input topic directory defining the topics to score.",
+    )
     parser.add_argument("--gold-topics-dir", type=Path, default=DEFAULT_GOLD_TOPICS_DIR)
     parser.add_argument("--qrels", type=Path, default=DEFAULT_QRELS)
     parser.add_argument("--top-k", type=int, default=10)
@@ -284,8 +292,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    topic_ids = read_topic_ids(args.topics_dir or args.gold_topics_dir)
     report = evaluate(
-        read_topic_ids(args.gold_topics_dir),
+        topic_ids,
         args.gold_topics_dir,
         load_queries(args.queries_tsv),
         load_run(args.run),

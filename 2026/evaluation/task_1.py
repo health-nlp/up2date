@@ -5,6 +5,8 @@ INPUT
             TSV columns: topic, date. Date format: YYYY-MM-DD.
 
 GOLD DATA
+    --topics-dir
+        Input topic files defining the split and evaluation scope.
     --gold-topics-dir
         Updated review topic files. Uses each file's Date field as gold_date.
     --cutoff-gold-tsv
@@ -259,6 +261,11 @@ def render_prototext(report: dict[str, object]) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate Task 1 predicted dates offline.")
     parser.add_argument("--predictions-tsv", type=Path, default=DEFAULT_PREDICTIONS)
+    parser.add_argument(
+        "--topics-dir",
+        type=Path,
+        help="Input topic directory defining the topics to score.",
+    )
     parser.add_argument("--gold-topics-dir", type=Path, default=DEFAULT_GOLD_TOPICS_DIR)
     parser.add_argument("--cutoff-gold-tsv", type=Path, default=DEFAULT_CUTOFF_GOLD)
     parser.add_argument("--top-k", type=int, default=10)
@@ -270,8 +277,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    topic_ids = read_topic_ids(args.topics_dir or args.gold_topics_dir)
     report = evaluate(
-        read_topic_ids(args.gold_topics_dir),
+        topic_ids,
         args.gold_topics_dir,
         load_predictions(args.predictions_tsv),
         load_cutoff_gold(args.cutoff_gold_tsv),

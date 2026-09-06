@@ -11,10 +11,11 @@ configs:
     - "truths/review-version-pairs.csv"
     - "truths/initial-review-qrels.txt"
     - "truths/updated-review-qrels.txt"
+    - "inputs/candidates.tsv"
 
 tira_configs:
   resolve_inputs_to: "inputs"
-  resolve_truths_to: "truths"
+  resolve_truths_to: "."
   default_upload_name: "predictions.tsv"
 
   input_format:
@@ -36,9 +37,10 @@ tira_configs:
     command: >-
       python3 /task_3.py
       --predictions-tsv ${inputRun}/predictions.tsv
-      --pair-manifest ${inputDataset}/review-version-pairs.csv
-      --training-qrels ${inputDataset}/initial-review-qrels.txt
-      --testing-qrels ${inputDataset}/updated-review-qrels.txt
+      --pair-manifest ${inputDataset}/truths/review-version-pairs.csv
+      --training-qrels ${inputDataset}/truths/initial-review-qrels.txt
+      --testing-qrels ${inputDataset}/truths/updated-review-qrels.txt
+      --candidates-tsv ${inputDataset}/inputs/candidates.tsv
       --metrics-out ${outputDir}/task3-evaluation.txt
       --report-json ${outputDir}/task3-evaluation.json
       --prototext-out ${outputDir}/evaluation.prototext
