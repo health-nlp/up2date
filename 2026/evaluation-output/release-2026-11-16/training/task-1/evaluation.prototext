@@ -1,0 +1,140 @@
+measure{
+  key: "Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "Year Accuracy"
+  value: "0.45"
+}
+measure{
+  key: "Mean Signed Delta Days"
+  value: "279.85"
+}
+measure{
+  key: "Mean Absolute Delta Days"
+  value: "279.85"
+}
+measure{
+  key: "Within 90 Days Accuracy"
+  value: "0.15"
+}
+measure{
+  key: "Within 180 Days Accuracy"
+  value: "0.3"
+}
+measure{
+  key: "Track A Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Track A Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "Track A Year Accuracy"
+  value: "0.2"
+}
+measure{
+  key: "Track A Mean Signed Delta Days"
+  value: "448"
+}
+measure{
+  key: "Track A Mean Absolute Delta Days"
+  value: "448"
+}
+measure{
+  key: "Track A Within 90 Days Accuracy"
+  value: "0"
+}
+measure{
+  key: "Track A Within 180 Days Accuracy"
+  value: "0"
+}
+measure{
+  key: "Track B Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Track B Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "Track B Year Accuracy"
+  value: "0.5333333333333333"
+}
+measure{
+  key: "Track B Mean Signed Delta Days"
+  value: "223.8"
+}
+measure{
+  key: "Track B Mean Absolute Delta Days"
+  value: "223.8"
+}
+measure{
+  key: "Track B Within 90 Days Accuracy"
+  value: "0.2"
+}
+measure{
+  key: "Track B Within 180 Days Accuracy"
+  value: "0.4"
+}
+measure{
+  key: "Edit Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Edit Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "Edit Year Accuracy"
+  value: "0.2"
+}
+measure{
+  key: "Edit Mean Signed Delta Days"
+  value: "462.2"
+}
+measure{
+  key: "Edit Mean Absolute Delta Days"
+  value: "462.2"
+}
+measure{
+  key: "Edit Within 90 Days Accuracy"
+  value: "0"
+}
+measure{
+  key: "Edit Within 180 Days Accuracy"
+  value: "0"
+}
+measure{
+  key: "New content Coverage"
+  value: "1.0"
+}
+measure{
+  key: "New content Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "New content Year Accuracy"
+  value: "0.5333333333333333"
+}
+measure{
+  key: "New content Mean Signed Delta Days"
+  value: "219.06666666666666"
+}
+measure{
+  key: "New content Mean Absolute Delta Days"
+  value: "219.06666666666666"
+}
+measure{
+  key: "New content Within 90 Days Accuracy"
+  value: "0.2"
+}
+measure{
+  key: "New content Within 180 Days Accuracy"
+  value: "0.4"
+}
