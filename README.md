@@ -49,6 +49,8 @@ The 35 topics retain the fixed split in [topic-split.tsv](2026/topic-split.tsv):
   submissions, without test scores.
 - [training results](2026/evaluation-output/release-2026-11-16/training/README.md):
   local scores on public training truths only.
+- [September archive](2026/evaluation-output/release-2026-09-07/training/README.md):
+  historical training submissions and scores from the old data and metrics.
 
 Hidden test truths, updated-review gold files, version-pair manifests and
 per-topic gold metadata are not distributed for test topics. Full-set truth

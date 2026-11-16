@@ -1,0 +1,28 @@
+measure{
+  key: "Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Full Date Accuracy"
+  value: "0"
+}
+measure{
+  key: "Year Accuracy"
+  value: "0.45"
+}
+measure{
+  key: "Mean Signed Delta Days"
+  value: "279.85"
+}
+measure{
+  key: "Mean Absolute Delta Days"
+  value: "279.85"
+}
+measure{
+  key: "Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Micro Recall"
+  value: "1.0"
+}
