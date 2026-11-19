@@ -3,7 +3,9 @@ configs:
 - config_name: inputs
   data_files:
   - split: test
-    path: "inputs/topics/*"
+    path:
+    - "inputs/topics/*"
+    - "inputs/initial-included-studies.tsv"
 - config_name: truths
   data_files:
   - split: test
@@ -88,6 +90,16 @@ and micro aggregates. `queries.tsv` is retained for provenance and future
 reproducibility checks.
 
 Training truths are public for development. Test truths remain private in TIRA.
+
+## Initially included studies
+
+`inputs/initial-included-studies.tsv` is participant input, including for test
+topics. It has columns `topic` and `pmids`, with one row per topic and a
+semicolon-separated list of PMIDs included in the initial version. An empty
+`pmids` value explicitly means no mapped initial included studies; protocols
+always have an empty list. References without a mapped PMID are not listed.
+These are not updated-review labels or predictions. Updated-review test labels
+remain private. The baseline methods do not use this optional extra information.
 
 ## Reporting by track and update type
 

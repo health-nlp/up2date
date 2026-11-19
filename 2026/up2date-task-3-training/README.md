@@ -3,7 +3,9 @@ configs:
 - config_name: inputs
   data_files:
   - split: test
-    path: "inputs/candidates.tsv"
+    path:
+    - "inputs/candidates.tsv"
+    - "inputs/initial-included-studies.tsv"
 - config_name: truths
   data_files:
   - split: test
@@ -19,7 +21,7 @@ tira_configs:
   default_upload_name: "predictions.tsv"
 
   input_format:
-    name: "*.tsv"
+    name: "arbitrary"
   truth_format:
     name: "arbitrary"
 
@@ -79,6 +81,16 @@ from macro metrics, counted separately, and retained in micro metrics.
 These public training labels are generated from verified included-study PMIDs.
 The input and truth configurations are separate; hidden test labels are not
 distributed in this repository.
+
+## Initially included studies
+
+`inputs/initial-included-studies.tsv` is participant input, including for test
+topics. It has columns `topic` and `pmids`, with one row per topic and a
+semicolon-separated list of PMIDs included in the initial version. An empty
+`pmids` value explicitly means no mapped initial included studies; protocols
+always have an empty list. References without a mapped PMID are not listed.
+These are not updated-review labels or predictions. Updated-review test labels
+remain private. The baseline methods do not use this optional extra information.
 
 ## Reporting by track and update type
 

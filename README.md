@@ -56,6 +56,13 @@ Hidden test truths, updated-review gold files, version-pair manifests and
 per-topic gold metadata are not distributed for test topics. Full-set truth
 packages also contain test answers and must not be copied here.
 
+Tasks 2 and 3 include `inputs/initial-included-studies.tsv` for both training
+and test. Its columns are `topic` and `pmids` (semicolon-separated), with one
+row per topic. An empty value explicitly means no mapped initial included
+studies; protocols always have an empty list. These initial-version PMIDs
+are public input, not updated-review test answers. Participants may use them
+to develop queries or screening methods; the existing baselines are unchanged.
+
 Organizers upload inputs and hidden truths to TIRA from the private repository.
 TIRA runs the evaluator image against stored truths and submitted predictions;
 it does not synchronize dataset changes from this public repository.
