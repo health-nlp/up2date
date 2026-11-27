@@ -1,4 +1,4 @@
-"""Evaluate Task 1 predicted update dates against offline cutoff gold data.
+"""Evaluate Task 1 predicted update dates against the gold date of the updated review.
 
 INPUT
     --predictions-tsv
@@ -9,22 +9,16 @@ GOLD DATA
         Input topic files defining the split and evaluation scope.
     --gold-topics-dir
         Updated review topic files. Uses each file's Date field as gold_date.
-    --cutoff-gold-tsv
-        Precomputed gold TSV columns: topic, pmid, publication_year. Contains
-        each newly relevant PMID and the date field from the frozen collection.
 
 EVALUATION
     Date accuracy:
         - exact full-date match
         - exact year match
+        - share of topics within 90 and within 180 days of the gold date
         - signed and absolute delta in days
-    Offline cutoff recall:
-        - relevant PMIDs are supplied in the precomputed cutoff gold TSV
-        - counts newly relevant PMIDs published by the predicted year
-        - no URL, query execution, or retrieval occurs during evaluation
 
 OUTPUT
-    --metrics-out  Human-readable aggregate date and cutoff-recall metrics.
+    --metrics-out  Human-readable aggregate date metrics.
     --report-json  Aggregate metrics and per-topic values.
     --prototext-out
         TIRA-compatible aggregate metrics in evaluation.prototext format.
@@ -43,11 +37,10 @@ import statistics
 from pathlib import Path
 
 
-DEFAULT_PREDICTIONS = Path("baselines/task_1/task1_demo_predictions.tsv")
+DEFAULT_PREDICTIONS = Path("baselines/task_1/predictions.tsv")
 DEFAULT_GOLD_TOPICS_DIR = Path("datasets-for-tira/up2date-task-1/truths/updated-review-topics")
-DEFAULT_CUTOFF_GOLD = Path("datasets-for-tira/up2date-task-1/truths/cutoff-gold.tsv")
-DEFAULT_METRICS_OUT = Path("baselines/task_1/eval/task1_eval_metrics.txt")
-DEFAULT_REPORT_JSON = Path("baselines/task_1/eval/task1_eval_report.json")
+DEFAULT_METRICS_OUT = Path("baselines/task_1/eval/task1-evaluation.txt")
+DEFAULT_REPORT_JSON = Path("baselines/task_1/eval/task1-evaluation.json")
 DEFAULT_PROTOTEXT_OUT = Path("baselines/task_1/eval/evaluation.prototext")
 
 PROTOTEXT_METRICS = (
@@ -56,9 +49,11 @@ PROTOTEXT_METRICS = (
     ("Year Accuracy", "year_accuracy"),
     ("Mean Signed Delta Days", "mean_signed_delta_days"),
     ("Mean Absolute Delta Days", "mean_absolute_delta_days"),
-    ("Macro Recall", "macro_recall"),
-    ("Micro Recall", "micro_recall"),
+    ("Within 90 Days Accuracy", "within_90_days_accuracy"),
+    ("Within 180 Days Accuracy", "within_180_days_accuracy"),
 )
+
+TOLERANCE_DAYS = (90, 180)
 
 
 def read_topic_ids(topics_dir: Path) -> list[str]:
@@ -115,43 +110,87 @@ def load_predictions(predictions_tsv: Path) -> dict[str, dt.date]:
     return predictions
 
 
-def load_cutoff_gold(cutoff_gold_tsv: Path) -> dict[str, dict[str, int]]:
-    if not cutoff_gold_tsv.exists():
-        raise SystemExit(
-            f"Cutoff gold file does not exist: {cutoff_gold_tsv}. "
-            "Prepare it from the frozen collection before evaluation."
+
+
+TRACK_LABELS = {"track_a": "Track A", "track_b": "Track B"}
+
+
+def track_label(track: str) -> str:
+    return TRACK_LABELS.get(track, track.replace("_", " ").title())
+
+
+UPDATE_TYPE_LABELS = {"new_content": "New content", "edit": "Edit"}
+
+
+def update_type_label(update_type: str) -> str:
+    return UPDATE_TYPE_LABELS.get(update_type, update_type.replace("_", " ").capitalize())
+
+
+def read_topic_track(topic_path: Path) -> str | None:
+    try:
+        return read_topic_field(topic_path, "Track") or None
+    except SystemExit:
+        return None
+
+
+def read_topic_update_type(topic_path: Path) -> str | None:
+    try:
+        return read_topic_field(topic_path, "UpdateType") or None
+    except SystemExit:
+        return None
+
+
+def group_summaries(
+    labels: dict[str, str | None],
+    rows: list[dict[str, object]],
+    topic_ids: list[str],
+    missing_topics: list[str],
+) -> dict[str, dict[str, object]] | None:
+    """Summaries per label, only when every topic has one."""
+    if not topic_ids or not all(labels.get(topic) for topic in topic_ids):
+        return None
+    grouped: dict[str, list[str]] = {}
+    for topic in topic_ids:
+        grouped.setdefault(str(labels[topic]), []).append(topic)
+    return {
+        label: summarize(
+            [row for row in rows if row["topic"] in members],
+            members,
+            [topic for topic in missing_topics if topic in members],
         )
-    gold: dict[str, dict[str, int]] = {}
-    with cutoff_gold_tsv.open("r", encoding="utf-8", newline="") as file:
-        reader = csv.DictReader(file, delimiter="\t")
-        required = {"topic", "pmid", "publication_year"}
-        if required - set(reader.fieldnames or []):
-            raise SystemExit("Cutoff gold TSV must contain topic, pmid, and publication_year columns.")
-        for row_number, row in enumerate(reader, start=2):
-            topic = (row.get("topic") or "").strip()
-            pmid = (row.get("pmid") or "").strip()
-            year_text = (row.get("publication_year") or "").strip()
-            if not topic or not pmid or not year_text:
-                raise SystemExit(f"Missing cutoff gold value at {cutoff_gold_tsv}:{row_number}")
-            try:
-                year = int(year_text)
-            except ValueError as error:
-                raise SystemExit(f"Invalid publication year at {cutoff_gold_tsv}:{row_number}: {year_text!r}") from error
-            previous = gold.setdefault(topic, {}).get(pmid)
-            if previous is not None and previous != year:
-                raise SystemExit(f"Conflicting publication years for {topic}/{pmid} in {cutoff_gold_tsv}")
-            gold[topic][pmid] = year
-    return gold
+        for label, members in sorted(grouped.items())
+    }
+
+
+def summarize(rows: list[dict[str, object]], topic_ids: list[str], missing_topics: list[str]) -> dict[str, object]:
+    tolerance = {
+        f"within_{days}_days_accuracy": statistics.mean(int(row["absolute_delta_days"]) <= days for row in rows) if rows else None
+        for days in TOLERANCE_DAYS
+    }
+    return {
+        "gold_topics": len(topic_ids),
+        "scored_topics": len(rows),
+        "coverage": len(rows) / len(topic_ids) if topic_ids else 0.0,
+        "full_date_accuracy": statistics.mean(row["full_date_match"] for row in rows) if rows else None,
+        "year_accuracy": statistics.mean(row["year_match"] for row in rows) if rows else None,
+        "mean_signed_delta_days": statistics.mean(row["delta_days"] for row in rows) if rows else None,
+        "mean_absolute_delta_days": statistics.mean(row["absolute_delta_days"] for row in rows) if rows else None,
+        **tolerance,
+        "missing_topics": missing_topics,
+    }
 
 
 def evaluate(
     topic_ids: list[str],
     gold_topics_dir: Path,
     predictions: dict[str, dt.date],
-    cutoff_gold: dict[str, dict[str, int]],
+    by_track: bool = True,
+    by_update_type: bool = True,
 ) -> dict[str, object]:
     rows: list[dict[str, object]] = []
     missing_topics: list[str] = []
+    tracks: dict[str, str | None] = {}
+    update_types: dict[str, str | None] = {}
 
     for topic in topic_ids:
         predicted_date = predictions.get(topic)
@@ -159,14 +198,10 @@ def evaluate(
             missing_topics.append(topic)
             continue
 
-        gold_date = read_topic_date(resolve_topic_path(gold_topics_dir, topic))
-        relevant_years = cutoff_gold.get(topic, {})
-        covered_pmids = {
-            pmid
-            for pmid, publication_year in relevant_years.items()
-            if publication_year <= predicted_date.year
-        }
-        recall = len(covered_pmids) / len(relevant_years) if relevant_years else None
+        gold_path = resolve_topic_path(gold_topics_dir, topic)
+        gold_date = read_topic_date(gold_path)
+        tracks[topic] = read_topic_track(gold_path)
+        update_types[topic] = read_topic_update_type(gold_path)
         delta_days = (predicted_date - gold_date).days
         rows.append(
             {
@@ -177,31 +212,17 @@ def evaluate(
                 "year_match": predicted_date.year == gold_date.year,
                 "delta_days": delta_days,
                 "absolute_delta_days": abs(delta_days),
-                "new_relevant_pmids": len(relevant_years),
-                "covered_relevant_pmids": len(covered_pmids),
-                "recall": recall,
             }
         )
 
-    recall_rows = [row for row in rows if row["recall"] is not None]
-    total_relevant = sum(int(row["new_relevant_pmids"]) for row in recall_rows)
-    total_covered = sum(int(row["covered_relevant_pmids"]) for row in recall_rows)
-    summary = {
-        "gold_topics": len(topic_ids),
-        "scored_topics": len(rows),
-        "coverage": len(rows) / len(topic_ids),
-        "full_date_accuracy": statistics.mean(row["full_date_match"] for row in rows) if rows else None,
-        "year_accuracy": statistics.mean(row["year_match"] for row in rows) if rows else None,
-        "mean_signed_delta_days": statistics.mean(row["delta_days"] for row in rows) if rows else None,
-        "mean_absolute_delta_days": statistics.mean(row["absolute_delta_days"] for row in rows) if rows else None,
-        "macro_recall": statistics.mean(row["recall"] for row in recall_rows) if recall_rows else None,
-        "micro_recall": total_covered / total_relevant if total_relevant else None,
-        "new_relevant_pmids": sum(int(row["new_relevant_pmids"]) for row in rows),
-        "covered_relevant_pmids": total_covered,
-        "missing_topics": missing_topics,
-    }
+    report: dict[str, object] = {"summary": summarize(rows, topic_ids, missing_topics)}
+    for enabled, key, labels in ((by_track, "by_track", tracks), (by_update_type, "by_update_type", update_types)):
+        groups = group_summaries(labels, rows, topic_ids, missing_topics) if enabled else None
+        if groups is not None:
+            report[key] = groups
     rows.sort(key=lambda row: int(row["absolute_delta_days"]), reverse=True)
-    return {"summary": summary, "rows": rows}
+    report["rows"] = rows
+    return report
 
 
 def render_metrics(report: dict[str, object], top_k: int) -> str:
@@ -213,7 +234,6 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
         "Task 1 evaluation",
         "-----------------",
         "Date gold target: Date field in the updated-review topic.",
-        "Recall target: new relevant PMIDs covered by the submitted cutoff year.",
         f"Gold topics: {summary['gold_topics']}",
         f"Scored topics: {summary['scored_topics']}",
         f"Coverage: {summary['coverage']:.3f}",
@@ -225,22 +245,32 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
                 f"Year accuracy: {summary['year_accuracy']:.3f}",
                 f"Mean signed delta (days): {summary['mean_signed_delta_days']:.3f}",
                 f"Mean absolute delta (days): {summary['mean_absolute_delta_days']:.3f}",
-                f"Macro cutoff recall: {summary['macro_recall']:.3f}",
-                f"Micro recall: {summary['micro_recall']:.3f}",
-                f"Covered relevant PMIDs: {summary['covered_relevant_pmids']} / {summary['new_relevant_pmids']}",
+                f"Within 90 days accuracy: {summary['within_90_days_accuracy']:.3f}",
+                f"Within 180 days accuracy: {summary['within_180_days_accuracy']:.3f}",
             ]
         )
     if summary["missing_topics"]:
         lines.append("Missing predictions: " + ", ".join(summary["missing_topics"]))
+    def show(value: object, digits: int = 3) -> str:
+        return "n/a" if value is None else f"{value:.{digits}f}"
+
+    for key, title, name, label_of in (
+        ("by_track", "By track", "track", track_label),
+        ("by_update_type", "By update type", "update_type", update_type_label),
+    ):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        lines.extend(["", title, f"{name}\ttopics\tfull_date_accuracy\tyear_accuracy\tmean_abs_delta_days\twithin_90_days\twithin_180_days"])
+        for label, part in groups.items():
+            lines.append(
+                f"{label_of(label)}\t{part['scored_topics']}\t{show(part['full_date_accuracy'])}\t{show(part['year_accuracy'])}"
+                f"\t{show(part['mean_absolute_delta_days'], 1)}\t{show(part['within_90_days_accuracy'])}\t{show(part['within_180_days_accuracy'])}"
+            )
     lines.extend(["", f"Top {min(top_k, len(rows))} absolute date deltas"])
-    lines.append("topic\tgold_date\tpredicted_date\tdelta_days\trecall\tcovered_relevant_pmids\tnew_relevant_pmids")
+    lines.append("topic\tgold_date\tpredicted_date\tdelta_days")
     for row in rows[:top_k]:
-        recall = "n/a" if row["recall"] is None else f"{row['recall']:.3f}"
-        lines.append(
-            f"{row['topic']}\t{row['gold_date']}\t{row['predicted_date']}"
-            f"\t{row['delta_days']}\t{recall}"
-            f"\t{row['covered_relevant_pmids']}\t{row['new_relevant_pmids']}"
-        )
+        lines.append(f"{row['topic']}\t{row['gold_date']}\t{row['predicted_date']}\t{row['delta_days']}")
     return "\n".join(lines) + "\n"
 
 
@@ -255,6 +285,16 @@ def render_prototext(report: dict[str, object]) -> str:
         if not isinstance(value, (int, float)):
             raise ValueError(f"Metric {metric_name} is not numeric: {value!r}")
         blocks.append(f'measure{{\n  key: "{display_name}"\n  value: "{value}"\n}}')
+    for key, label_of in (("by_track", track_label), ("by_update_type", update_type_label)):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        for label, part in groups.items():
+            for display_name, metric_name in PROTOTEXT_METRICS:
+                value = part[metric_name]
+                if value is None:
+                    continue
+                blocks.append(f'measure{{\n  key: "{label_of(label)} {display_name}"\n  value: "{value}"\n}}')
     return "\n".join(blocks) + "\n"
 
 
@@ -267,7 +307,6 @@ def parse_args() -> argparse.Namespace:
         help="Input topic directory defining the topics to score.",
     )
     parser.add_argument("--gold-topics-dir", type=Path, default=DEFAULT_GOLD_TOPICS_DIR)
-    parser.add_argument("--cutoff-gold-tsv", type=Path, default=DEFAULT_CUTOFF_GOLD)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--metrics-out", type=Path, default=DEFAULT_METRICS_OUT)
     parser.add_argument("--report-json", type=Path, default=DEFAULT_REPORT_JSON)
@@ -282,7 +321,6 @@ def main() -> None:
         topic_ids,
         args.gold_topics_dir,
         load_predictions(args.predictions_tsv),
-        load_cutoff_gold(args.cutoff_gold_tsv),
     )
     metrics = render_metrics(report, max(1, args.top_k))
     args.metrics_out.parent.mkdir(parents=True, exist_ok=True)

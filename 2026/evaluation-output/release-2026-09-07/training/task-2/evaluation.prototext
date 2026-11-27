@@ -1,0 +1,36 @@
+measure{
+  key: "Coverage"
+  value: "1.0"
+}
+measure{
+  key: "Macro Precision"
+  value: "0.04728941632132723"
+}
+measure{
+  key: "Macro Recall"
+  value: "0.30090485779387716"
+}
+measure{
+  key: "Macro F1"
+  value: "0.05470034515402377"
+}
+measure{
+  key: "Macro F3"
+  value: "0.11524185871628025"
+}
+measure{
+  key: "Micro Precision"
+  value: "0.009997724917212266"
+}
+measure{
+  key: "Micro Recall"
+  value: "0.39023186975826346"
+}
+measure{
+  key: "Micro F1"
+  value: "0.019495964015034815"
+}
+measure{
+  key: "Micro F3"
+  value: "0.08124402995039082"
+}

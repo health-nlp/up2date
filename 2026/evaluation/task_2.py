@@ -24,8 +24,8 @@ DEFAULT_QUERIES = Path("baselines/task_2/queries.tsv")
 DEFAULT_RUN = Path("baselines/task_2/run.txt.gz")
 DEFAULT_GOLD_TOPICS_DIR = Path("datasets-for-tira/up2date-task-2/truths/updated-review-topics")
 DEFAULT_QRELS = Path("datasets-for-tira/up2date-task-2/truths/included-studies-qrels.txt")
-DEFAULT_METRICS_OUT = Path("baselines/task_2/eval/task2_eval_metrics.txt")
-DEFAULT_REPORT_JSON = Path("baselines/task_2/eval/task2_eval_report.json")
+DEFAULT_METRICS_OUT = Path("baselines/task_2/eval/task2-evaluation.txt")
+DEFAULT_REPORT_JSON = Path("baselines/task_2/eval/task2-evaluation.json")
 DEFAULT_PROTOTEXT_OUT = Path("baselines/task_2/eval/evaluation.prototext")
 
 PROTOTEXT_METRICS = (
@@ -151,12 +151,94 @@ def f_score(precision: float, recall: float, beta: float) -> float:
     return (1 + beta_squared) * precision * recall / (beta_squared * precision + recall)
 
 
+TRACK_LABELS = {"track_a": "Track A", "track_b": "Track B"}
+
+
+def track_label(track: str) -> str:
+    return TRACK_LABELS.get(track, track.replace("_", " ").title())
+
+
+UPDATE_TYPE_LABELS = {"new_content": "New content", "edit": "Edit"}
+
+
+def update_type_label(update_type: str) -> str:
+    return UPDATE_TYPE_LABELS.get(update_type, update_type.replace("_", " ").capitalize())
+
+
+def read_optional_topic_field(topic_path: Path, field: str) -> str | None:
+    if not topic_path.exists():
+        return None
+    for line in topic_path.read_text(encoding="utf-8", errors="replace").splitlines():
+        key, separator, value = line.partition(":")
+        if separator and key.strip().lower() == field.lower():
+            return value.strip() or None
+    return None
+
+
+def read_topic_track(topic_path: Path) -> str | None:
+    return read_optional_topic_field(topic_path, "Track")
+
+
+def read_topic_update_type(topic_path: Path) -> str | None:
+    return read_optional_topic_field(topic_path, "UpdateType")
+
+
+def group_summaries(
+    labels: dict[str, str | None],
+    rows: list[dict[str, object]],
+    topic_ids: list[str],
+    topics_without_results: list[str],
+) -> dict[str, dict[str, object]] | None:
+    """Summaries per label, only when every topic has one."""
+    if not topic_ids or not all(labels.get(topic) for topic in topic_ids):
+        return None
+    grouped: dict[str, list[str]] = {}
+    for topic in topic_ids:
+        grouped.setdefault(str(labels[topic]), []).append(topic)
+    return {
+        label: summarize(
+            [row for row in rows if row["topic"] in members],
+            members,
+            [topic for topic in topics_without_results if topic in members],
+        )
+        for label, members in sorted(grouped.items())
+    }
+
+
+def summarize(rows: list[dict[str, object]], topic_ids: list[str], topics_without_results: list[str]) -> dict[str, object]:
+    total_retrieved = sum(int(row["retrieved"]) for row in rows)
+    total_relevant = sum(int(row["relevant"]) for row in rows)
+    total_relevant_retrieved = sum(int(row["relevant_retrieved"]) for row in rows)
+    micro_precision = total_relevant_retrieved / total_retrieved if total_retrieved else 0.0
+    micro_recall = total_relevant_retrieved / total_relevant if total_relevant else 0.0
+    return {
+        "gold_topics": len(topic_ids),
+        "scored_topics": len(rows),
+        "coverage": 1.0,
+        "query_coverage": 1.0,
+        "macro_precision": statistics.mean(float(row["precision"]) for row in rows),
+        "macro_recall": statistics.mean(float(row["recall"]) for row in rows),
+        "macro_f1": statistics.mean(float(row["f1"]) for row in rows),
+        "macro_f3": statistics.mean(float(row["f3"]) for row in rows),
+        "micro_precision": micro_precision,
+        "micro_recall": micro_recall,
+        "micro_f1": f_score(micro_precision, micro_recall, 1.0),
+        "micro_f3": f_score(micro_precision, micro_recall, 3.0),
+        "retrieved_pmids": total_retrieved,
+        "relevant_pmids": total_relevant,
+        "relevant_retrieved_pmids": total_relevant_retrieved,
+        "topics_without_results": topics_without_results,
+    }
+
+
 def evaluate(
     topic_ids: list[str],
     gold_topics_dir: Path,
     queries: dict[str, str],
     run: dict[str, set[str]],
     qrels: dict[str, set[str]],
+    by_track: bool = True,
+    by_update_type: bool = True,
 ) -> dict[str, object]:
     expected_topics = set(topic_ids)
     missing_query_topics = sorted(expected_topics - set(queries))
@@ -164,8 +246,13 @@ def evaluate(
         raise SystemExit("Queries are missing topics: " + ", ".join(missing_query_topics))
     topics_without_results = sorted(expected_topics - set(run))
     rows: list[dict[str, object]] = []
+    tracks: dict[str, str | None] = {}
+    update_types: dict[str, str | None] = {}
     for topic in topic_ids:
-        version = read_topic_version(resolve_topic_path(gold_topics_dir, topic))
+        gold_path = resolve_topic_path(gold_topics_dir, topic)
+        version = read_topic_version(gold_path)
+        tracks[topic] = read_topic_track(gold_path)
+        update_types[topic] = read_topic_update_type(gold_path)
         relevant = qrels.get(f"{topic}_{version}", set())
         retrieved = run.get(topic, set())
         relevant_retrieved = relevant & retrieved
@@ -186,33 +273,13 @@ def evaluate(
             }
         )
 
-    total_retrieved = sum(int(row["retrieved"]) for row in rows)
-    total_relevant = sum(int(row["relevant"]) for row in rows)
-    total_relevant_retrieved = sum(int(row["relevant_retrieved"]) for row in rows)
-    micro_precision = total_relevant_retrieved / total_retrieved if total_retrieved else 0.0
-    micro_recall = total_relevant_retrieved / total_relevant if total_relevant else 0.0
-    summary = {
-        "gold_topics": len(topic_ids),
-        "scored_topics": len(rows),
-        "coverage": 1.0,
-        "query_coverage": 1.0,
-        "macro_precision": statistics.mean(float(row["precision"]) for row in rows),
-        "macro_recall": statistics.mean(float(row["recall"]) for row in rows),
-        "macro_f1": statistics.mean(float(row["f1"]) for row in rows),
-        "macro_f3": statistics.mean(float(row["f3"]) for row in rows),
-        "micro_precision": micro_precision,
-        "micro_recall": micro_recall,
-        "micro_f1": f_score(micro_precision, micro_recall, 1.0),
-        "micro_f3": f_score(micro_precision, micro_recall, 3.0),
-        "retrieved_pmids": total_retrieved,
-        "relevant_pmids": total_relevant,
-        "relevant_retrieved_pmids": total_relevant_retrieved,
-        "topics_without_results": topics_without_results,
-    }
-    return {
-        "summary": summary,
-        "rows": sorted(rows, key=lambda row: float(row["f3"]), reverse=True),
-    }
+    report: dict[str, object] = {"summary": summarize(rows, topic_ids, topics_without_results)}
+    for enabled, key, labels in ((by_track, "by_track", tracks), (by_update_type, "by_update_type", update_types)):
+        groups = group_summaries(labels, rows, topic_ids, topics_without_results) if enabled else None
+        if groups is not None:
+            report[key] = groups
+    report["rows"] = sorted(rows, key=lambda row: float(row["f3"]), reverse=True)
+    return report
 
 
 def write_json_report(report_path: Path, report: dict[str, object]) -> None:
@@ -249,6 +316,19 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
         lines.append(
             "Topics with zero retrieved PMIDs: " + ", ".join(summary["topics_without_results"])
         )
+    for key, title, name, label_of in (
+        ("by_track", "By track", "track", track_label),
+        ("by_update_type", "By update type", "update_type", update_type_label),
+    ):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        lines.extend(["", title, f"{name}\ttopics\tmacro_precision\tmacro_recall\tmacro_f3\tmicro_precision\tmicro_recall\tmicro_f3"])
+        for label, part in groups.items():
+            lines.append(
+                f"{label_of(label)}\t{part['scored_topics']}\t{part['macro_precision']:.3f}\t{part['macro_recall']:.3f}"
+                f"\t{part['macro_f3']:.3f}\t{part['micro_precision']:.3f}\t{part['micro_recall']:.3f}\t{part['micro_f3']:.3f}"
+            )
     lines.extend(["", f"Top {min(top_k, len(rows))} F3 scores"])
     lines.append("topic\tprecision\trecall\tf1\tf3\trelevant_retrieved\trelevant\tretrieved")
     for row in rows[:top_k]:
@@ -269,6 +349,13 @@ def render_prototext(report: dict[str, object]) -> str:
         if not isinstance(value, (int, float)):
             raise ValueError(f"Metric {metric_name} is not numeric: {value!r}")
         blocks.append(f'measure{{\n  key: "{display_name}"\n  value: "{value}"\n}}')
+    for key, label_of in (("by_track", track_label), ("by_update_type", update_type_label)):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        for label, part in groups.items():
+            for display_name, metric_name in PROTOTEXT_METRICS:
+                blocks.append(f'measure{{\n  key: "{label_of(label)} {display_name}"\n  value: "{part[metric_name]}"\n}}')
     return "\n".join(blocks) + "\n"
 
 

@@ -1,0 +1,27 @@
+Task 1 evaluation
+-----------------
+Date gold target: Date field in the updated-review topic.
+Recall target: new relevant PMIDs covered by the submitted cutoff year.
+Gold topics: 20
+Scored topics: 20
+Coverage: 1.000
+Full-date accuracy: 0.000
+Year accuracy: 0.450
+Mean signed delta (days): 279.850
+Mean absolute delta (days): 279.850
+Macro cutoff recall: 1.000
+Micro recall: 1.000
+Covered relevant PMIDs: 629 / 629
+
+Top 10 absolute date deltas
+topic	gold_date	predicted_date	delta_days	recall	covered_relevant_pmids	new_relevant_pmids
+CD015592	2023-12-14	2025-10-23	679	n/a	0	0
+CD013862	2023-08-22	2025-06-12	660	1.000	1	1
+CD016058	2025-01-08	2026-05-21	498	1.000	19	19
+CD015802	2024-07-24	2025-08-31	403	1.000	11	11
+CD015804	2024-07-04	2025-08-04	396	1.000	23	23
+CD006103	2024-05-07	2025-05-05	363	n/a	0	0
+CD010216	2025-01-29	2026-01-08	344	1.000	29	29
+CD016070	2025-06-10	2026-05-13	337	1.000	35	35
+CD016071	2025-06-11	2026-05-13	336	1.000	16	16
+CD015705	2024-08-27	2025-07-21	328	1.000	25	25

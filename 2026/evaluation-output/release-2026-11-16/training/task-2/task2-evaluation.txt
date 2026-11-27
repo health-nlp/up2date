@@ -1,0 +1,41 @@
+Task 2 retrieval-run evaluation
+-------------------------------
+Gold target: included PMIDs in the updated review.
+Retrieval source: submitted TREC run (offline evaluation).
+Gold topics: 20
+Scored topics: 20
+Run coverage: 1.000
+Query coverage: 1.000
+Macro precision: 0.020
+Macro recall: 0.570
+Macro F1: 0.035
+Macro F3: 0.096
+Micro precision: 0.005
+Micro recall: 0.585
+Micro F1: 0.010
+Micro F3: 0.045
+Relevant PMIDs retrieved: 387 / 661
+Retrieved PMIDs: 79118
+
+By track
+track	topics	macro_precision	macro_recall	macro_f3	micro_precision	micro_recall	micro_f3
+Track A	5	0.062	0.713	0.246	0.012	0.690	0.106
+Track B	15	0.006	0.522	0.046	0.001	0.335	0.012
+
+By update type
+update_type	topics	macro_precision	macro_recall	macro_f3	micro_precision	micro_recall	micro_f3
+Edit	5	0.055	0.621	0.202	0.010	0.731	0.087
+New content	15	0.009	0.553	0.060	0.003	0.472	0.029
+
+Top 10 F3 scores
+topic	precision	recall	f1	f3	relevant_retrieved	relevant	retrieved
+CD015592	0.227	0.833	0.357	0.658	5	6	22
+CD010216	0.059	0.734	0.109	0.342	91	124	1546
+CD015804	0.023	0.455	0.044	0.158	5	11	218
+CD016058	0.025	0.250	0.045	0.130	3	12	122
+CD014612	0.011	1.000	0.022	0.103	4	4	353
+CD006103	0.010	0.985	0.020	0.091	131	133	13161
+CD013862	0.009	0.793	0.017	0.079	69	87	7937
+CD014160	0.007	1.000	0.013	0.062	2	2	303
+CD016070	0.009	0.154	0.017	0.059	4	26	444
+CD001920	0.008	0.222	0.015	0.059	26	117	3388

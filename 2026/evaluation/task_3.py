@@ -42,12 +42,12 @@ from collections import defaultdict
 from pathlib import Path
 
 
-DEFAULT_PREDICTIONS = Path("baselines/task_3/task3_predict_all_new_candidates.tsv")
+DEFAULT_PREDICTIONS = Path("baselines/task_3/predictions.tsv")
 DEFAULT_PAIR_MANIFEST = Path("datasets-for-tira/up2date-task-3/truths/review-version-pairs.csv")
 DEFAULT_TRAINING_QRELS = Path("datasets-for-tira/up2date-task-3/truths/initial-review-qrels.txt")
 DEFAULT_TESTING_QRELS = Path("datasets-for-tira/up2date-task-3/truths/updated-review-qrels.txt")
-DEFAULT_METRICS_OUT = Path("baselines/task_3/eval/task3_eval_metrics.txt")
-DEFAULT_REPORT_JSON = Path("baselines/task_3/eval/task3_eval_report.json")
+DEFAULT_METRICS_OUT = Path("baselines/task_3/eval/task3-evaluation.txt")
+DEFAULT_REPORT_JSON = Path("baselines/task_3/eval/task3-evaluation.json")
 DEFAULT_PROTOTEXT_OUT = Path("baselines/task_3/eval/evaluation.prototext")
 
 PROTOTEXT_METRICS = (
@@ -76,6 +76,26 @@ def load_pair_versions(pair_manifest: Path) -> dict[str, tuple[str, str]]:
     if not pairs:
         raise SystemExit(f"No version pairs found in: {pair_manifest}")
     return pairs
+
+
+def load_pair_column(pair_manifest: Path, column: str) -> dict[str, str]:
+    """topic -> value of an optional column of the pair manifest."""
+    values: dict[str, str] = {}
+    with pair_manifest.open("r", encoding="utf-8", newline="") as file:
+        for row in csv.DictReader(file):
+            topic = (row.get("id") or "").strip()
+            value = (row.get(column) or "").strip()
+            if topic and value:
+                values[topic] = value
+    return values
+
+
+def load_pair_tracks(pair_manifest: Path) -> dict[str, str]:
+    return load_pair_column(pair_manifest, "track")
+
+
+def load_pair_update_types(pair_manifest: Path) -> dict[str, str]:
+    return load_pair_column(pair_manifest, "update_type")
 
 
 def read_candidate_topic_ids(candidates_tsv: Path) -> list[str]:
@@ -145,11 +165,74 @@ def f_score(precision: float, recall: float, beta: float) -> float:
     return (1 + beta_squared) * precision * recall / (beta_squared * precision + recall)
 
 
+TRACK_LABELS = {"track_a": "Track A", "track_b": "Track B"}
+
+
+def track_label(track: str) -> str:
+    return TRACK_LABELS.get(track, track.replace("_", " ").title())
+
+
+UPDATE_TYPE_LABELS = {"new_content": "New content", "edit": "Edit"}
+
+
+def update_type_label(update_type: str) -> str:
+    return UPDATE_TYPE_LABELS.get(update_type, update_type.replace("_", " ").capitalize())
+
+
+def group_summaries(
+    labels: dict[str, str] | None,
+    rows: list[dict[str, object]],
+    invalid_predictions: dict[str, list[str]],
+) -> dict[str, dict[str, object]] | None:
+    """Summaries per label, only when every topic has one."""
+    if not labels or not all(labels.get(str(row["topic"])) for row in rows):
+        return None
+    grouped: dict[str, set[str]] = {}
+    for row in rows:
+        grouped.setdefault(labels[str(row["topic"])], set()).add(str(row["topic"]))
+    return {
+        label: summarize(
+            [row for row in rows if row["topic"] in members],
+            {topic: studies for topic, studies in invalid_predictions.items() if topic in members},
+        )
+        for label, members in sorted(grouped.items())
+    }
+
+
+def summarize(rows: list[dict[str, object]], invalid_predictions: dict[str, list[str]]) -> dict[str, object]:
+    total_predicted = sum(int(row["predicted_included"]) for row in rows)
+    total_included = sum(int(row["new_included"]) for row in rows)
+    total_true_positives = sum(int(row["true_positives"]) for row in rows)
+    micro_precision = total_true_positives / total_predicted if total_predicted else 0.0
+    micro_recall = total_true_positives / total_included if total_included else 0.0
+    macro_rows = [row for row in rows if int(row["new_included"]) > 0]
+    return {
+        "topics": len(rows),
+        "macro_scored_topics": len(macro_rows),
+        "zero_positive_topics": len(rows) - len(macro_rows),
+        "macro_precision": statistics.mean(row["precision"] for row in macro_rows) if macro_rows else None,
+        "macro_recall": statistics.mean(row["recall"] for row in macro_rows) if macro_rows else None,
+        "macro_f1": statistics.mean(row["f1"] for row in macro_rows) if macro_rows else None,
+        "macro_f3": statistics.mean(row["f3"] for row in macro_rows) if macro_rows else None,
+        "micro_precision": micro_precision,
+        "micro_recall": micro_recall,
+        "micro_f1": f_score(micro_precision, micro_recall, 1.0),
+        "micro_f3": f_score(micro_precision, micro_recall, 3.0),
+        "predicted_included": total_predicted,
+        "new_included": total_included,
+        "true_positives": total_true_positives,
+        "invalid_prediction_topics": len(invalid_predictions),
+        "invalid_predictions": sum(len(studies) for studies in invalid_predictions.values()),
+    }
+
+
 def evaluate(
     pairs: dict[str, tuple[str, str]],
     initial_qrels: dict[str, dict[str, int]],
     updated_qrels: dict[str, dict[str, int]],
     predictions: dict[str, set[str]],
+    tracks: dict[str, str] | None = None,
+    update_types: dict[str, str] | None = None,
 ) -> dict[str, object]:
     rows: list[dict[str, object]] = []
     invalid_predictions: dict[str, list[str]] = {}
@@ -186,32 +269,15 @@ def evaluate(
             }
         )
 
-    total_predicted = sum(int(row["predicted_included"]) for row in rows)
-    total_included = sum(int(row["new_included"]) for row in rows)
-    total_true_positives = sum(int(row["true_positives"]) for row in rows)
-    micro_precision = total_true_positives / total_predicted if total_predicted else 0.0
-    micro_recall = total_true_positives / total_included if total_included else 0.0
-    macro_rows = [row for row in rows if int(row["new_included"]) > 0]
-    summary = {
-        "topics": len(rows),
-        "macro_scored_topics": len(macro_rows),
-        "zero_positive_topics": len(rows) - len(macro_rows),
-        "macro_precision": statistics.mean(row["precision"] for row in macro_rows) if macro_rows else None,
-        "macro_recall": statistics.mean(row["recall"] for row in macro_rows) if macro_rows else None,
-        "macro_f1": statistics.mean(row["f1"] for row in macro_rows) if macro_rows else None,
-        "macro_f3": statistics.mean(row["f3"] for row in macro_rows) if macro_rows else None,
-        "micro_precision": micro_precision,
-        "micro_recall": micro_recall,
-        "micro_f1": f_score(micro_precision, micro_recall, 1.0),
-        "micro_f3": f_score(micro_precision, micro_recall, 3.0),
-        "predicted_included": total_predicted,
-        "new_included": total_included,
-        "true_positives": total_true_positives,
-        "invalid_prediction_topics": len(invalid_predictions),
-        "invalid_predictions": sum(len(studies) for studies in invalid_predictions.values()),
-    }
+    report: dict[str, object] = {"summary": summarize(rows, invalid_predictions)}
+    for key, labels in (("by_track", tracks), ("by_update_type", update_types)):
+        groups = group_summaries(labels, rows, invalid_predictions)
+        if groups is not None:
+            report[key] = groups
     rows.sort(key=lambda row: float(row["f3"]), reverse=True)
-    return {"summary": summary, "rows": rows, "invalid_predictions": invalid_predictions}
+    report["rows"] = rows
+    report["invalid_predictions"] = invalid_predictions
+    return report
 
 
 def render_metrics(report: dict[str, object], top_k: int) -> str:
@@ -239,6 +305,24 @@ def render_metrics(report: dict[str, object], top_k: int) -> str:
         f"True positives: {summary['true_positives']} / {summary['new_included']}",
         f"Predicted included studies: {summary['predicted_included']}",
         f"Invalid predictions: {summary['invalid_predictions']} across {summary['invalid_prediction_topics']} topics",
+    ]
+    def show(value: object) -> str:
+        return "n/a" if value is None else f"{value:.3f}"
+
+    for key, title, name, label_of in (
+        ("by_track", "By track", "track", track_label),
+        ("by_update_type", "By update type", "update_type", update_type_label),
+    ):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        lines.extend(["", title, f"{name}\ttopics\tmacro_topics\tmacro_precision\tmacro_recall\tmacro_f1\tmacro_f3\tmicro_precision\tmicro_recall\tmicro_f3"])
+        for label, part in groups.items():
+            lines.append(
+                f"{label_of(label)}\t{part['topics']}\t{part['macro_scored_topics']}\t{show(part['macro_precision'])}\t{show(part['macro_recall'])}"
+                f"\t{show(part['macro_f1'])}\t{show(part['macro_f3'])}\t{show(part['micro_precision'])}\t{show(part['micro_recall'])}\t{show(part['micro_f3'])}"
+            )
+    lines += [
         "",
         f"Top {min(top_k, len(rows))} F3 scores",
         "topic\tprecision\trecall\tf1\tf3\ttrue_positives\tnew_included\tpredicted_included\tnew_candidates\tinvalid_predictions",
@@ -265,6 +349,16 @@ def render_prototext(report: dict[str, object]) -> str:
         if not isinstance(value, (int, float)):
             raise ValueError(f"Metric {metric_name} is not numeric: {value!r}")
         blocks.append(f'measure{{\n  key: "{display_name}"\n  value: "{value}"\n}}')
+    for key, label_of in (("by_track", track_label), ("by_update_type", update_type_label)):
+        groups = report.get(key)
+        if not isinstance(groups, dict):
+            continue
+        for label, part in groups.items():
+            for display_name, metric_name in PROTOTEXT_METRICS:
+                value = part[metric_name]
+                if value is None:
+                    continue
+                blocks.append(f'measure{{\n  key: "{label_of(label)} {display_name}"\n  value: "{value}"\n}}')
     return "\n".join(blocks) + "\n"
 
 
@@ -296,6 +390,8 @@ def main() -> None:
         load_qrels(args.training_qrels),
         load_qrels(args.testing_qrels),
         load_predictions(args.predictions_tsv),
+        load_pair_tracks(args.pair_manifest),
+        load_pair_update_types(args.pair_manifest),
     )
     metrics = render_metrics(report, max(1, args.top_k))
     args.metrics_out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,40 @@
+Task 3 study classification evaluation
+------------------------------------
+Gold target: new studies included in the updated review.
+Topics: 20
+Topics in macro metrics: 16
+Topics with zero positive studies: 4
+Macro precision: 0.032
+Macro recall: 1.000
+Macro F1: 0.060
+Macro F3: 0.206
+Micro precision: 0.003
+Micro recall: 1.000
+Micro F1: 0.006
+Micro F3: 0.032
+True positives: 288 / 288
+Predicted included studies: 88408
+Invalid predictions: 0 across 0 topics
+
+By track
+track	topics	macro_topics	macro_precision	macro_recall	macro_f1	macro_f3	micro_precision	micro_recall	micro_f3
+Track A	5	2	0.006	1.000	0.013	0.060	0.002	1.000	0.024
+Track B	15	14	0.035	1.000	0.066	0.227	0.004	1.000	0.037
+
+By update type
+update_type	topics	macro_topics	macro_precision	macro_recall	macro_f1	macro_f3	micro_precision	micro_recall	micro_f3
+Edit	5	2	0.069	1.000	0.126	0.391	0.003	1.000	0.028
+New content	15	14	0.027	1.000	0.050	0.179	0.003	1.000	0.033
+
+Top 10 F3 scores
+topic	precision	recall	f1	f3	true_positives	new_included	predicted_included	new_candidates	invalid_predictions
+CD015890	0.107	1.000	0.193	0.545	53	53	495	495	0
+CD015820	0.089	1.000	0.164	0.495	22	22	246	246	0
+CD016071	0.071	1.000	0.133	0.433	11	11	155	155	0
+CD016070	0.070	1.000	0.130	0.428	26	26	373	373	0
+CD015786	0.041	1.000	0.078	0.297	9	9	222	222	0
+CD014160	0.038	1.000	0.073	0.282	2	2	53	53	0
+CD015804	0.030	1.000	0.059	0.237	11	11	365	365	0
+CD016058	0.020	1.000	0.040	0.172	12	12	591	591	0
+CD015749	0.011	1.000	0.021	0.096	14	14	1330	1330	0
+CD014612	0.010	1.000	0.020	0.093	4	4	393	393	0

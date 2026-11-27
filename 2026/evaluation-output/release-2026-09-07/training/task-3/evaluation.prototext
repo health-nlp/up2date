@@ -1,0 +1,32 @@
+measure{
+  key: "Macro Precision"
+  value: "0.0630070998217911"
+}
+measure{
+  key: "Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Macro F1"
+  value: "0.11080927046978624"
+}
+measure{
+  key: "Macro F3"
+  value: "0.304158714438964"
+}
+measure{
+  key: "Micro Precision"
+  value: "0.007119089118772212"
+}
+measure{
+  key: "Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Micro F1"
+  value: "0.01413753188811346"
+}
+measure{
+  key: "Micro F3"
+  value: "0.0669042174121151"
+}

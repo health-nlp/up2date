@@ -1,0 +1,160 @@
+measure{
+  key: "Macro Precision"
+  value: "0.03182385536863821"
+}
+measure{
+  key: "Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Macro F1"
+  value: "0.05970811228510109"
+}
+measure{
+  key: "Macro F3"
+  value: "0.2058819548544934"
+}
+measure{
+  key: "Micro Precision"
+  value: "0.003257623744457515"
+}
+measure{
+  key: "Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Micro F1"
+  value: "0.0064940921800306665"
+}
+measure{
+  key: "Micro F3"
+  value: "0.03164835164835165"
+}
+measure{
+  key: "Track A Macro Precision"
+  value: "0.006316728102677719"
+}
+measure{
+  key: "Track A Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Track A Macro F1"
+  value: "0.012552687930205688"
+}
+measure{
+  key: "Track A Macro F3"
+  value: "0.0597123623154917"
+}
+measure{
+  key: "Track A Micro Precision"
+  value: "0.0024795568451595885"
+}
+measure{
+  key: "Track A Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Track A Micro F1"
+  value: "0.0049468477002420795"
+}
+measure{
+  key: "Track A Micro F3"
+  value: "0.024254309010217776"
+}
+measure{
+  key: "Track B Macro Precision"
+  value: "0.03546773069234685"
+}
+measure{
+  key: "Track B Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Track B Macro F1"
+  value: "0.06644460147865758"
+}
+measure{
+  key: "Track B Macro F3"
+  value: "0.22676332521720793"
+}
+measure{
+  key: "Track B Micro Precision"
+  value: "0.003841736306388372"
+}
+measure{
+  key: "Track B Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Track B Micro F1"
+  value: "0.007654067702990611"
+}
+measure{
+  key: "Track B Micro F3"
+  value: "0.037133450731184445"
+}
+measure{
+  key: "Edit Macro Precision"
+  value: "0.06860384668603847"
+}
+measure{
+  key: "Edit Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Edit Macro F1"
+  value: "0.12597064761608945"
+}
+measure{
+  key: "Edit Macro F3"
+  value: "0.39116822761458775"
+}
+measure{
+  key: "Edit Micro Precision"
+  value: "0.0029013101228523505"
+}
+measure{
+  key: "Edit Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "Edit Micro F1"
+  value: "0.005785833747683406"
+}
+measure{
+  key: "Edit Micro F3"
+  value: "0.02827479567042191"
+}
+measure{
+  key: "New content Macro Precision"
+  value: "0.026569570894723882"
+}
+measure{
+  key: "New content Macro Recall"
+  value: "1.0"
+}
+measure{
+  key: "New content Macro F1"
+  value: "0.050242035809245605"
+}
+measure{
+  key: "New content Macro F3"
+  value: "0.17941248731733705"
+}
+measure{
+  key: "New content Micro Precision"
+  value: "0.003376087054816199"
+}
+measure{
+  key: "New content Micro Recall"
+  value: "1.0"
+}
+measure{
+  key: "New content Micro F1"
+  value: "0.006729454884112177"
+}
+measure{
+  key: "New content Micro F3"
+  value: "0.03276530388356615"
+}

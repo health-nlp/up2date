@@ -3,7 +3,9 @@ configs:
 - config_name: inputs
   data_files:
   - split: test
-    path: "inputs/topics/*"
+    path:
+    - "inputs/topics/*"
+    - "inputs/initial-included-studies.tsv"
 - config_name: truths
   data_files:
   - split: test
@@ -23,18 +25,18 @@ tira_configs:
     name: "arbitrary"
 
   baseline:
-    link: "../../src/baselines"
+    link: "../baselines"
     allow_network: true
     command: >-
-      python3 /baseline_task_2.py
+      python3 /task_2.py
       --topics-dir $inputDataset/topics
       --queries-tsv $outputDir/queries.tsv
       --run $outputDir/run.txt.gz
     format:
-      name: "arbitrary"
+      name: "run.txt"
 
   evaluator:
-    image: "mam10eks/up2date-evaluator:0.0.1"
+    image: "mam10eks/up2date-evaluator:0.0.4"
     allow_network: false
     command: >-
       python3 /task_2.py
@@ -48,12 +50,7 @@ tira_configs:
       --prototext-out ${outputDir}/evaluation.prototext
 ---
 
-# Up2Date Task 2 Training Package
-
-The `inputs/` and public `truths/` contain the 20 development topics listed as
-`training` in `../topic-split.tsv`.
-
-## Task
+# Up2Date Task 2: Updated Boolean Query Formulation
 
 Task 2 asks systems to formulate an executable Boolean query for retrieving
 studies relevant to the updated systematic review.
@@ -77,7 +74,7 @@ Participants execute each submitted query using their retrieval environment
 and include every retrieved PMID in the run. The two files are archived
 together as the complete Task 2 result.
 
-## Private truth data
+## Public training truth data
 
 The evaluator receives:
 
@@ -92,19 +89,49 @@ and reports precision, recall, F1, and recall-oriented F3 per topic plus macro
 and micro aggregates. `queries.tsv` is retained for provenance and future
 reproducibility checks.
 
-The input and truth configurations are separate so participant systems cannot
-access updated review versions or included-study labels.
+Training truths are public for development. Test truths remain private in TIRA.
+
+## Initially included studies
+
+`inputs/initial-included-studies.tsv` is participant input, including for test
+topics. It has columns `topic` and `pmids`, with one row per topic and a
+semicolon-separated list of PMIDs included in the initial version. An empty
+`pmids` value explicitly means no mapped initial included studies; protocols
+always have an empty list. References without a mapped PMID are not listed.
+These are not updated-review labels or predictions. Updated-review test labels
+remain private. The baseline methods do not use this optional extra information.
+
+## Reporting by track and update type
+
+Every topic belongs to one of two tracks, and every pair has an update type:
+
+- Track A: the initial version is a completed review and the updated version is
+  an update of it (9 of 35 topics). Track B: the initial version is a protocol
+  and the updated version is the first review (26 of 35 topics).
+- Update type `new_content`: Cochrane marks the updated version as a new review
+  or a new search for studies. Update type `edit`: it marks it as an edit of an
+  existing version. Participants see `Stage` and `Track` in the topic files, but
+  not the update type.
+
+Only studies with a PubMed ID count as included studies.
+
+Scores are reported for all topics together and also for each track and each
+update type. A group with no topic that has a new included study shows `n/a` for
+the macro scores. Protocols have no included studies, so Track B topics have no
+initial labels.
 
 ## Local validation
 
 From the repository root:
 
 ```bash
-tira-cli dataset-submission \
-  --path datasets-for-tira/up2date-task-2-training \
+ORBIT_API_BASE="https://orbit-api.health-nlp.com" tira-cli dataset-submission \
+  --path 2026/up2date-task-2-training \
   --task up2date \
   --split test \
+  --forward-environment-variable ORBIT_API_BASE \
   --dry-run
 ```
 
-Remove `--dry-run` to upload to TIRA.
+This command validates the public training package locally. Hidden test
+packages are uploaded separately by the organizers from the private repository.
